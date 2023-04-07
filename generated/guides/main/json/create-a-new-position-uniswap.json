@@ -1,0 +1,43 @@
+{
+  "categories": [],
+  "content": "How to provide liquidity and create a new position",
+  "created": "2023-04-07T14:22:47.828Z",
+  "guideIntegrations": {
+    "discordRoleIds": []
+  },
+  "guideType": "course",
+  "key": "create-a-new-position-uniswap",
+  "name": "Create a New Position",
+  "publishStatus": "Live",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "\n# Coming Soon        ",
+      "name": "Introduction",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "9752659f-d2bc-4868-92d0-a80764846712"
+        }
+      ],
+      "uuid": "48b10b21-2901-47a0-a8e0-a7bbccd227a2"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": true,
+          "type": "PublicShortInput",
+          "uuid": "a8e41eff-4238-4ccf-adb9-8f103733cda8"
+        }
+      ],
+      "uuid": "c0c23e92-4b30-4450-bc4e-012d47ee2996"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_providing_liquidity.png",
+  "uuid": "2e467c0b-2f0f-4dad-833b-08831824a055"
+}
