@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What is Impermanent loss and how to minimize it",
-  "created": "2023-04-07T14:14:05.827Z",
+  "created": "2023-04-07T14:25:40.661Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -12,16 +12,9 @@
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "\n        # Coming Soon",
+      "content": "# Coming Soon",
       "name": "Introduction",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "8685ad9c-47c0-433d-b9bf-2aea94e5af77"
-        }
-      ],
+      "stepItems": [],
       "uuid": "a27838ad-71b4-4ed4-bd4b-30049ba4cabe"
     },
     {
@@ -39,5 +32,5 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/impermanent_loss.png",
-  "uuid": "31706866-01d0-4443-a24d-69895d58fe31"
+  "uuid": "impermanent-loss-uniswap"
 }
