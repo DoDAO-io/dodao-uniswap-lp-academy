@@ -1,0 +1,36 @@
+{
+  "categories": [],
+  "content": "Different strategies that LPs can use to deploy funds",
+  "created": "2023-04-07T14:31:34.202Z",
+  "guideIntegrations": {
+    "discordRoleIds": []
+  },
+  "guideType": "course",
+  "key": "strategies-for-lps-uniswap",
+  "name": "Strategies for LPs",
+  "publishStatus": "Live",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "# Coming Soon \n        ",
+      "name": "Introduction",
+      "stepItems": [],
+      "uuid": "76465a85-2834-419e-b6bb-e240b54fc132"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": true,
+          "type": "PublicShortInput",
+          "uuid": "b1d0b184-9c0f-437a-8653-a511fff01418"
+        }
+      ],
+      "uuid": "9231f105-fed5-4e41-abc2-8484dd8d3dc5"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_strategies.png",
+  "uuid": "af62b935-2d2c-4d83-bfa9-6670d6123a8e"
+}
