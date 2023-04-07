@@ -1,0 +1,25 @@
+categories: []
+content: How you can manage your position using tools
+created: '2023-04-07T15:02:02.129Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: course
+key: position-management-tools-uniswap
+name: Position Management Tools
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: '# Coming Soon        '
+    name: Introduction
+    stepItems: []
+    uuid: f8ccb2e5-3a8c-4f72-8ecf-64cd709db2b6
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: true
+        type: PublicShortInput
+        uuid: a41983d2-40d1-4cf6-91cf-93aa3393b2c3
+    uuid: 266b3dea-806c-4208-94be-4267e70b4a8d
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/position_management.png
+uuid: 6c551cb4-0c07-4bdb-83ce-bdc0541ba125

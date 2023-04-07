@@ -8,3 +8,4 @@ guides:
   - position-return-tools-uniswap.yaml
   - strategy-backtesting-tools-uniswap.yaml
   - strategy-simulation-tools-uniswap.yaml
+  - position-management-tools-uniswap.yaml
