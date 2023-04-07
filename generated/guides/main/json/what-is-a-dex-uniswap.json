@@ -1,0 +1,36 @@
+{
+  "categories": [],
+  "content": "What is AMM, Liquidity Pools and How DEX works",
+  "created": "2023-04-07T14:04:48.738Z",
+  "guideIntegrations": {
+    "discordRoleIds": []
+  },
+  "guideType": "course",
+  "key": "what-is-a-dex-uniswap",
+  "name": "What is a DEX?",
+  "publishStatus": "Live",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "\n# Coming Soon        ",
+      "name": "Introduction",
+      "stepItems": [],
+      "uuid": "b8f8ea33-460f-4e82-bb89-20e3ed6d6d4e"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": true,
+          "type": "PublicShortInput",
+          "uuid": "16f36fde-ac67-4032-b73c-d6ec5d491506"
+        }
+      ],
+      "uuid": "5a73f13b-861e-4d09-aa76-c0294887bc33"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_what_is_dex.png",
+  "uuid": "6aff63ad-b35e-42d2-9afe-8caa1c1d93e3"
+}
