@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What are Ticks and Ranges in Uniswap V3",
-  "created": "2023-04-07T14:18:51.939Z",
+  "created": "2023-04-07T14:25:01.986Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -14,14 +14,7 @@
     {
       "content": "\n# Coming Soon        ",
       "name": "Introduction",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "2398f961-242a-44e9-8867-3e68204eddad"
-        }
-      ],
+      "stepItems": [],
       "uuid": "a8421242-16c4-4e2b-aafc-0d93be135acc"
     },
     {
@@ -39,5 +32,5 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_pool_details.png",
-  "uuid": "7bbf4969-6f2e-498c-8c19-4738ae0b452a"
+  "uuid": "liquidity-pool-details-uniswap"
 }
