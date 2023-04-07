@@ -6,3 +6,4 @@ guides:
   - create-a-new-position-uniswap.yaml
   - strategies-for-lps-uniswap.yaml
   - position-return-tools-uniswap.yaml
+  - strategy-backtesting-tools-uniswap.yaml

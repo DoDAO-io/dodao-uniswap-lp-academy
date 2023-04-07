@@ -1,0 +1,27 @@
+categories: []
+content: Tools that you can use to back test your strategies
+created: '2023-04-07T14:55:20.326Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: course
+key: strategy-backtesting-tools-uniswap
+name: Strategy Backtesting Tools
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: |-
+
+      # Coming Soon        
+    name: Introduction
+    stepItems: []
+    uuid: 9a28ad54-96fe-4145-a991-8f4bc073c176
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: true
+        type: PublicShortInput
+        uuid: 52268e06-f539-4bd7-8f17-b670dd4823ba
+    uuid: b9974294-bc09-47fe-b554-0b4030a9fe17
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/back_testing_tools.png
+uuid: 96e8e018-2440-46e5-9886-323905c6dece
