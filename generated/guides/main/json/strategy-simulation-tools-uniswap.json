@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Tools that you can use to simulate your position",
-  "created": "2023-04-07T14:59:39.192Z",
+  "created": "2023-04-07T14:59:57.473Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -14,14 +14,7 @@
     {
       "content": "\n# Coming Soon        ",
       "name": "Introduction",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "1e05cf3d-d624-40ef-b2d3-a684e7f3c42e"
-        }
-      ],
+      "stepItems": [],
       "uuid": "cd490f02-a974-4097-b51f-68fbbd3c340a"
     },
     {
@@ -39,5 +32,5 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/simulate_strategy_tools.png",
-  "uuid": "6b27d975-a88b-474b-815a-cdfc85806090"
+  "uuid": "strategy-simulation-tools-uniswap"
 }
