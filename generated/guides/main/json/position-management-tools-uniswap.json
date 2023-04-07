@@ -1,7 +1,7 @@
 {
   "categories": [],
-  "content": "How you can manage your position using tools",
-  "created": "2023-04-07T15:02:02.129Z",
+  "content": "Tools that you can use to manage and update your position",
+  "created": "2023-04-07T15:03:42.884Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -32,5 +32,5 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/position_management.png",
-  "uuid": "6c551cb4-0c07-4bdb-83ce-bdc0541ba125"
+  "uuid": "position-management-tools-uniswap"
 }
