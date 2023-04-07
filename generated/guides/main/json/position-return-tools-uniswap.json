@@ -1,0 +1,36 @@
+{
+  "categories": [],
+  "content": "How to calculate returns on your position and tools that help",
+  "created": "2023-04-07T14:51:31.047Z",
+  "guideIntegrations": {
+    "discordRoleIds": []
+  },
+  "guideType": "course",
+  "key": "position-return-tools-uniswap",
+  "name": "Position Return Tools",
+  "publishStatus": "Live",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "\n# Coming Soon        ",
+      "name": "Introduction",
+      "stepItems": [],
+      "uuid": "f8e78b4d-59b4-4f90-8a7c-ea6d0055aced"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": true,
+          "type": "PublicShortInput",
+          "uuid": "75ffa998-80f2-4922-adb9-88fd20315bdb"
+        }
+      ],
+      "uuid": "d0f5f9a1-18e5-46a1-92c4-5ca9a663d145"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_position_return.png",
+  "uuid": "9cc0e26a-6354-47d3-9ebd-7c160c4df487"
+}
