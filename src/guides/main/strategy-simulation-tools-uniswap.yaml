@@ -1,0 +1,32 @@
+categories: []
+content: Tools that you can use to simulate your position
+created: '2023-04-07T14:59:39.192Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: course
+key: strategy-simulation-tools-uniswap
+name: Strategy Simulation Tools
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: |-
+
+      # Coming Soon        
+    name: Introduction
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: 1e05cf3d-d624-40ef-b2d3-a684e7f3c42e
+    uuid: cd490f02-a974-4097-b51f-68fbbd3c340a
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: true
+        type: PublicShortInput
+        uuid: 70679abe-2589-4997-be84-00ea6144cdc4
+    uuid: 20d6e5e7-9b32-466e-be6e-fc1365f95f47
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/simulate_strategy_tools.png
+uuid: 6b27d975-a88b-474b-815a-cdfc85806090

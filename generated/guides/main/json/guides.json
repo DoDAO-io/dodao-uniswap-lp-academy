@@ -6,5 +6,6 @@
   "create-a-new-position-uniswap.json",
   "strategies-for-lps-uniswap.json",
   "position-return-tools-uniswap.json",
-  "strategy-backtesting-tools-uniswap.json"
+  "strategy-backtesting-tools-uniswap.json",
+  "strategy-simulation-tools-uniswap.json"
 ]
