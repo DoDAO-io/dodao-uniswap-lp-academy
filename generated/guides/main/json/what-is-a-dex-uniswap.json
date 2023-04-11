@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What is AMM, Liquidity Pools and How DEX works",
-  "created": "2023-04-11T18:14:53.510Z",
+  "created": "2023-04-11T20:19:20.135Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -21,25 +21,25 @@
       "content": "",
       "name": "How AMM Works",
       "stepItems": [],
-      "uuid": "ed4e8bbb-48a1-45fa-bc39-690d1fee80f6"
+      "uuid": "6b4b78d4-fcb2-40db-8730-3f5852f414d0"
     },
     {
       "content": "",
       "name": "Liquidity Pool",
       "stepItems": [],
-      "uuid": "22ecaf77-4862-4be3-8186-af3fca76bd35"
+      "uuid": "cb76826a-cbdd-4e31-8e22-a36600d004b3"
     },
     {
       "content": "",
       "name": "Type of AMMs",
       "stepItems": [],
-      "uuid": "e9ebc063-1cc3-46fc-99f7-e517e2406392"
+      "uuid": "d582ba24-8c76-40ce-9ca2-b83d5625b3b9"
     },
     {
       "content": "",
       "name": "Final Thoughts",
       "stepItems": [],
-      "uuid": "97283e54-887a-4123-92a7-0b1c4e002887"
+      "uuid": "d31fcd5b-6adb-4b2a-abd3-8979e1dd55cc"
     },
     {
       "content": "",
