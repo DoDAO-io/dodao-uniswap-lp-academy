@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "How to calculate returns on your position and tools that help",
-  "created": "2023-04-07T14:51:31.047Z",
+  "created": "2023-04-11T13:36:07.386Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -12,10 +12,16 @@
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "\n# Coming Soon        ",
+      "content": "\nTools to monitor LP positions including:\n- Current Value of LP positions\n- Fee APY\n- Impermanent loss\n- Total Return\nThe aim of these tools is to provide an overview of LP position profitability.",
       "name": "Introduction",
       "stepItems": [],
       "uuid": "f8e78b4d-59b4-4f90-8a7c-ea6d0055aced"
+    },
+    {
+      "content": "",
+      "name": "Seedle Finance",
+      "stepItems": [],
+      "uuid": "871d8738-7fc0-4b62-b160-dcb508cc3678"
     },
     {
       "content": "",
@@ -29,8 +35,20 @@
         }
       ],
       "uuid": "d0f5f9a1-18e5-46a1-92c4-5ca9a663d145"
+    },
+    {
+      "content": "",
+      "name": "Revert Finance",
+      "stepItems": [],
+      "uuid": "d26cb0ef-eef8-43d8-b150-8faff8bd0a12"
+    },
+    {
+      "content": "yewbow\n",
+      "name": "yewbow",
+      "stepItems": [],
+      "uuid": "73b43f07-ba2b-4def-b642-bbef1dad2677"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_position_return.png",
-  "uuid": "9cc0e26a-6354-47d3-9ebd-7c160c4df487"
+  "uuid": "position-return-tools-uniswap"
 }
