@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "How to calculate returns on your position and tools that help",
-  "created": "2023-04-11T13:36:07.386Z",
+  "created": "2023-04-11T13:40:30.251Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -25,6 +25,18 @@
     },
     {
       "content": "",
+      "name": "Revert Finance",
+      "stepItems": [],
+      "uuid": "d26cb0ef-eef8-43d8-b150-8faff8bd0a12"
+    },
+    {
+      "content": "yewbow\n",
+      "name": "yewbow",
+      "stepItems": [],
+      "uuid": "73b43f07-ba2b-4def-b642-bbef1dad2677"
+    },
+    {
+      "content": "",
       "name": "Your Info",
       "stepItems": [
         {
@@ -35,18 +47,6 @@
         }
       ],
       "uuid": "d0f5f9a1-18e5-46a1-92c4-5ca9a663d145"
-    },
-    {
-      "content": "",
-      "name": "Revert Finance",
-      "stepItems": [],
-      "uuid": "d26cb0ef-eef8-43d8-b150-8faff8bd0a12"
-    },
-    {
-      "content": "yewbow\n",
-      "name": "yewbow",
-      "stepItems": [],
-      "uuid": "73b43f07-ba2b-4def-b642-bbef1dad2677"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_position_return.png",
