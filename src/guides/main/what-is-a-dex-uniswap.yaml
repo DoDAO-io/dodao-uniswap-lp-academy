@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-12T20:23:14.709Z'
+created: '2023-04-12T20:35:06.354Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -9,7 +9,7 @@ name: What is a DEX?
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
-  - content: >
+  - content: >+
 
       ## Exchanging Assets
 
@@ -41,14 +41,19 @@ steps:
 
       </div>
 
+      Assets are traded on an exchange through a centralized platform, an order
+      book, where buyers and sellers place orders to buy or sell a specific
+      asset. Trading involves placing an order, matching orders based on price
+      and other parameters, settling the trade, and clearing it through a
+      central counterparty. 
 
 
       An order book is a list of buy and sell orders for a financial instrument.
       It shows the supply and demand for the asset and allows traders to make
       informed decisions. Each order includes the type, price, quantity, and
       time. Orders are matched and filled based on price and time stamp. Order
-      books are used in exchange-traded and decentralized markets for
-      transparency and price discovery.
+      books are used in exchange-traded markets for transparency and price
+      discovery.
 
 
       ## New Way - Automated Market Maker
@@ -60,6 +65,19 @@ steps:
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1681330966631_robot_banans_apples_1.jpg"/>
 
       </div>
+
+
+      An automated market maker (AMM) is a type of decentralized exchange (DEX)
+      protocol that uses a mathematical algorithm to create a market for trading
+      assets without market makers. It creates a liquidity pool for each asset
+      pair, and the pool's algorithm determines the asset's price based on the
+      ratio of tokens in the pool. The AMM algorithm ensures that the pool has
+      sufficient funds for trading and adjusts the price according to the
+      trading volume and liquidity. AMMs are used in DeFi platforms and are
+      popular for their simplicity, transparency, and accessibility.
+
+
+
     name: Introduction
     stepItems: []
     uuid: b8f8ea33-460f-4e82-bb89-20e3ed6d6d4e
