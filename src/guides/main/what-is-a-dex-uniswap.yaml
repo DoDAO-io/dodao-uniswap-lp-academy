@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-12T19:07:48.629Z'
+created: '2023-04-12T19:09:03.952Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -15,7 +15,7 @@ steps:
 
       <div align="center">
 
-      <img style="max-height:200px"
+      <img style="max-height:350px"
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/exchange.jpg"/>
 
       </div>
@@ -34,7 +34,12 @@ steps:
 
       ## Traditional Way - Order Book
 
-      ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/order_book.jpg)
+      <div align="center">
+
+      <img style="max-height:350px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/order_book.jpg"/>
+
+      </div>
 
 
 
@@ -43,7 +48,12 @@ steps:
       ## New Way - Automated Market Maker
 
 
-      ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/robot_banans_apples_1.jpg)
+      <div align="center">
+
+      <img style="max-height:350px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/robot_banans_apples_1.jpg"/>
+
+      </div>
     name: Introduction
     stepItems: []
     uuid: b8f8ea33-460f-4e82-bb89-20e3ed6d6d4e
