@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-12T19:09:03.952Z'
+created: '2023-04-12T19:09:37.190Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -15,7 +15,7 @@ steps:
 
       <div align="center">
 
-      <img style="max-height:350px"
+      <img style="max-height:300px"
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/exchange.jpg"/>
 
       </div>
@@ -36,7 +36,7 @@ steps:
 
       <div align="center">
 
-      <img style="max-height:350px"
+      <img style="max-height:300px"
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/order_book.jpg"/>
 
       </div>
@@ -50,7 +50,7 @@ steps:
 
       <div align="center">
 
-      <img style="max-height:350px"
+      <img style="max-height:300px"
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/robot_banans_apples_1.jpg"/>
 
       </div>
