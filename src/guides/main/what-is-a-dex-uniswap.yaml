@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-12T00:38:16.069Z'
+created: '2023-04-12T19:07:48.629Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -13,8 +13,12 @@ steps:
 
       ## Exchanging Assets
 
-      ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/exchange.jpg)
+      <div align="center">
 
+      <img style="max-height:200px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/exchange.jpg"/>
+
+      </div>
 
       Cryptocurrencies are exchanged for reasons similar to those in traditional
       financial markets, including investment, trading, hedging, risk
