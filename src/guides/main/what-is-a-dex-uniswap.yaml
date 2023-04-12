@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-12T19:09:37.190Z'
+created: '2023-04-12T20:23:14.709Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -43,6 +43,12 @@ steps:
 
 
 
+      An order book is a list of buy and sell orders for a financial instrument.
+      It shows the supply and demand for the asset and allows traders to make
+      informed decisions. Each order includes the type, price, quantity, and
+      time. Orders are matched and filled based on price and time stamp. Order
+      books are used in exchange-traded and decentralized markets for
+      transparency and price discovery.
 
 
       ## New Way - Automated Market Maker
@@ -51,7 +57,7 @@ steps:
       <div align="center">
 
       <img style="max-height:300px"
-      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/robot_banans_apples_1.jpg"/>
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1681330966631_robot_banans_apples_1.jpg"/>
 
       </div>
     name: Introduction
