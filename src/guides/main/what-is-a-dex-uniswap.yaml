@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-12T20:35:06.354Z'
+created: '2023-04-12T20:37:08.443Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -81,7 +81,55 @@ steps:
     name: Introduction
     stepItems: []
     uuid: b8f8ea33-460f-4e82-bb89-20e3ed6d6d4e
-  - content: ''
+  - content: >-
+      An Automated Market Maker (AMM) is a type of decentralized exchange (DEX)
+      protocol that allows traders to trade cryptocurrencies and other digital
+      assets without an order book or an intermediary. In traditional markets, a
+      market maker plays a critical role in ensuring that there is sufficient
+      liquidity by acting as an intermediary between buyers and sellers. An AMM
+      replaces the role of a traditional market maker with a mathematical
+      algorithm that determines the price of assets being traded.
+
+
+      In an AMM, traders can trade cryptocurrencies and other digital assets by
+      swapping them with each other, without having to go through a centralized
+      exchange or intermediaries. Instead, AMMs rely on a liquidity pool, which
+      is a pool of funds that are contributed by liquidity providers. These
+      liquidity providers deposit funds into a smart contract that is designed
+      to facilitate trading.
+
+
+      When a trader wants to buy or sell an asset, they submit a transaction to
+      the smart contract with the amount of asset they want to buy or sell, and
+      the smart contract automatically calculates the price based on a
+      mathematical formula that determines the ratio of each asset in the
+      liquidity pool.
+
+
+      The most common mathematical formula used in AMMs is the constant product
+      formula, also known as the x*y=k formula. This formula ensures that the
+      product of the quantity of each asset in the pool remains constant, which
+      is why it's called the constant product formula. This formula is used in
+      Uniswap, one of the most popular AMMs.
+
+
+      For example, suppose a liquidity provider deposits 100 units of token A
+      and 50 units of token B into the liquidity pool. The total value of the
+      liquidity pool is 100 x 50 = 5000. Suppose a trader wants to buy 10 units
+      of token A with token B. The AMM smart contract will calculate the price
+      of token A in token B based on the ratio of token A to token B in the
+      liquidity pool, and the trader will receive 10 units of token A, while the
+      liquidity provider will receive the equivalent amount of token B.
+
+
+      One advantage of AMMs is that they enable decentralized trading and remove
+      the need for an order book or an intermediary, which can result in lower
+      fees and faster transaction times. However, one major disadvantage is the
+      risk of impermanent loss, which occurs when the value of the two assets in
+      the liquidity pool changes. This risk is higher for volatile assets, and
+      liquidity providers can incur losses if the value of the two assets
+      changes significantly during the time that their funds are locked in the
+      liquidity pool.
     name: How AMM Works
     stepItems: []
     uuid: 6b4b78d4-fcb2-40db-8730-3f5852f414d0
