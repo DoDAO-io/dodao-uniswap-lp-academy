@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-13T18:51:08.963Z'
+created: '2023-04-13T18:57:17.134Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -128,14 +128,42 @@ steps:
 
       ### Benefits
 
+      Here are some benefits of AMMs over order books:
+
+      - AMMs provide liquidity to traders with always available prices, while
+      order books require both buyer and seller to agree on a price leading to
+      low liquidity for some assets. 
+
+      - AMMs do not need order matching, using a mathematical formula for price
+      discovery based on the asset ratio in the pool. 
+
+      - Because AMMs utilize smart contracts and mathematical formulas, traders
+      can exchange assets around the clock, while traditional trading is
+      restricted to operating hours.
+
+      - AMMs have reduced risks of price manipulation compared to order books
+      that are susceptible to it.
+
+      - Additionally, AMMs have lower barriers to entry, allowing traders to add
+      liquidity to the pool and earn fees instead of requiring significant
+      capital to participate in the market.
+
+
+
+
+
       One advantage of AMMs is that they enable decentralized trading and remove
       the need for an order book or an intermediary, which can result in lower
-      fees and faster transaction times. However, one major disadvantage is the
-      risk of impermanent loss, which occurs when the value of the two assets in
-      the liquidity pool changes. This risk is higher for volatile assets, and
-      liquidity providers can incur losses if the value of the two assets
-      changes significantly during the time that their funds are locked in the
-      liquidity pool.
+      fees and faster transaction times.
+
+
+      ### Downsides
+
+      One major disadvantage is the risk of impermanent loss, which occurs when
+      the value of the two assets in the liquidity pool changes. This risk is
+      higher for volatile assets, and liquidity providers can incur losses if
+      the value of the two assets changes significantly during the time that
+      their funds are locked in the liquidity pool.
     name: How AMM Works
     stepItems: []
     uuid: 6b4b78d4-fcb2-40db-8730-3f5852f414d0
