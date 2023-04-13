@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-13T19:41:03.353Z'
+created: '2023-04-13T19:43:03.145Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -170,11 +170,13 @@ steps:
   - content: >+
       ### What are Liquidity Pools?
 
-      Liquidity pools are decentralized pools of cryptocurrency funds that are
-      used to facilitate trades and provide liquidity for trading pairs. These
-      pools are managed by smart contracts and are designed to provide users
-      with a simple, secure, and efficient way to trade cryptocurrencies without
-      the need for an intermediary.
+      A liquidity pool is a pool of tokens held by a smart contract on a
+      decentralized exchange, allowing traders to swap one token for another by
+      trading against the pool. The pool's price is determined by the ratio of
+      tokens in the pool, and liquidity providers earn a share of the trading
+      fees in proportion to the amount of liquidity they provide. Liquidity
+      pools enable decentralized trading by providing a source of liquidity, and
+      are a critical component of AMMs.
 
 
       ### User Position - Liquidity Pool Tokens
