@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What is AMM, Liquidity Pools and How DEX works",
-  "created": "2023-04-13T18:57:17.134Z",
+  "created": "2023-04-13T19:31:02.224Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -24,7 +24,7 @@
       "uuid": "6b4b78d4-fcb2-40db-8730-3f5852f414d0"
     },
     {
-      "content": "",
+      "content": "### What are Liquidity Pools?\nLiquidity pools are decentralized pools of cryptocurrency funds that are used to facilitate trades and provide liquidity for trading pairs. These pools are managed by smart contracts and are designed to provide users with a simple, secure, and efficient way to trade cryptocurrencies without the need for an intermediary.\n\n### User Position - Liquidity Pool Tokens\nIn a liquidity pool, users can add funds to the pool in exchange for a share of the liquidity pool tokens. These tokens are used to represent the user's share of the liquidity pool, and they can be traded or sold just like any other cryptocurrency.\n\n### User Position - NFTs\n\n### Token Ratios\nWhen users trade cryptocurrencies on an AMM platform, they are essentially swapping one token for another. The liquidity pool serves as a source of tokens for these trades, with users being able to exchange their tokens for other tokens in the pool. The price of each token is determined by the ratio of the two tokens in the pool, and this ratio is automatically adjusted by the smart contract to ensure that the pool remains balanced.\n\nFor example, let's say that there is a liquidity pool for the trading pair ETH/USDT. Users can deposit both ETH and USDT into the pool in exchange for liquidity pool tokens. These tokens represent the user's share of the liquidity pool, and they can be traded or sold at any time.\n\nWhen a user wants to trade ETH for USDT, they would need to swap their ETH tokens for USDT tokens in the liquidity pool. The price of each token is determined by the ratio of ETH to USDT in the pool. For example, if there is more ETH in the pool than USDT, then the price of ETH will be higher than the price of USDT. If there is more USDT in the pool than ETH, then the price of USDT will be higher than the price of ETH.\n\nThe smart contract automatically adjusts the ratio of the two tokens in the pool to ensure that the price remains balanced. If there is more demand for ETH, then the smart contract will automatically adjust the price of ETH higher and the price of USDT lower to encourage more users to sell ETH and buy USDT. This helps to ensure that the pool remains liquid and that users are always able to buy and sell the tokens they need.\n\n",
       "name": "Liquidity Pool",
       "stepItems": [],
       "uuid": "cb76826a-cbdd-4e31-8e22-a36600d004b3"
