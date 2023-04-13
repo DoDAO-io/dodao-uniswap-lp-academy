@@ -1,0 +1,56 @@
+content: Benefits of Automated Market Maker over Order Book
+id: amm-benefits-uniswap
+name: AMM Benefits
+steps:
+  - content: >-
+
+      Automated Market Makers (AMMs) and Order Books are two different types of
+      systems for executing trades. An Automated Market Maker (AMM) is a type of
+      decentralized exchange (DEX) protocol that allows traders to trade
+      cryptocurrencies and other digital assets without an order book or an
+      intermediary.
+
+
+      AMMs offer many benefits over order books.
+              
+    name: Introduction
+    stepItems: []
+    uuid: 2196770e-ced0-4d5a-818a-7b00425ece24
+  - content: >-
+      AMMs provide liquidity to traders with always available prices, while
+      order books require both buyer and seller to agree on a price leading to
+      low liquidity for some assets.
+    name: Introduction Evaluation
+    stepItems: []
+    uuid: 8c64bc53-0ed0-4317-aa25-8448bdccdda6
+  - content: >
+      AMMs do not need order matching, using a mathematical formula for price
+      discovery based on the asset ratio in the pool.
+    name: Step 3
+    stepItems: []
+    uuid: f9e4e617-3c0d-4f6c-b805-d1590d40c9c6
+  - content: >-
+      Because AMMs utilize smart contracts and mathematical formulas, traders
+      can exchange assets around the clock, while traditional trading is
+      restricted to operating hours.
+    name: Step 4
+    stepItems: []
+    uuid: 60f9300e-cd8f-4a4a-99bf-0f1c47fa5f0f
+  - content: >-
+      AMMs have reduced risks of price manipulation compared to order books that
+      are susceptible to it.
+    name: Step 5
+    stepItems: []
+    uuid: a178683f-c841-436b-82fd-392f96a7ac12
+  - content: >-
+      Additionally, AMMs have lower barriers to entry, allowing traders to add
+      liquidity to the pool and earn fees instead of requiring significant
+      capital to participate in the market.
+    name: Step 6
+    stepItems: []
+    uuid: 1c8948d7-84e2-4cbf-9b02-1db8909e5add
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+created: '2023-04-13T18:58:14.031Z'
