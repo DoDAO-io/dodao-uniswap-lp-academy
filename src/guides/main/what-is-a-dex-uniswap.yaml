@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-12T20:37:08.443Z'
+created: '2023-04-13T18:51:08.963Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -11,7 +11,7 @@ showIncorrectOnCompletion: true
 steps:
   - content: >+
 
-      ## Exchanging Assets
+      ### Exchanging Assets
 
       <div align="center">
 
@@ -32,7 +32,7 @@ steps:
       available on traditional markets or to comply with regulations.
 
 
-      ## Traditional Way - Order Book
+      ### Traditional Way - Order Book
 
       <div align="center">
 
@@ -56,7 +56,7 @@ steps:
       discovery.
 
 
-      ## New Way - Automated Market Maker
+      ### New Way - Automated Market Maker
 
 
       <div align="center">
@@ -82,6 +82,8 @@ steps:
     stepItems: []
     uuid: b8f8ea33-460f-4e82-bb89-20e3ed6d6d4e
   - content: >-
+      ### AMM Intro
+
       An Automated Market Maker (AMM) is a type of decentralized exchange (DEX)
       protocol that allows traders to trade cryptocurrencies and other digital
       assets without an order book or an intermediary. In traditional markets, a
@@ -98,6 +100,8 @@ steps:
       liquidity providers deposit funds into a smart contract that is designed
       to facilitate trading.
 
+
+      ### Price Calculation
 
       When a trader wants to buy or sell an asset, they submit a transaction to
       the smart contract with the amount of asset they want to buy or sell, and
@@ -121,6 +125,8 @@ steps:
       liquidity pool, and the trader will receive 10 units of token A, while the
       liquidity provider will receive the equivalent amount of token B.
 
+
+      ### Benefits
 
       One advantage of AMMs is that they enable decentralized trading and remove
       the need for an order book or an intermediary, which can result in lower
