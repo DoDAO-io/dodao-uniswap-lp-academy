@@ -1,6 +1,6 @@
 categories: []
 content: What is Concentrated Liquidity and its Benefits
-created: '2023-04-14T16:50:18.284Z'
+created: '2023-04-14T18:57:12.746Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -10,6 +10,12 @@ publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
   - content: >-
+
+      ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681498629203_constant_product_amm.png)
+
+
+
+
       ### Review Different AMMs
 
       In the previous guide "What is DEX" we learned about different type of
