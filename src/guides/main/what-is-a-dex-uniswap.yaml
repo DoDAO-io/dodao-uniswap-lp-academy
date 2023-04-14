@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-14T15:22:17.467Z'
+created: '2023-04-14T15:26:39.054Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -270,13 +270,56 @@ steps:
       the number of tokens in the pool, as well as the sum of the tokens in the
       pool. Hybrid AMMs are less common than constant product AMMs, but they
       have been implemented in several DEXs, such as Curve and Bancor.
+
+
+      ### Comparing
+
+
+      <table><thead><tr><th>Type of
+      AMM</th><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td>Constant
+      Product</td><td>- Simple and easy to use&lt;br&gt;- High
+      liquidity</td><td>- Limited control over price&lt;br&gt;- High
+      slippage</td></tr><tr><td></td><td>- No impermanent loss</td><td>- Limited
+      flexibility</td></tr><tr><td></td><td>- Popular and widely
+      used</td><td></td></tr><tr><td>Constant Sum</td><td>- More flexibility and
+      control over price</td><td>- More complex and less
+      intuitive</td></tr><tr><td></td><td>- Lower slippage</td><td>- Potential
+      for impermanent loss</td></tr><tr><td></td><td>- Can support multiple
+      assets in one pool</td><td>- Less liquidity than constant product
+      AMMs</td></tr><tr><td>Hybrid</td><td>- Combines the advantages of constant
+      product</td><td>- More complex and less
+      intuitive</td></tr><tr><td></td><td>and constant sum AMMs</td><td>-
+      Potential for impermanent loss</td></tr><tr><td></td><td>- More
+      flexibility and control over price</td><td>- May have lower liquidity than
+      constant</td></tr><tr><td></td><td></td><td>product
+      AMMs</td></tr></tbody></table>
     name: Type of AMMs
     stepItems: []
     uuid: d582ba24-8c76-40ce-9ca2-b83d5625b3b9
   - content: >-
+      ### Conclusion
+
+      Cryptocurrencies are exchanged for various reasons, and traditionally,
+      assets are traded on centralized platforms through an order book. However,
+      an automated market maker (AMM) is a type of decentralized exchange that
+      allows traders to swap cryptocurrencies and other digital assets without
+      the need for an order book or intermediary. Instead, AMMs use a liquidity
+      pool, where traders can trade assets by swapping them with each other. The
+      pool's price is determined by a mathematical formula based on the ratio of
+      tokens in the pool, ensuring sufficient funds for trading. AMMs offer
+      several advantages, including always available prices, faster
+      transactions, lower fees, and reduced risks of price manipulation.
+      However, the risk of impermanent loss exists, where liquidity providers
+      can incur losses if the value of assets in the pool changes. There are
+      several types of AMMs, including constant product, constant sum, and
+      hybrid AMMs, with unique features and characteristics.
+
 
 
       ### Concentrated Liquidity AMM
+
+      We looked at various type of 
+
 
       Concentrated liquidity AMM, also known as a "weighted pool," is a type of
       automated market maker (AMM) used in decentralized exchanges (DEXs). It is
@@ -299,7 +342,7 @@ steps:
 
 
       Overall, concentrated liquidity AMMs provide an alternative approach to
-      liquidity provision that can be better suited to certain market conditions
+      liquidity provision that can be better suited to many market conditions
       and trading strategies.
     name: Final Thoughts
     stepItems: []
