@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-14T15:26:39.054Z'
+created: '2023-04-14T15:32:53.703Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -228,7 +228,7 @@ steps:
     name: Liquidity Pool
     stepItems: []
     uuid: cb76826a-cbdd-4e31-8e22-a36600d004b3
-  - content: >-
+  - content: >
       There are several types of AMMs, each with their own unique features and
       characteristics. In this answer, we'll explore the three most common types
       of AMMs: Constant Product, Constant Sum, and Hybrid AMMs.
@@ -275,24 +275,41 @@ steps:
       ### Comparing
 
 
-      <table><thead><tr><th>Type of
-      AMM</th><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td>Constant
-      Product</td><td>- Simple and easy to use&lt;br&gt;- High
-      liquidity</td><td>- Limited control over price&lt;br&gt;- High
-      slippage</td></tr><tr><td></td><td>- No impermanent loss</td><td>- Limited
-      flexibility</td></tr><tr><td></td><td>- Popular and widely
-      used</td><td></td></tr><tr><td>Constant Sum</td><td>- More flexibility and
-      control over price</td><td>- More complex and less
-      intuitive</td></tr><tr><td></td><td>- Lower slippage</td><td>- Potential
-      for impermanent loss</td></tr><tr><td></td><td>- Can support multiple
-      assets in one pool</td><td>- Less liquidity than constant product
-      AMMs</td></tr><tr><td>Hybrid</td><td>- Combines the advantages of constant
-      product</td><td>- More complex and less
-      intuitive</td></tr><tr><td></td><td>and constant sum AMMs</td><td>-
-      Potential for impermanent loss</td></tr><tr><td></td><td>- More
-      flexibility and control over price</td><td>- May have lower liquidity than
-      constant</td></tr><tr><td></td><td></td><td>product
-      AMMs</td></tr></tbody></table>
+      | Type of AMM      | Pros                                           |
+      Cons                                           |
+
+      | ---------------- | ---------------------------------------------- |
+      ---------------------------------------------- |
+
+      | Constant Product | - Simple and easy to use<br>- High liquidity   | -
+      Limited control over price<br>- High slippage |
+
+      |                  | - No impermanent loss                           | -
+      Limited flexibility                           |
+
+      |                  | - Popular and widely used                      
+      |                                                |
+
+      | Constant Sum     | - More flexibility and control over price       | -
+      More complex and less intuitive               |
+
+      |                  | - Lower slippage                               | -
+      Potential for impermanent loss                |
+
+      |                  | - Can support multiple assets in one pool       | -
+      Less liquidity than constant product AMMs    |
+
+      | Hybrid           | - Combines the advantages of constant product   | -
+      More complex and less intuitive               |
+
+      |                  |   and constant sum AMMs                        | -
+      Potential for impermanent loss                |
+
+      |                  | - More flexibility and control over price       | -
+      May have lower liquidity than constant       |
+
+      |                  |                                                |  
+      product AMMs                                  |
     name: Type of AMMs
     stepItems: []
     uuid: d582ba24-8c76-40ce-9ca2-b83d5625b3b9
