@@ -1,6 +1,6 @@
 categories: []
 content: What is Concentrated Liquidity and its Benefits
-created: '2023-04-14T16:22:25.124Z'
+created: '2023-04-14T16:50:18.284Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -10,6 +10,30 @@ publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
   - content: >-
+      ### Review Different AMMs
+
+      In the previous guide "What is DEX" we learned about different type of
+      AMMs and about their pros and cons.  We saw that each Constant Product,
+      Constant Mean, and Hybrid offer their benefits, but each have their down
+      sides and there is no single AMM that can be used for various asset types
+      and for low liquidity. 
+
+
+      Each of these models take no user input or external input, and are purely
+      based on a mathematical formula which primarily considers the token
+      quantity, but doesn't consider user preference or asset volatility.  In
+      these AMMs, the liquidity provider doesn't have any influence over the
+      quantity or the price of the trade. In contrast, a traditional order book
+      the user decides the price, which then influences the quantity traded at
+      each price range.  
+
+
+      ### Concentrated Liquidity
+
+
+
+      ### Review 
+
       In Uniswap v2 or a Constant Product AMM, liquidity is distributed evenly
       along a price curve that follows the formula x*y=k. This reserves assets
       for all prices between 0 and infinity, but most of the liquidity is not
