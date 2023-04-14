@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What is AMM, Liquidity Pools and How DEX works",
-  "created": "2023-04-13T19:47:52.788Z",
+  "created": "2023-04-14T15:22:17.467Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -36,7 +36,7 @@
       "uuid": "d582ba24-8c76-40ce-9ca2-b83d5625b3b9"
     },
     {
-      "content": "",
+      "content": "\n\n### Concentrated Liquidity AMM\nConcentrated liquidity AMM, also known as a \"weighted pool,\" is a type of automated market maker (AMM) used in decentralized exchanges (DEXs). It is different from other AMMs, such as the constant product AMM (e.g., Uniswap), in how liquidity is concentrated in a few specific price points.\n\nIn a concentrated liquidity AMM, liquidity providers can specify their own price ranges and weighting within the pool. This allows for a more targeted approach to liquidity provision, where capital can be allocated more efficiently to specific price ranges where trading activity is expected to be more concentrated.\n\nThe advantage of concentrated liquidity AMMs is that they can provide deeper liquidity in specific price ranges, which can lead to better pricing and reduced slippage for traders. However, concentrated liquidity AMMs can be more complex to set up and may require more active management by liquidity providers.\n\nOverall, concentrated liquidity AMMs provide an alternative approach to liquidity provision that can be better suited to certain market conditions and trading strategies.",
       "name": "Final Thoughts",
       "stepItems": [],
       "uuid": "d31fcd5b-6adb-4b2a-abd3-8979e1dd55cc"
