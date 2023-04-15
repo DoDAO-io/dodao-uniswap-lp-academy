@@ -1,6 +1,6 @@
 categories: []
 content: What is Concentrated Liquidity and its Benefits
-created: '2023-04-15T16:25:39.604Z'
+created: '2023-04-15T16:49:20.818Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -177,7 +177,9 @@ steps:
     name: Concentrated Liquidity
     stepItems: []
     uuid: 14dc53fc-fac1-479c-8141-4aef4214d556
-  - content: ''
+  - content: |+
+      ## Scenario 1
+
     name: Earning Fees
     stepItems: []
     uuid: a88b21cc-51db-4a8a-bfec-d2da1a7d008a
