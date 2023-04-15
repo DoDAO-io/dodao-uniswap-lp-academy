@@ -1,6 +1,6 @@
 categories: []
 content: What is Concentrated Liquidity and its Benefits
-created: '2023-04-15T16:49:20.818Z'
+created: '2023-04-15T19:54:49.849Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -177,9 +177,25 @@ steps:
     name: Concentrated Liquidity
     stepItems: []
     uuid: 14dc53fc-fac1-479c-8141-4aef4214d556
-  - content: |+
+  - content: >
       ## Scenario 1
 
+      <div align="center">
+
+      <img style="max-height:400px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681588401410_example_scenario_1.png"/>
+
+      </div>
+
+
+      ## Scenario 2
+
+      <div align="center">
+
+      <img style="max-height:400px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681588457132_example_scenario_2.png"/>
+
+      </div>
     name: Earning Fees
     stepItems: []
     uuid: a88b21cc-51db-4a8a-bfec-d2da1a7d008a

@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What is Concentrated Liquidity and its Benefits",
-  "created": "2023-04-15T16:49:20.818Z",
+  "created": "2023-04-15T19:54:49.849Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -24,7 +24,7 @@
       "uuid": "14dc53fc-fac1-479c-8141-4aef4214d556"
     },
     {
-      "content": "## Scenario 1\n\n",
+      "content": "## Scenario 1\n<div align=\"center\">\n<img style=\"max-height:400px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681588401410_example_scenario_1.png\"/>\n</div>\n\n## Scenario 2\n<div align=\"center\">\n<img style=\"max-height:400px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681588457132_example_scenario_2.png\"/>\n</div>\n",
       "name": "Earning Fees",
       "stepItems": [],
       "uuid": "a88b21cc-51db-4a8a-bfec-d2da1a7d008a"
