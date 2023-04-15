@@ -1,6 +1,6 @@
 categories: []
 content: What is Concentrated Liquidity and its Benefits
-created: '2023-04-15T11:43:08.107Z'
+created: '2023-04-15T15:40:06.163Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -67,45 +67,44 @@ steps:
       ratio between the two tokens changes.
 
 
+      ### Limitation of AMMs
+
+      While Constant Product AMMs have been widely adopted, they have certain
+      limitations
 
 
+      1. Capital Inefficiency: In Constant Product AMMs, liquidity is spread
+      evenly across the entire price curve. This means that a significant
+      portion of the deposited assets may not be actively used for trading,
+      making the capital usage inefficient. Concentrated liquidity models allow
+      liquidity providers to focus their capital on specific price ranges where
+      trading is more likely, leading to better capital efficiency and
+      potentially higher returns.
 
 
-      ### Issues with AMM Models
-
-      In the previous guide "What is DEX" we learned about different type of
-      AMMs and about their pros and cons.  We saw that each Constant Product,
-      Constant Mean, and Hybrid offer their benefits, but each have their down
-      sides and there is no single AMM that can be used for various asset types
-      and for low liquidity. 
-
-
-      Each of these models take no user input or external input, and are purely
-      based on a mathematical formula which primarily considers the token
-      quantity, but doesn't consider user preference or asset volatility.  In
-      these AMMs, the liquidity provider doesn't have any influence over the
-      quantity or the price of the trade. In contrast, a traditional order book
-      the user decides the price, which then influences the quantity traded at
-      each price range.  
+      2. Slippage: Constant Product AMMs use a simple x * y = k formula to
+      determine token prices, which can result in significant slippage (price
+      change due to trade size) for large trades. As the liquidity pool size
+      increases, slippage decreases, but it is still a concern for large orders.
+      Concentrated liquidity models can reduce slippage by concentrating
+      liquidity within narrower price ranges, providing more accurate and stable
+      prices.
 
 
-      ### Concentrated Liquidity
+      3. Limited Customization: Constant Product AMMs do not offer much
+      flexibility for liquidity providers in terms of customizing their exposure
+      to different tokens or price ranges. Concentrated liquidity models, on the
+      other hand, provide more control to liquidity providers by allowing them
+      to choose specific price ranges and even adjust their positions as market
+      conditions change.
 
 
-
-      ### Review 
-
-      In contrast, Uniswap v3 enables LPs to concentrate their capital within
-      specific price ranges, allowing them to provide greater liquidity at
-      desired prices. LPs can construct customized price curves that reflect
-      their own preferences, and they can combine multiple concentrated
-      positions in a single pool.
-
-
-      For example, an LP in the ETH/DAI pool may allocate $100 to the price
-      ranges of $1,000-$2,000 and an additional $50 to the ranges of
-      $1,500-$1,750. This enables an LP to approximate the shape of any
-      automated market maker or active order book.
+      Uniswap V3's concentrated liquidity models address some of the key
+      limitations of Constant Product AMMs by offering more efficient capital
+      usage, reduced impermanent loss, lower slippage, and increased
+      customization options for liquidity providers. These improvements can lead
+      to better returns for liquidity providers and a more efficient and stable
+      trading experience for users.
     name: Constant Product AMM
     stepItems: []
     uuid: d08d4e1e-b1a9-4a51-b13c-2ec6f6354bbc
