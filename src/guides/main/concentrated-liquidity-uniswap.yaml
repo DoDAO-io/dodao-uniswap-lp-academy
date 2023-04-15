@@ -1,6 +1,6 @@
 categories: []
 content: What is Concentrated Liquidity and its Benefits
-created: '2023-04-15T16:02:32.646Z'
+created: '2023-04-15T16:21:56.542Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -161,6 +161,14 @@ steps:
       3. Carol expects the price of ETH to be between $3,000 and $3,500. She
       deposits her ETH and USDC into the pool and concentrates her liquidity in
       this range.
+
+
+      <div align="center">
+
+      <img style="max-height:400px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681575680046_concentrated_liquidity%20example.png"/>
+
+      </div>
 
 
       Now, the ETH-USDC pool has three separate areas of concentrated liquidity:
