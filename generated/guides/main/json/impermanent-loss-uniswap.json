@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What is Impermanent loss and how to minimize it",
-  "created": "2023-04-07T14:25:40.661Z",
+  "created": "2023-04-15T20:32:34.970Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -12,22 +12,27 @@
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "# Coming Soon",
+      "content": "AMMs rely on liquidity pools, which are funded by users who deposit assets into the pool in exchange for earning fees on the trades that occur within the pool. Liquidity providers (LPs) deposit equal values of two assets, typically in the form of token pairs, to create a market for trading. Impermanent loss occurs when the value of the deposited assets changes relative to each other, causing the LP's share of the pool to be worth less than if they had held the assets separately.\n\n",
       "name": "Introduction",
       "stepItems": [],
       "uuid": "a27838ad-71b4-4ed4-bd4b-30049ba4cabe"
     },
     {
+      "content": "1. Price volatility: The main factor contributing to impermanent loss is the price volatility of the assets in the liquidity pool. If the price of one asset in the pair appreciates or depreciates significantly compared to the other, it can lead to a larger impermanent loss.\n2. Pool's token weights: Token weights in the liquidity pool can also impact impermanent loss. In most AMMs, the weights are 50/50, meaning that both tokens contribute equally to the pool's value. However, some pools have different weights, which can affect the extent of the impermanent loss.\n3. Trading volume: Trading volume in the pool affects the fees earned by liquidity providers, which can help offset impermanent loss. Higher trading volumes generate more fees, potentially mitigating the impact of impermanent loss.\n\n",
+      "name": "Factors impacting IL",
+      "stepItems": [],
+      "uuid": "b0c65af2-a377-4ab6-92f7-5efca58d9873"
+    },
+    {
+      "content": "1. Choose less volatile token pairs: By providing liquidity to pairs with lower price volatility, LPs can minimize the potential for impermanent loss. Stablecoin pairs, for example, can have lower impermanent loss due to their lower price fluctuations.\n2. Utilize liquidity pool insurance: Some DeFi platforms offer insurance products to help protect LPs against impermanent loss. These insurance products can help to offset potential losses, but they usually come with a cost in the form of premiums.\n3. Use concentrated liquidity pools: Some AMMs, like Uniswap V3, offer concentrated liquidity pools where LPs can specify a price range for their assets. By setting a narrower price range, LPs can limit their exposure to impermanent loss. However, it also means they may not earn fees if the trading pair's price moves outside of the specified range.\n4. Explore other DeFi platforms and strategies: Various DeFi platforms employ different mechanisms to address impermanent loss, such as dynamic weights or different token swap models. Exploring alternative platforms or strategies can help LPs find ways to mitigate impermanent loss risks.\n\nIt is important to note that impermanent loss is only \"realized\" when a liquidity provider withdraws their assets from the pool. If the prices of the assets return to their initial levels before withdrawal, the impermanent loss is effectively negated.",
+      "name": "How to Reduce IL",
+      "stepItems": [],
+      "uuid": "6b866ac8-1096-4cbc-bf99-469bb663e7ff"
+    },
+    {
       "content": "",
       "name": "Your Info",
-      "stepItems": [
-        {
-          "label": "Nickname",
-          "required": true,
-          "type": "PublicShortInput",
-          "uuid": "ee5d78c9-3bd0-496c-81e1-6d84b77d5492"
-        }
-      ],
+      "stepItems": [],
       "uuid": "a6e8b409-912f-433b-ada4-750492a31a60"
     }
   ],
