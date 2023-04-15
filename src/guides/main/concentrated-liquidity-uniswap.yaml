@@ -1,6 +1,6 @@
 categories: []
 content: What is Concentrated Liquidity and its Benefits
-created: '2023-04-15T16:21:56.542Z'
+created: '2023-04-15T16:25:39.604Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -149,20 +149,6 @@ steps:
       ETH and USDC but want to deposit their funds over different price ranges.
 
 
-      1. Alice believes the price of ETH will stay between $2,000 and $2,500.
-      She decides to provide liquidity specifically for this price range. She
-      deposits her ETH and USDC into the pool, and her funds will be used only
-      for trades that happen within this range.
-
-      2. Bob thinks the price of ETH will be between $2,500 and $3,000. He
-      deposits his ETH and USDC into the pool, focusing his liquidity on this
-      specific range.
-
-      3. Carol expects the price of ETH to be between $3,000 and $3,500. She
-      deposits her ETH and USDC into the pool and concentrates her liquidity in
-      this range.
-
-
       <div align="center">
 
       <img style="max-height:400px"
@@ -171,24 +157,18 @@ steps:
       </div>
 
 
-      Now, the ETH-USDC pool has three separate areas of concentrated liquidity:
+      Now, the ETH-USDC pool has separate areas of concentrated liquidity:
 
-
-      1. One between $2,000 and $2,500, provided by Alice.
-
-      2. Another between $2,500 and $3,000, provided by Bob.
-
-      3. And the last one between $3,000 and $3,500, provided by Carol.
 
       As long as the price of ETH stays within their chosen ranges, Alice, Bob,
-      and Carol's funds will be actively used to facilitate trades. If the price
-      moves outside of their chosen ranges, their liquidity will not be used,
-      and they won't earn fees from trades happening outside their specified
-      price ranges.
+      and Carols's funds will be actively used to facilitate trades. If the
+      price moves outside of their chosen ranges, their liquidity will not be
+      used, and they won't earn fees from trades happening outside their
+      specified price ranges.
 
 
       By focusing their liquidity on narrower price ranges, Alice, Bob, and
-      Carol can provide more substantial support for the market within those
+      Carols can provide more substantial support for the market within those
       ranges. This leads to better price stability, reduced slippage, and
       potentially higher returns from trading fees for each of them.
 
