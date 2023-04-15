@@ -1,6 +1,6 @@
 categories: []
 content: What is Concentrated Liquidity and its Benefits
-created: '2023-04-15T19:54:49.849Z'
+created: '2023-04-15T20:00:39.123Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -178,7 +178,14 @@ steps:
     stepItems: []
     uuid: 14dc53fc-fac1-479c-8141-4aef4214d556
   - content: >
-      ## Scenario 1
+      We can examine some instances to understand how concentrated liquidity
+      operates and how liquidity providers make profits, depending on their
+      position within the range and the level of liquidity concentration. This
+      is determined by the narrowness of the range in which liquidity is
+      provided.
+
+
+      ## Scenario 1 
 
       <div align="center">
 
@@ -186,6 +193,11 @@ steps:
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681588401410_example_scenario_1.png"/>
 
       </div>
+
+      <br/>
+
+      In this scenario the liquidity is in range for Alice and Carlos, but its
+      out of range for Bob, as he provided liquidity between $2000-$2500
 
 
       ## Scenario 2
