@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What is Concentrated Liquidity and its Benefits",
-  "created": "2023-04-15T15:48:38.110Z",
+  "created": "2023-04-15T15:52:28.878Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -18,7 +18,7 @@
       "uuid": "d08d4e1e-b1a9-4a51-b13c-2ec6f6354bbc"
     },
     {
-      "content": "### What is Concentrated Liquidity AMM\nConcentrated liquidity AMM is a new approach to decentralized trading that allows people to provide liquidity to a market more efficiently. Here's a simple explanation:\n\nIn traditional AMMs, people deposit two tokens in equal value to create a liquidity pool. This pool is used to facilitate trading between those two tokens.\n\nIn the case of concentrated liquidity AMM, people can choose a specific price range where they want to provide liquidity, instead of spreading it evenly across all possible prices.\n\nBy focusing their funds on a smaller price range, they can have a more significant impact on that range, which means their money is being used more effectively.\n\nThis approach helps reduce the risk of impermanent loss, which is when the value of the deposited tokens decreases compared to just holding them separately. It happens because the liquidity provider is essentially \"buying\" one token and \"selling\" the other as the price ratio changes.\n\nConcentrated liquidity AMM also allows for better price stability and reduced slippage, which is the change in price when a trade is executed. This is important because high slippage can lead to unfavorable trade outcomes.\n\nIn a nutshell, concentrated liquidity AMM helps people get more out of their money by allowing them to focus their liquidity where it's needed most, reducing risks and providing better trading experiences for users.",
+      "content": "### What is Concentrated Liquidity AMM?\nConcentrated liquidity AMM is a new approach to decentralized trading that allows people to provide liquidity to a market more efficiently. Here's a simple explanation:\n\n1. In traditional AMMs, people deposit two tokens in equal value to create a liquidity pool. This pool is used to facilitate trading between those two tokens.\n2. In the case of concentrated liquidity AMM, people can choose a specific price range where they want to provide liquidity, instead of spreading it evenly across all possible prices.\n3. By focusing their funds on a smaller price range, they can have a more significant impact on that range, which means their money is being used more effectively.\n4. This approach helps reduce the risk of impermanent loss, as it gives choice to the user over what range do they want to deposit the liquidity.\n5. Concentrated liquidity AMM also allows for better price stability and reduced slippage, which is the change in price when a trade is executed. This is important because high slippage can lead to unfavorable trade outcomes.\n\nIn a nutshell, concentrated liquidity AMM helps people get more out of their money by allowing them to focus their liquidity where it's needed most, reducing risks and providing better trading experiences for users.",
       "name": "Concentrated Liquidity",
       "stepItems": [],
       "uuid": "14dc53fc-fac1-479c-8141-4aef4214d556"

@@ -1,6 +1,6 @@
 categories: []
 content: What is Concentrated Liquidity and its Benefits
-created: '2023-04-15T15:48:38.110Z'
+created: '2023-04-15T15:52:28.878Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -109,35 +109,29 @@ steps:
     stepItems: []
     uuid: d08d4e1e-b1a9-4a51-b13c-2ec6f6354bbc
   - content: >-
-      ### What is Concentrated Liquidity AMM
+      ### What is Concentrated Liquidity AMM?
 
       Concentrated liquidity AMM is a new approach to decentralized trading that
       allows people to provide liquidity to a market more efficiently. Here's a
       simple explanation:
 
 
-      In traditional AMMs, people deposit two tokens in equal value to create a
-      liquidity pool. This pool is used to facilitate trading between those two
-      tokens.
+      1. In traditional AMMs, people deposit two tokens in equal value to create
+      a liquidity pool. This pool is used to facilitate trading between those
+      two tokens.
 
-
-      In the case of concentrated liquidity AMM, people can choose a specific
+      2. In the case of concentrated liquidity AMM, people can choose a specific
       price range where they want to provide liquidity, instead of spreading it
       evenly across all possible prices.
 
-
-      By focusing their funds on a smaller price range, they can have a more
+      3. By focusing their funds on a smaller price range, they can have a more
       significant impact on that range, which means their money is being used
       more effectively.
 
+      4. This approach helps reduce the risk of impermanent loss, as it gives
+      choice to the user over what range do they want to deposit the liquidity.
 
-      This approach helps reduce the risk of impermanent loss, which is when the
-      value of the deposited tokens decreases compared to just holding them
-      separately. It happens because the liquidity provider is essentially
-      "buying" one token and "selling" the other as the price ratio changes.
-
-
-      Concentrated liquidity AMM also allows for better price stability and
+      5. Concentrated liquidity AMM also allows for better price stability and
       reduced slippage, which is the change in price when a trade is executed.
       This is important because high slippage can lead to unfavorable trade
       outcomes.
