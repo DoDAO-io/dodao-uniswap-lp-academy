@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-04-15T20:51:10.188Z'
+created: '2023-04-16T07:35:21.505Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -9,7 +9,7 @@ name: Impermanent Loss
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
-  - content: >-
+  - content: >
       AMMs rely on liquidity pools, which are funded by users who deposit assets
       into the pool in exchange for earning fees on the trades that occur within
       the pool. Liquidity providers (LPs) deposit equal values of two assets,
@@ -63,6 +63,9 @@ steps:
       pool. In this case, Alice's impermanent loss is $20,000 (the value if she
       had held her assets) - $13,500 (the value of her share in the liquidity
       pool) = $6,500.
+
+
+      ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681630519103_alice_impermanent_loss.svg)
     name: Introduction
     stepItems: []
     uuid: a27838ad-71b4-4ed4-bd4b-30049ba4cabe
