@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-04-16T07:56:18.450Z'
+created: '2023-04-16T07:57:28.405Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -67,7 +67,7 @@ steps:
       deposit.
 
 
-      <div align=center">
+      <div align="center">
 
       <img
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681630519103_alice_impermanent_loss.svg"
