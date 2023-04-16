@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-04-16T07:57:28.405Z'
+created: '2023-04-16T09:29:45.361Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -20,6 +20,127 @@ steps:
       relative to each other, causing the LP's share of the pool to be worth
       less than if they had held the assets separately.
 
+
+      Impermanent loss happens when you provide liquidity to a liquidity pool,
+      and the price of your deposited assets changes compared to when you
+      deposited them. The bigger this change is, the more you are exposed to
+      impermanent loss. In this case, the loss means less dollar value at the
+      time of withdrawal than at the time of deposit.
+
+
+      Pools that contain assets that remain in a relatively small price range
+      will be less exposed to impermanent loss. Stablecoins or different wrapped
+      versions of a coin, for example, will stay in a relatively contained price
+      range. In this case, there’s a smaller risk of impermanent loss for
+      liquidity providers (LPs).
+
+
+      So why do liquidity providers still provide liquidity if they’re exposed
+      to potential losses? Well, impermanent loss can still be counteracted by
+      trading fees. In fact, even pools on Uniswap that are quite exposed to
+      impermanent loss can be profitable thanks to the trading fees. 
+
+
+      Uniswap charges 0.3% on every trade that directly goes to liquidity
+      providers. If there’s a lot of trading volume happening in a given pool,
+      it can be profitable to provide liquidity even if the pool is heavily
+      exposed to impermanent loss. This, however, depends on the protocol, the
+      specific pool, the deposited assets, and even wider market conditions.
+
+
+      ---
+
+
+      Simply put, impermanent loss is the difference between holding tokens in
+      an AMM and holding them in your wallet.
+
+
+      It occurs when the price of tokens inside an AMM diverge in any direction.
+      The more divergence, the greater the impermanent loss.
+
+
+      Why “impermanent”?
+
+
+      Because as long as the relative prices of tokens in the AMM return to
+      their original state when you entered the AMM, the loss disappears and you
+      earn 100% of the trading fees.
+
+
+      However, this is rarely the case. More often than not, impermanent loss
+      becomes permanent, eating into your trade income or leaving you with
+      negative returns.
+
+
+
+      How Does It Occur?
+
+
+      To understand how impermanent loss occurs, we first need to understand how
+      AMM pricing works and the role arbitrageurs play.
+
+
+      In their raw form, AMMs are disconnected from external markets. If token
+      prices change on external markets, an AMM doesn’t automatically adjust its
+      prices. It requires an arbitrageur to come along and buy the underpriced
+      asset or sell the overpriced asset until prices offered by the AMM match
+      external markets.
+
+
+      During this process, the profit extracted by arbitrageurs is effectively
+      removed from the pockets of liquidity providers, resulting in impermanent
+      loss.
+
+
+      For example, consider an AMM with two assets, ETH and DAI, set at a 50/50
+      ratio. As shown below, a change in the price of ETH opens an opportunity
+      for arbitrageurs to profit at the expense of liquidity providers.
+
+      https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22
+
+      ---
+
+      How Does Impermanent Loss Occur?
+
+      Impermanent loss can occur when trading on decentralized finance (DeFi)
+      platforms that use automated market makers (AMMs) to facilitate trades.
+      AMMs use algorithms to set the prices of assets and maintain liquidity in
+      the market by holding a balance of the assets being traded. When a trader
+      executes a trade on an AMM, the platform adjusts the balance of the assets
+      in its liquidity pool to match the trade.
+
+
+      If the price of the asset changes significantly between the time the trade
+      is executed and the time it is settled, it can result in a loss for the
+      trader even if the trade was otherwise successful. This is because the
+      value of the assets in the AMM’s liquidity pool will have changed due to
+      the price change, leading to a mismatch between the value of the assets
+      being traded and the value of the liquidity provided by the AMM.
+
+
+      For example, if a trader buys an asset using an AMM and the price of the
+      asset increases significantly before the trade is settled, the trader may
+      make a profit on the trade but also experience an impermanent loss. This
+      is because the value of the asset in the AMM’s liquidity pool has
+      increased, leading to a decrease in the value of the liquidity provided by
+      the AMM. The trader’s profit from the trade may not be enough to offset
+      this loss, resulting in an overall loss for the trader.
+
+
+      On the other hand, if the price of the asset decreases significantly
+      before the trade is settled, the trader may experience an impermanent
+      gain. This is because the value of the asset in the AMM’s liquidity pool
+      has decreased, leading to an increase in the value of the liquidity
+      provided by the AMM. In this case, the trader’s loss from the trade may be
+      offset by impermanent gain, resulting in an overall profit for the trader.
+
+
+      It is important to note that impermanent loss is only a temporary
+      phenomenon and can be recovered if the price of the asset returns to its
+      original level. However, if the price of the asset does not return to its
+      original level, impermanent loss may become a permanent loss.
+
+      https://www.okx.com/learn/what-is-impermanent-loss-in-defi
 
       ### Video
 
@@ -110,7 +231,7 @@ steps:
     name: Factors impacting IL
     stepItems: []
     uuid: b0c65af2-a377-4ab6-92f7-5efca58d9873
-  - content: >-
+  - content: >
       1. Choose less volatile token pairs: By providing liquidity to pairs with
       lower price volatility, LPs can minimize the potential for impermanent
       loss. Stablecoin pairs, for example, can have lower impermanent loss due
@@ -137,6 +258,139 @@ steps:
       liquidity provider withdraws their assets from the pool. If the prices of
       the assets return to their initial levels before withdrawal, the
       impermanent loss is effectively negated.
+
+
+      ----
+
+      How to avoid impermanent loss
+
+      Trading fees can often help to offset impermanent loss while token rewards
+      can lead to higher overall returns than would have been achieved through a
+      buy and hold strategy. But this is not the only way to reduce the risk of
+      impermanent loss or even avoid it altogether.
+
+
+      Low volatility pairs
+
+
+      Choosing less volatile asset pairs naturally reduces the risk of one or
+      both of the assets experiencing a significant change in value, and
+      therefore reduces the risk of impermanent loss. This could be stablecoin
+      pairs such as USDT and DAI. However, more volatile pools may still be
+      attractive because of higher rewards.
+
+
+      Different types of liquidity pools
+
+
+      Not all liquidity pools require you to add assets at a 50:50 ratio.
+      Considering a different type of liquidity pool could help manage the risk
+      of impermanent loss. However, these types of pools are more complex, so
+      prior knowledge and a good understanding of DeFi is required.
+
+
+      For example, some decentralized exchanges offer a variety of liquidity
+      pool ratios. A pool with a 50:50 ratio would leave an LP open to a higher
+      impermanent loss risk than a pool with a 80:20 ratio, for example (where
+      the 20% is the ratio of the more volatile asset). There are also complex
+      liquidity pools with more than two digital assets available. In addition,
+      some exchanges have developed liquidity pools where you can stake just one
+      of the assets inside the pool, while the other side of the pool consists
+      of the platform’s native token. 
+
+      https://yield.app/blog/impermanent-loss-explained-avoid
+
+      ---
+
+
+      How to Avoid Impermanent Loss in Cryptocurrency
+
+      Although impermanent loss is inevitable. However, there are measures that
+      can be taken to mitigate this risk. They are discussed below,
+
+
+      1. Choose Stablecoin Pair that Offer the best
+
+      One strategy to avoid temporary loss is to choose stablecoin pairs that
+      offer the best bet against impermanent loss. This is because their value
+      does not move much. They also have fewer arbitrage opportunities, lowering
+      the risks. Liquidity providers using stablecoin pairs, on the other hand,
+      are unable to gain from the bullish crypto market.
+
+
+      2. Choose Pairs that do not expose liquidity to market stability
+
+      You need to choose tokens (ETH base & stablecoin pair) that do not expose
+      liquidity to market stability. Cryptos with an unstable history or high
+      volatility should not be considered. Another strategy to avoid temporary
+      loss is to search the market, which is highly volatile thoroughly.
+
+
+      3. Timing
+
+      Liquidity providers must also know when to sell their holdings before the
+      price drifts too far from the starting rates. This would help to curtail
+      the effect of a change in price.
+
+
+      4. Look beyond the loss
+
+      One of the best ways to overcome impermanent loss is to look beyond it.
+      The tokens you’ve committed already have a purpose, which is to earn you
+      trading fees. Let them do their job for the more you put into the
+      equation.
+
+
+      https://prestmit.com/blog/understanding-impermanent-loss-in-cryptocurrency/
+
+
+      ---
+
+      How To Avoid Impermanent Loss?
+
+      There are several ways to avoid or minimize the risk of impermanent loss
+      when trading on decentralized finance (DeFi) platforms that use automated
+      market makers (AMMs):
+
+
+      Use Stop Loss Orders
+
+      A stop loss order is an order to sell an asset at a certain price to limit
+      potential losses. By setting a stop loss order at a certain percentage
+      below your entry price, you can minimize the risk of experiencing an
+      impermanent loss due to a significant price change.
+
+
+      Use AMMs With Low Slippage
+
+      Slippage is the difference between the expected price of a trade and the
+      actual price at which the trade is executed. AMMs with low slippage is
+      less likely to experience significant price changes between when a trade
+      is executed and when it is settled, reducing the risk of impermanent loss.
+
+
+      Monitor the Market and Adjust Your Strategy Accordingly
+
+      Keeping an eye on market conditions and adjusting your trading strategy as
+      needed can help reduce the risk of experiencing an impermanent loss. For
+      example, if you expect a significant price change in the near future, you
+      may want to adjust your trading strategy to minimize the risk of
+      impermanent loss.
+
+
+      Use a Risk Management Tool
+
+      Various tools can help you manage and minimize the risk of impermanent
+      loss. For example, some DeFi platforms offer risk management tools that
+      allow you to set limits on your trades or automatically adjust your
+      positions to minimize the risk of loss.
+
+
+      It is important to note that while these strategies can help reduce the
+      risk of impermanent loss, they do not guarantee that you will not
+      experience a loss. Trading on DeFi platforms carries inherent risks, and
+      it is important to thoroughly understand these risks and carefully
+      consider whether DeFi trading is right for you.
     name: How to Reduce IL
     stepItems: []
     uuid: 6b866ac8-1096-4cbc-bf99-469bb663e7ff
