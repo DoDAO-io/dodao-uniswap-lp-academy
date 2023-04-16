@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-04-16T07:41:01.670Z'
+created: '2023-04-16T07:42:49.046Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -10,6 +10,8 @@ publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
   - content: >-
+      ### What is Impermanent Loss?
+
       AMMs rely on liquidity pools, which are funded by users who deposit assets
       into the pool in exchange for earning fees on the trades that occur within
       the pool. Liquidity providers (LPs) deposit equal values of two assets,
@@ -21,11 +23,15 @@ steps:
 
       ### Video
 
+      <div align="center">
+
       <iframe width="560" height="315"
       src="https://www.youtube.com/embed/8XJ1MSTEuU0?start=21" title="YouTube
       video player" frameborder="0" allow="accelerometer; autoplay;
       clipboard-write; encrypted-media; gyroscope; picture-in-picture;
       web-share" allowfullscreen></iframe>
+
+      </div>
     name: Introduction
     stepItems: []
     uuid: a27838ad-71b4-4ed4-bd4b-30049ba4cabe
