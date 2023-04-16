@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-04-16T07:44:24.320Z'
+created: '2023-04-16T07:56:18.450Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -35,7 +35,7 @@ steps:
     name: Introduction
     stepItems: []
     uuid: a27838ad-71b4-4ed4-bd4b-30049ba4cabe
-  - content: >-
+  - content: >+
       Let's consider an example of two friends, Alice and Bob, who each have
       $10,000 worth of assets. Alice decides to provide liquidity to a USDC-ETH
       pool, while Bob decides to hold on to his ETH. Let's assume that at the
@@ -67,6 +67,15 @@ steps:
       deposit.
 
 
+      <div align=center">
+
+      <img
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681630519103_alice_impermanent_loss.svg"
+      />
+
+      </div>
+
+
       In this example, Alice experiences impermanent loss due to the change in
       the value of ETH relative to USDC. If Alice had held onto her 5 ETH like
       Bob, her assets would now be worth $20,000, a 100% increase.
@@ -78,8 +87,6 @@ steps:
       had held her assets) - $13,500 (the value of her share in the liquidity
       pool) = $6,500.
 
-
-      ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681630519103_alice_impermanent_loss.svg)
     name: Example
     stepItems: []
     uuid: 78e4a613-4139-4942-9121-bdd374e95c6a
