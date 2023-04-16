@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-04-16T07:35:21.505Z'
+created: '2023-04-16T07:41:01.670Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -9,7 +9,7 @@ name: Impermanent Loss
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
-  - content: >
+  - content: >-
       AMMs rely on liquidity pools, which are funded by users who deposit assets
       into the pool in exchange for earning fees on the trades that occur within
       the pool. Liquidity providers (LPs) deposit equal values of two assets,
@@ -19,7 +19,17 @@ steps:
       less than if they had held the assets separately.
 
 
+      ### Video
 
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/8XJ1MSTEuU0?start=21" title="YouTube
+      video player" frameborder="0" allow="accelerometer; autoplay;
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+      web-share" allowfullscreen></iframe>
+    name: Introduction
+    stepItems: []
+    uuid: a27838ad-71b4-4ed4-bd4b-30049ba4cabe
+  - content: >-
       ### Example
 
       Let's consider an example of two friends, Alice and Bob, who each have
@@ -66,9 +76,9 @@ steps:
 
 
       ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681630519103_alice_impermanent_loss.svg)
-    name: Introduction
+    name: Example
     stepItems: []
-    uuid: a27838ad-71b4-4ed4-bd4b-30049ba4cabe
+    uuid: 78e4a613-4139-4942-9121-bdd374e95c6a
   - content: >+
       1. Price volatility: The main factor contributing to impermanent loss is
       the price volatility of the assets in the liquidity pool. If the price of
