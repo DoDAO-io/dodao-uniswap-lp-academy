@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-04-18T20:08:22.261Z'
+created: '2023-04-18T20:33:07.300Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -110,6 +110,23 @@ steps:
     stepItems: []
     uuid: 78e4a613-4139-4942-9121-bdd374e95c6a
   - content: >+
+      ### Impermanent Loss Maths
+
+      Here we take the example of Uniswap V2 as the maths is much easier to
+      understand.
+
+
+      <div align="center">
+
+      <img
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681849968244_impermanent_loss.png"
+      />
+
+      </div>
+
+
+      ### Factors Impacting Impermanent Loss 
+
       1. Price volatility: The main factor contributing to impermanent loss is
       the price volatility of the assets in the liquidity pool. If the price of
       one asset in the pair appreciates or depreciates significantly compared to
