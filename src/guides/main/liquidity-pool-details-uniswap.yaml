@@ -1,6 +1,6 @@
 categories: []
 content: What are Ticks and Ranges in Uniswap V3
-created: '2023-04-07T14:25:01.986Z'
+created: '2023-04-18T19:54:42.077Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -9,9 +9,116 @@ name: Liquidity Pool Details
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
-  - content: |-
+  - content: >-
 
       # Coming Soon        
+
+
+      . Uniswap V3 liquidity providers specify the price range
+
+      [𝑆𝑙, 𝑆𝑢] in which they wish to supply liquidity (cf. Figure 2b). Their
+
+      liquidity then only supports trading within this price range. Thus,
+
+      Uniswap V3 has an increased liquidity concentration around the
+
+      current price and thereby increases the market’s capital efficiency.
+
+      We note that liquidity providers can only choose the price boundaries of
+      their liquidity position from a predefined set of the pool’s
+
+      initialized ticks. There is a tick at every integer exponent of 1.0001,
+
+      and the price of tick 𝑖 (𝑖 ∈ Z) is given by
+
+
+      𝑆 (𝑖) = 1.0001𝑖
+
+      .
+
+      Consequently, each tick is 0.01% (one basis points (bps)) away from
+
+      each neighboring tick. Not every tick can be initialized in a pool,
+
+      instead, only ticks with indexes divisible by the pool’s predefined
+
+      tick spacing (𝑡𝑠 ) can be initialized. Figure 2c shows a schematic
+
+      representation of a liquidity allocation across a liquidity pool’s
+
+      price range. The liquidity is no longer constant across the entire
+
+      price range, instead, only between the pool’s initialized ticks.
+
+      Uniswap V3 utilizes the concept of virtual reserves, adjusted
+
+      larger reserves, to describe the pool’s behavior between two adjacent
+      ticks 𝑇𝑙 and 𝑇𝑢. The virtual reserves act as if the liquidity
+
+      in the entire pool matches that of the current price range. Thus,
+
+      the virtual reserves of the current price range are a transformation
+
+      of the range’s real reserves that allow for the application of the
+
+      constant product formula. In the following we consider a pool with
+
+      reserves 𝑥real and 𝑦real between two adjacent ticks. The price range
+
+      between ticks 𝑇𝑙 and 𝑇𝑢 is given by [𝑆𝑙
+
+      , 𝑆𝑢]. Instead of ensuring
+
+      that the product between the reserves stays constant, the protocol ensures
+      that the product of the virtual reserves 𝑥 and 𝑦 stays
+
+      constant, i.e.,
+
+
+      ```
+
+      𝑥 · 𝑦 = 𝐿^2
+
+      ```
+
+
+      where 𝐿 the liquidity reserved in between ticks 𝑇𝑙 and 𝑇𝑢 [14].
+
+      Further, the marginal price is given by 𝑆 = 𝑦/𝑥. The following
+
+      relationship then holds between the virtual reserves, liquidity, and
+
+      marginal price:
+
+
+      𝑥 = 𝐿√ 𝑆
+
+
+      𝑦 = 𝐿√𝑆.
+
+
+      Thus, the virtual reserves behave according to the constant product
+
+      price curve as shown in Figure 1. Similarly, the real reserves can be
+
+      obtained as follows:
+
+
+      𝑥real = 𝑥 − 𝐿√𝑆𝑢 = 𝐿√𝑆 − 𝐿√𝑆𝑢
+
+
+      𝑦real = 𝑦 − 𝐿√︁𝑆𝑙 = 𝐿√𝑆 − 𝐿√︁𝑆𝑙.
+
+
+      Observe that the pool only needs to maintain sufficient reserves to
+
+      support trading within the price boundaries [𝑆𝑙, 𝑆𝑢]. Thus, the real
+
+      reserves of 𝑋-token shrink as the value of 𝑋 in terms of 𝑌 increases
+
+      and are fully depleted at the upper price boundary 𝑆𝑢. The opposite
+
+      holds for the real reserves of 𝑌-token.
     name: Introduction
     stepItems: []
     uuid: a8421242-16c4-4e2b-aafc-0d93be135acc
