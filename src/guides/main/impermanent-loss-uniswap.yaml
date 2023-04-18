@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-04-18T21:00:29.865Z'
+created: '2023-04-18T21:01:21.704Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -189,7 +189,11 @@ steps:
     uuid: 6b866ac8-1096-4cbc-bf99-469bb663e7ff
   - content: ''
     name: Your Info
-    stepItems: []
+    stepItems:
+      - label: Your Info
+        required: true
+        type: PublicShortInput
+        uuid: abbc5872-5e11-49ee-b25f-de5b7c25ef21
     uuid: a6e8b409-912f-433b-ada4-750492a31a60
 thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/impermanent_loss.png
 uuid: impermanent-loss-uniswap
