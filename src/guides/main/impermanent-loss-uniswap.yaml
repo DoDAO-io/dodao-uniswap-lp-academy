@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-04-18T20:56:18.286Z'
+created: '2023-04-18T21:00:29.865Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -119,7 +119,7 @@ steps:
       <div align="center">
 
       <img
-      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681851323051_impermanent_loss.svg"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681851459517_impermanent_loss.png"
       />
 
       </div>
@@ -127,21 +127,30 @@ steps:
 
       ### Factors Impacting Impermanent Loss 
 
-      1. Price volatility: The main factor contributing to impermanent loss is
-      the price volatility of the assets in the liquidity pool. If the price of
-      one asset in the pair appreciates or depreciates significantly compared to
-      the other, it can lead to a larger impermanent loss.
 
-      2. Pool's token weights: Token weights in the liquidity pool can also
-      impact impermanent loss. In most AMMs, the weights are 50/50, meaning that
-      both tokens contribute equally to the pool's value. However, some pools
-      have different weights, which can affect the extent of the impermanent
-      loss.
+      The factors that impact impermanent loss are:
 
-      3. Trading volume: Trading volume in the pool affects the fees earned by
-      liquidity providers, which can help offset impermanent loss. Higher
-      trading volumes generate more fees, potentially mitigating the impact of
-      impermanent loss.
+
+      1. **Price volatility**: The greater the price volatility of the assets in
+      a liquidity pool, the higher the potential for impermanent loss. As the
+      prices of the assets in the pool diverge, the value of the LP's position
+      can become less than if they had simply held onto the assets.
+
+
+      2. **Asset correlation**: The degree to which the assets in the liquidity
+      pool are correlated can also impact impermanent loss. If the assets are
+      positively correlated, their prices will generally move in the same
+      direction, potentially reducing impermanent loss. However, if the assets
+      are negatively correlated or have no correlation, their prices may diverge
+      more, increasing the risk of impermanent loss.
+
+
+      3. **Time in the pool**: The duration for which a liquidity provider keeps
+      their assets in the pool can impact impermanent loss. Generally, the
+      longer an LP's assets stay in the pool, the greater the chance that the
+      assets' prices will diverge, leading to impermanent loss. However, it's
+      essential to note that impermanent loss can also be mitigated over time as
+      fees earned from the pool can offset the loss.
 
     name: Factors impacting IL
     stepItems: []
