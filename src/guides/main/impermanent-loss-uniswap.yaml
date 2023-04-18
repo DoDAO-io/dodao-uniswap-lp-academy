@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-04-18T21:01:21.704Z'
+created: '2023-04-18T21:02:22.932Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -190,7 +190,7 @@ steps:
   - content: ''
     name: Your Info
     stepItems:
-      - label: Your Info
+      - label: Nickname
         required: true
         type: PublicShortInput
         uuid: abbc5872-5e11-49ee-b25f-de5b7c25ef21
