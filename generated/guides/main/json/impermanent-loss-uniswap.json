@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What is Impermanent loss and how to minimize it",
-  "created": "2023-04-18T20:36:20.543Z",
+  "created": "2023-04-18T20:56:18.286Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -24,7 +24,7 @@
       "uuid": "78e4a613-4139-4942-9121-bdd374e95c6a"
     },
     {
-      "content": "### Impermanent Loss Maths\nHere we take the example of Uniswap V2 as the maths is much easier to understand.\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681850165272_impermanent_loss.png\" />\n</div>\n\n### Factors Impacting Impermanent Loss \n1. Price volatility: The main factor contributing to impermanent loss is the price volatility of the assets in the liquidity pool. If the price of one asset in the pair appreciates or depreciates significantly compared to the other, it can lead to a larger impermanent loss.\n2. Pool's token weights: Token weights in the liquidity pool can also impact impermanent loss. In most AMMs, the weights are 50/50, meaning that both tokens contribute equally to the pool's value. However, some pools have different weights, which can affect the extent of the impermanent loss.\n3. Trading volume: Trading volume in the pool affects the fees earned by liquidity providers, which can help offset impermanent loss. Higher trading volumes generate more fees, potentially mitigating the impact of impermanent loss.\n\n",
+      "content": "### Impermanent Loss Maths\nHere we take the example of Uniswap V2 as the maths is much easier to understand.\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681851323051_impermanent_loss.svg\" />\n</div>\n\n### Factors Impacting Impermanent Loss \n1. Price volatility: The main factor contributing to impermanent loss is the price volatility of the assets in the liquidity pool. If the price of one asset in the pair appreciates or depreciates significantly compared to the other, it can lead to a larger impermanent loss.\n2. Pool's token weights: Token weights in the liquidity pool can also impact impermanent loss. In most AMMs, the weights are 50/50, meaning that both tokens contribute equally to the pool's value. However, some pools have different weights, which can affect the extent of the impermanent loss.\n3. Trading volume: Trading volume in the pool affects the fees earned by liquidity providers, which can help offset impermanent loss. Higher trading volumes generate more fees, potentially mitigating the impact of impermanent loss.\n\n",
       "name": "Factors impacting IL",
       "stepItems": [],
       "uuid": "b0c65af2-a377-4ab6-92f7-5efca58d9873"
