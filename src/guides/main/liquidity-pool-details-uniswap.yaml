@@ -1,6 +1,6 @@
 categories: []
 content: What are Ticks and Ranges in Uniswap V3
-created: '2023-04-19T12:06:00.693Z'
+created: '2023-04-19T13:45:51.582Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -124,7 +124,7 @@ steps:
       and are fully depleted at the upper price boundary 𝑆𝑢. The opposite
 
       holds for the real reserves of 𝑌-token.
-    name: Introduction
+    name: Liquidity Graph
     stepItems: []
     uuid: a8421242-16c4-4e2b-aafc-0d93be135acc
   - content: ''
