@@ -1,6 +1,6 @@
 categories: []
 content: What are Ticks and Ranges in Uniswap V3
-created: '2023-04-19T14:43:05.273Z'
+created: '2023-04-19T16:00:33.822Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -36,14 +36,48 @@ steps:
     stepItems: []
     uuid: a8421242-16c4-4e2b-aafc-0d93be135acc
   - content: ''
-    name: Real Reserves
+    name: Virtual Reserves
     stepItems: []
     uuid: 1a443116-13c7-4830-94ce-e345fd0b92c4
   - content: ''
     name: What is a Tick?
     stepItems: []
     uuid: 92dd24dd-dc3f-4780-99f5-039abc822b17
-  - content: ''
+  - content: >
+      ### Price Graph with Ticks
+
+      <div align="center">
+
+      <img
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681919204016_08_price_grap_with_ticks.png"
+      />
+
+      </div>
+
+
+
+      ### When traders buy "token-0"
+
+
+      <div align="center">
+
+      <img
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681919784044_08_price_grap_with_ticks_2.png"
+      />
+
+      </div>
+
+
+      ### When traders buy "token-1"
+
+
+      <div align="center">
+
+      <img
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681920018141_08_price_grap_with_ticks_3.png"
+      />
+
+      </div>
     name: Price Graph with Ticks
     stepItems: []
     uuid: a22bf566-4e7b-44c5-bda1-390176f395d6
