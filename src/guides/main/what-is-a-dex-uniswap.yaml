@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-14T16:02:11.049Z'
+created: '2023-04-19T16:28:30.540Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -245,8 +245,7 @@ steps:
       in return, causing the product of the pool to remain constant. The price
       of each token is determined by the ratio of the number of tokens in the
       pool. If more people buy token A, the price of token A will increase and
-      the price of token B will decrease, and vice versa. Popular examples of
-      Constant Product AMMs include Uniswap, SushiSwap, and PancakeSwap.
+      the price of token B will decrease, and vice versa. 
 
 
       ### Constant Sum AMM
