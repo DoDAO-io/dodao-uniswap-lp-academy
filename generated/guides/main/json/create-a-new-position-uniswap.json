@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "How to provide liquidity and create a new position",
-  "created": "2023-04-19T12:00:39.823Z",
+  "created": "2023-04-19T17:52:01.080Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -18,7 +18,7 @@
       "uuid": "48b10b21-2901-47a0-a8e0-a7bbccd227a2"
     },
     {
-      "content": "https://support.uniswap.org/hc/en-us/articles/7423194619661-How-to-provide-liquidity-on-Uniswap-V3",
+      "content": "https://support.uniswap.org/hc/en-us/articles/7423194619661-How-to-provide-liquidity-on-Uniswap-V3\n\nhttps://support.uniswap.org/hc/en-us/articles/7423450471437-Provide-Liquidity-on-Uniswap-V3",
       "name": "Your Info",
       "stepItems": [
         {
