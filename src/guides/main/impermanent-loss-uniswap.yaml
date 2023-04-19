@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-04-18T21:02:22.932Z'
+created: '2023-04-19T09:40:51.585Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -177,7 +177,8 @@ steps:
       4. **Utilize risk management tools**: Some DeFi platforms offer risk
       management tools that allow you to set limits on your trades or
       automatically adjust your positions to minimize the risk of loss. These
-      tools can also be helpful when trading on Uniswap V3.
+      tools can also be helpful when trading on Uniswap V3. **It is important to
+      be aware of the security risks associated with using third party tools.**
 
 
       It is important to note that impermanent loss is only "realized" when a
