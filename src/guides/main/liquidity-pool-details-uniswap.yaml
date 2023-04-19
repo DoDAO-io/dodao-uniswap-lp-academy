@@ -1,6 +1,6 @@
 categories: []
 content: What are Ticks and Ranges in Uniswap V3
-created: '2023-04-19T17:53:14.933Z'
+created: '2023-04-19T17:53:51.796Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -204,6 +204,9 @@ steps:
       and are fully depleted at the upper price boundary 𝑆𝑢. The opposite
 
       holds for the real reserves of 𝑌-token.
+
+
+      https://blog.woodstockfund.com/2022/10/10/uniswap-v3-interesting-facts/
     name: Rough Work
     stepItems: []
     uuid: 0ef2865a-f456-4a52-9f19-8c288dcac086
