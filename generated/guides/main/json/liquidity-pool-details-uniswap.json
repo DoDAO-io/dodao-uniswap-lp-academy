@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What are Ticks and Ranges in Uniswap V3",
-  "created": "2023-04-19T16:00:33.822Z",
+  "created": "2023-04-19T17:53:14.933Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -18,8 +18,8 @@
       "uuid": "a8421242-16c4-4e2b-aafc-0d93be135acc"
     },
     {
-      "content": "",
-      "name": "Virtual Reserves",
+      "content": "<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681926781696_09_real_reserves.png\" />\n</div>",
+      "name": "Real Reserves Graph",
       "stepItems": [],
       "uuid": "1a443116-13c7-4830-94ce-e345fd0b92c4"
     },
