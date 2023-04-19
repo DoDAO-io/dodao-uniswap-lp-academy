@@ -1,6 +1,6 @@
 categories: []
 content: What are Ticks and Ranges in Uniswap V3
-created: '2023-04-19T13:45:51.582Z'
+created: '2023-04-19T13:59:17.888Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -12,11 +12,27 @@ steps:
   - content: >-
       ### Uniswap V2 - Liquidity Graph
 
-      ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681905952757_07_-%20v2_v3%20-%20liquidity%20chart.png)
+
+      <div align="center">
+
+      <img
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912476448_07_v2_liquidity_chart.png"
+      />
+
+      </div>
 
 
+      ### Uniswap V3 - Liquidity Graph
 
-      # Coming Soon        
+
+      <div align="center">
+
+      <img
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912741645_07_v3_liquidity_chart.png"
+      />
+
+      </div>
+
 
 
       . Uniswap V3 liquidity providers specify the price range
