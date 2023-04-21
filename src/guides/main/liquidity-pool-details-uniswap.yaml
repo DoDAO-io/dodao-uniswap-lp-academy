@@ -1,6 +1,6 @@
 categories: []
 content: What are Ticks and Ranges in Uniswap V3
-created: '2023-04-21T17:35:43.488Z'
+created: '2023-04-21T17:53:16.100Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -177,9 +177,10 @@ steps:
       <div align="center">
 
       <img style="max-height:400px;margin-bottom:30px"
-      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681919204016_08_price_grap_with_ticks.png"/>
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1682099529192_08_graphs_with_tciks_0.png"/>
 
       </div>
+
 
 
 
@@ -189,17 +190,16 @@ steps:
       <div align="center">
 
       <img style="max-height:400px;margin-bottom:30px" 
-       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681919784044_08_price_grap_with_ticks_2.png" />
+       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1682099557308_08_graphs_with_tciks_1.png" />
       </div>
 
 
       ### When traders buy "token-1"
 
-
       <div align="center">
 
       <img style="max-height:400px;margin-bottom:30px" 
-      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681920018141_08_price_grap_with_ticks_3.png"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1682099579132_08_graphs_with_tciks_2.png"
       />
 
       </div>
