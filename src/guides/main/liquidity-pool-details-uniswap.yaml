@@ -1,6 +1,6 @@
 categories: []
 content: What are Ticks and Ranges in Uniswap V3
-created: '2023-04-21T18:38:30.790Z'
+created: '2023-04-21T18:42:45.792Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -71,6 +71,48 @@ steps:
     name: Liquidity Graph
     stepItems: []
     uuid: a8421242-16c4-4e2b-aafc-0d93be135acc
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 7928fccc
+        choices:
+          - content: Concentrated within a specific price range
+            key: 54328c77
+          - content: Uniformly across the entire price range
+            key: 7928fccc
+          - content: Only at the current market price
+            key: f8cfd3b3
+          - content: Liquidity is not spread across any price range
+            key: d21095d2
+        content: |+
+          In Uniswap v2, how is liquidity spread across the price range?
+
+        type: SingleChoice
+        uuid: 8e13ac1f-4ac8-4849-bc5e-2d4c2903c60c
+      - answerKeys:
+          - dbf7d322
+        choices:
+          - content: >-
+              Uniswap v3 allows liquidity providers to deposit two tokens in 50,
+              50 ratio
+            key: 4cad5252
+          - content: Uniswap v3 has no fees for liquidity providers
+            key: d2a3c819
+          - content: >-
+              Uniswap v3 allows liquidity providers to specify a custom price
+              range for their liquidity
+            key: dbf7d322
+          - content: >-
+              There is no difference in liquidity provision between Uniswap v2
+              and v3
+            key: b2d6705b
+        content: >-
+          What is the main difference between Uniswap v2 and Uniswap v3
+          regarding liquidity provision?
+        type: SingleChoice
+        uuid: a93b7211-9002-4a31-841d-0ffd4435f914
+    uuid: fd372cf5-73cc-4fc2-b6cf-6a2e8d471c79
   - content: >-
       ## Real and Virtual Reserves
 
@@ -250,119 +292,5 @@ steps:
         type: PublicShortInput
         uuid: 07d8d83c-6014-499c-9a85-1f4f66a1d50c
     uuid: f6e88272-f3b2-451c-a85d-629747fc87d2
-  - content: >-
-
-
-      . Uniswap V3 liquidity providers specify the price range
-
-      [𝑆𝑙, 𝑆𝑢] in which they wish to supply liquidity (cf. Figure 2b). Their
-
-      liquidity then only supports trading within this price range. Thus,
-
-      Uniswap V3 has an increased liquidity concentration around the
-
-      current price and thereby increases the market’s capital efficiency.
-
-      We note that liquidity providers can only choose the price boundaries of
-      their liquidity position from a predefined set of the pool’s
-
-      initialized ticks. There is a tick at every integer exponent of 1.0001,
-
-      and the price of tick 𝑖 (𝑖 ∈ Z) is given by
-
-
-      𝑆 (𝑖) = 1.0001𝑖
-
-      .
-
-      Consequently, each tick is 0.01% (one basis points (bps)) away from
-
-      each neighboring tick. Not every tick can be initialized in a pool,
-
-      instead, only ticks with indexes divisible by the pool’s predefined
-
-      tick spacing (𝑡𝑠 ) can be initialized. Figure 2c shows a schematic
-
-      representation of a liquidity allocation across a liquidity pool’s
-
-      price range. The liquidity is no longer constant across the entire
-
-      price range, instead, only between the pool’s initialized ticks.
-
-      Uniswap V3 utilizes the concept of virtual reserves, adjusted
-
-      larger reserves, to describe the pool’s behavior between two adjacent
-      ticks 𝑇𝑙 and 𝑇𝑢. The virtual reserves act as if the liquidity
-
-      in the entire pool matches that of the current price range. Thus,
-
-      the virtual reserves of the current price range are a transformation
-
-      of the range’s real reserves that allow for the application of the
-
-      constant product formula. In the following we consider a pool with
-
-      reserves 𝑥real and 𝑦real between two adjacent ticks. The price range
-
-      between ticks 𝑇𝑙 and 𝑇𝑢 is given by [𝑆𝑙
-
-      , 𝑆𝑢]. Instead of ensuring
-
-      that the product between the reserves stays constant, the protocol ensures
-      that the product of the virtual reserves 𝑥 and 𝑦 stays
-
-      constant, i.e.,
-
-
-      ```
-
-      𝑥 · 𝑦 = 𝐿^2
-
-      ```
-
-
-      where 𝐿 the liquidity reserved in between ticks 𝑇𝑙 and 𝑇𝑢 [14].
-
-      Further, the marginal price is given by 𝑆 = 𝑦/𝑥. The following
-
-      relationship then holds between the virtual reserves, liquidity, and
-
-      marginal price:
-
-
-      𝑥 = 𝐿√ 𝑆
-
-
-      𝑦 = 𝐿√𝑆.
-
-
-      Thus, the virtual reserves behave according to the constant product
-
-      price curve as shown in Figure 1. Similarly, the real reserves can be
-
-      obtained as follows:
-
-
-      𝑥real = 𝑥 − 𝐿√𝑆𝑢 = 𝐿√𝑆 − 𝐿√𝑆𝑢
-
-
-      𝑦real = 𝑦 − 𝐿√︁𝑆𝑙 = 𝐿√𝑆 − 𝐿√︁𝑆𝑙.
-
-
-      Observe that the pool only needs to maintain sufficient reserves to
-
-      support trading within the price boundaries [𝑆𝑙, 𝑆𝑢]. Thus, the real
-
-      reserves of 𝑋-token shrink as the value of 𝑋 in terms of 𝑌 increases
-
-      and are fully depleted at the upper price boundary 𝑆𝑢. The opposite
-
-      holds for the real reserves of 𝑌-token.
-
-
-      https://blog.woodstockfund.com/2022/10/10/uniswap-v3-interesting-facts/
-    name: Rough Work
-    stepItems: []
-    uuid: 0ef2865a-f456-4a52-9f19-8c288dcac086
 thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_pool_details.png
 uuid: liquidity-pool-details-uniswap
