@@ -1,6 +1,6 @@
 categories: []
 content: What are Ticks and Ranges in Uniswap V3
-created: '2023-04-21T17:29:33.338Z'
+created: '2023-04-21T17:33:59.264Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -77,7 +77,11 @@ steps:
       Assume the ETH/USDC pool has the following real reserves:
 
 
-      Real reserves: 50 ETH and 100,000 USDC
+      ```
+
+      Real reserves: 50 ETH and 100,000 USDC (Initial Value)
+
+      ```
 
       Now, a liquidity provider (LP) wants to add liquidity within the price
       range of 1,800 USDC/ETH to 2,200 USDC/ETH. They decide to add 10 ETH and
@@ -87,14 +91,22 @@ steps:
       After adding the liquidity, the pool's real reserves will be updated:
 
 
+      ```
+
       Real reserves: 60 ETH (50 + 10) and 120,000 USDC (100,000 + 20,000)
+
+      ```
+
 
       However, only the added liquidity by the LP falls within the specified
       price range (1,800 to 2,200 USDC/ETH). Therefore:
 
+      ```
 
       Virtual reserves: 10 ETH and 20,000 USDC (the liquidity active within the
       price range)
+
+      ```
 
       When a user wants to swap tokens within the 1,800 to 2,200 USDC/ETH price
       range, the virtual reserves (10 ETH and 20,000 USDC) will be used to
