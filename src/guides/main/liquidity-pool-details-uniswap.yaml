@@ -1,6 +1,6 @@
 categories: []
 content: What are Ticks and Ranges in Uniswap V3
-created: '2023-04-21T17:53:16.100Z'
+created: '2023-04-21T18:38:30.790Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -9,8 +9,20 @@ name: Liquidity Pool Details
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
-  - content: >
+  - content: >+
       ### Uniswap V2 - Liquidity Graph
+
+      In Uniswap v2, liquidity providers (LPs) deposit an equal value of two
+      tokens (e.g., ETH and DAI) to create a liquidity pool. In our example, the
+      pool consists of 100 ETH and 150,000 DAI. The liquidity in Uniswap v2 is
+      spread uniformly across the entire price range, from 0 to infinity. This
+      means that liquidity is available for trading at all price levels.
+
+
+      When a user trades in the pool, the price is determined by the current
+      ratio of the two assets in the pool, following the constant product
+      formula (x * y = k). In our example, the initial ratio is 100 ETH *
+      150,000 DAI = 15,000,000.
 
 
       <div align="center">
@@ -24,6 +36,20 @@ steps:
 
       ### Uniswap V3 - Liquidity Graph
 
+      Uniswap v3 introduces the concept of concentrated liquidity, which allows
+      liquidity providers to specify a price range for their liquidity. Instead
+      of providing liquidity across the entire price spectrum, LPs can choose
+      custom price ranges where they believe most of the trading will happen.
+      This allows them to earn more fees for a given amount of deposited
+      capital.
+
+
+      In our example, if an LP believes that the ETH/DAI price will stay between
+      1,400 DAI and 1,600 DAI, they can deposit their liquidity within this
+      range. This effectively concentrates their liquidity around the expected
+      price, which can lead to more efficient capital usage and potentially
+      higher returns.
+
 
       <div align="center">
 
@@ -32,6 +58,16 @@ steps:
       />
 
       </div>
+
+
+      To sum up, in Uniswap v2, liquidity is spread uniformly across the entire
+      price range, while in Uniswap v3, liquidity providers can concentrate
+      their liquidity within custom price ranges, which can lead to more
+      efficient capital usage and potentially higher returns.
+
+
+
+
     name: Liquidity Graph
     stepItems: []
     uuid: a8421242-16c4-4e2b-aafc-0d93be135acc
