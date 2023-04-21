@@ -1,6 +1,6 @@
 categories: []
 content: What are Ticks and Ranges in Uniswap V3
-created: '2023-04-21T18:42:45.792Z'
+created: '2023-04-21T18:59:17.936Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -200,6 +200,48 @@ steps:
     name: Real Reserves Graph
     stepItems: []
     uuid: 1a443116-13c7-4830-94ce-e345fd0b92c4
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - bbf1dfca
+        choices:
+          - content: The actual token amounts held in the pool.
+            key: 8cd2ef9a
+          - content: The liquidity active within a specific price range.
+            key: bbf1dfca
+          - content: The exchange rate between the two tokens in a pool.
+            key: 8866dd66
+          - content: The constant product formula used to calculate exchange rates.
+            key: 00ca6887
+        content: What do virtual reserves represent in Uniswap V3?
+        type: SingleChoice
+        uuid: 049b82da-9fab-4c58-8780-43fefa665691
+      - answerKeys:
+          - 4a4f804c
+        choices:
+          - content: >-
+              The real reserves are used to determine the exchange rate and
+              potential slippage.
+            key: fb266b4b
+          - content: >-
+              The virtual reserves are used to determine the exchange rate and
+              potential slippage.
+            key: 4a4f804c
+          - content: >-
+              The constant sum formula is used to determine the exchange rate
+              and potential slippage.
+            key: a73458f1
+          - content: >-
+              The user experiences higher slippage or fails due to lack of
+              liquidity.
+            key: a118b706
+        content: >-
+          What happens when a user wants to swap tokens within the specified
+          price range in Uniswap V3?
+        type: SingleChoice
+        uuid: 24176793-fd0b-425e-ab72-850174767296
+    uuid: 00b9efec-9a67-4f81-94b6-5458d7ad53e2
   - content: >
       ### Ticks in Uniswap V3
 
@@ -249,8 +291,53 @@ steps:
     name: What is a Tick?
     stepItems: []
     uuid: 92dd24dd-dc3f-4780-99f5-039abc822b17
+  - content: ''
+    name: Evaulation
+    stepItems:
+      - answerKeys:
+          - 46cb640b
+        choices:
+          - content: >-
+              To represent a specific price point within the price range of a
+              liquidity pool.
+            key: 46cb640b
+          - content: To calculate the exchange rate between the two tokens in a pool.
+            key: 86e5b473
+          - content: >-
+              To determine the amount of liquidity available for trading within
+              a specific price range.
+            key: 982996f2
+          - content: >-
+              To represent the liquidity that is active within a specific price
+              range.
+            key: 35db8d6e
+        content: What is the purpose of ticks in Uniswap V3?
+        type: SingleChoice
+        uuid: 01ef36c3-60c1-466b-87b2-e9df718ca6b9
+      - answerKeys:
+          - 1c4c72da
+        choices:
+          - content: price = tick index * 1.0001
+            key: e45c9948
+          - content: price = 1.0001^(tick index)
+            key: 1c4c72da
+          - content: price = tick index / 1.0001
+            key: '1101e117'
+          - content: price = log(tick index) / log(1.0001)
+            key: 91af163f
+        content: How is the price at a given tick determined in Uniswap V3?
+        type: SingleChoice
+        uuid: d8832f64-0b1b-4845-8a1a-778f537471c5
+    uuid: 4fe40039-28ad-4f06-ad2f-b1e8d3dcbcfd
   - content: >
       ### Price Graph with Ticks
+
+      In Uniswap V3, the price graph represents the relationship between two
+      tokens in a liquidity pool, token-0 and token-1. The amount of token-0 in
+      the pool is denoted as X, and the amount of token-1 in the pool is denoted
+      as Y. The price of token-0 in terms of token-1 is calculated using the
+      constant product formula, where X * Y = k.
+
 
       <div align="center">
 
@@ -264,6 +351,15 @@ steps:
 
       ### When traders buy "token-0"
 
+      In this scenario, as token-0 is slowly exchanged for token-1, the amount
+      of token-0 (X) in the pool decreases while the amount of token-1 (Y)
+      increases. As a result, the price of token-0 in terms of token-1 will
+      increase, following the constant product formula (since X is decreasing
+      and Y is increasing, k remains constant). The price graph will show an
+      upward curve, indicating a rising price for token-0 as the available
+      supply decreases.
+
+
 
       <div align="center">
 
@@ -272,7 +368,18 @@ steps:
       </div>
 
 
+
       ### When traders buy "token-1"
+
+
+      In this scenario, as token-1 is slowly exchanged for token-0, the amount
+      of token-1 (Y) in the pool decreases while the amount of token-0 (X)
+      increases. As a result, the price of token-0 in terms of token-1 will
+      decrease, following the constant product formula (since X is increasing
+      and Y is decreasing, k remains constant). The price graph will show a
+      downward curve, indicating a falling price for token-0 as the available
+      supply increases.
+
 
       <div align="center">
 
@@ -281,6 +388,15 @@ steps:
       />
 
       </div>
+
+
+      It is important to note that in Uniswap V3, liquidity is concentrated
+      within specific price ranges determined by ticks, and liquidity providers
+      can earn fees only when the price is within their specified range. This
+      means that the price graph will not be a smooth curve but rather a series
+      of connected line segments corresponding to the different liquidity
+      positions within the specified price ranges. However, the overall trend in
+      the price graph will still follow the behavior described in each scenario.
     name: Price Graph with Ticks
     stepItems: []
     uuid: a22bf566-4e7b-44c5-bda1-390176f395d6
