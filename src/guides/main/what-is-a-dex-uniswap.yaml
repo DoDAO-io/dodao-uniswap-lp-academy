@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-21T17:12:34.318Z'
+created: '2023-04-21T20:04:21.789Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -37,7 +37,7 @@ steps:
       <div align="center">
 
       <img style="max-height:400px;margin-bottom:30px"
-      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682097137294_order_book.png"/>
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107243577_order_book.png"/>
 
       </div>
 
@@ -68,6 +68,7 @@ steps:
       </div>
 
 
+
       AMMs are used in DeFi platforms and are popular for their simplicity,
       transparency, and accessibility.
 
@@ -86,6 +87,14 @@ steps:
       liquidity by acting as an intermediary between buyers and sellers. An AMM
       replaces the role of a traditional market maker with a mathematical
       algorithm that determines the price of assets being traded.
+
+
+      <div align="center">
+
+      <img style="max-height:400px;margin-bottom:30px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107290305_amm_logical_diagram.png"/>
+
+      </div>
 
 
       In an AMM, traders can trade cryptocurrencies and other digital assets by
@@ -242,6 +251,13 @@ steps:
       pool. If more people buy token A, the price of token A will increase and
       the price of token B will decrease, and vice versa. 
 
+      <div align="center">
+
+      <img style="max-height:400px;margin-bottom:30px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107381351_constant_product_amm.png"/>
+
+      </div>
+
 
       ### Constant Sum AMM
 
@@ -255,6 +271,14 @@ steps:
       Protocol.
 
 
+      <div align="center">
+
+      <img style="max-height:400px;margin-bottom:30px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107409699_constant_sum_amm.png"/>
+
+      </div>
+
+
       ### Hybrid AMM
 
       Hybrid AMMs combine features of both constant product and constant sum
@@ -264,6 +288,14 @@ steps:
       the number of tokens in the pool, as well as the sum of the tokens in the
       pool. Hybrid AMMs are less common than constant product AMMs, but they
       have been implemented in several DEXs, such as Curve and Bancor.
+
+
+      <div align="center">
+
+      <img style="max-height:400px;margin-bottom:30px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682107429503_hybrid_amm.png"/>
+
+      </div>
 
 
       ### Comparing
