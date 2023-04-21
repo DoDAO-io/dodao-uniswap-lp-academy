@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-21T13:58:57.712Z'
+created: '2023-04-21T13:59:51.744Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -53,6 +53,7 @@ steps:
       sufficient funds for trading and adjusts the price according to the
       trading volume and liquidity. 
 
+      <div align="center">
 
       <img style="max-height:400px;margin-bottom:30px"
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/what-is-a-dex-uniswap/1682085518204_10_amm_basic.png"/>
