@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What are Ticks and Ranges in Uniswap V3",
-  "created": "2023-04-21T17:33:59.264Z",
+  "created": "2023-04-21T17:35:43.488Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -30,7 +30,7 @@
       "uuid": "92dd24dd-dc3f-4780-99f5-039abc822b17"
     },
     {
-      "content": "### Price Graph with Ticks\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681919204016_08_price_grap_with_ticks.png\" />\n</div>\n\n\n### When traders buy \"token-0\"\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681919784044_08_price_grap_with_ticks_2.png\" />\n</div>\n\n### When traders buy \"token-1\"\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681920018141_08_price_grap_with_ticks_3.png\" />\n</div>\n",
+      "content": "### Price Graph with Ticks\n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681919204016_08_price_grap_with_ticks.png\"/>\n</div>\n\n\n### When traders buy \"token-0\"\n\n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" \n src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681919784044_08_price_grap_with_ticks_2.png\" />\n</div>\n\n### When traders buy \"token-1\"\n\n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\"  src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681920018141_08_price_grap_with_ticks_3.png\" />\n</div>\n",
       "name": "Price Graph with Ticks",
       "stepItems": [],
       "uuid": "a22bf566-4e7b-44c5-bda1-390176f395d6"
