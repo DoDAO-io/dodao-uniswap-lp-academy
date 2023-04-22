@@ -1,6 +1,6 @@
 categories: []
 content: How to provide liquidity and create a new position
-created: '2023-04-22T19:20:38.586Z'
+created: '2023-04-22T19:38:42.530Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -141,6 +141,27 @@ steps:
     name: Select Amount
     stepItems: []
     uuid: 2aab2c92-3821-4d35-b14c-4d65b7d3ea6d
+  - content: >
+      When you are prepared to proceed, you can submit the transaction. Before
+      doing so, you may have to authorize the Uniswap v3 router contract to use
+      tokens on your behalf, but this is only necessary the initial time you
+      provide liquidity using a token.
+
+
+      After the approval transaction is confirmed, you can preview the
+      transaction, examine the details, and then click on "Add" to initiate the
+      transaction in your wallet.
+
+
+      <div align="center">
+
+      <img style="max-height:600px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682192299983_approve_transaction_4.png"/>
+
+      </div>
+    name: Approve Transaction
+    stepItems: []
+    uuid: a6b97c30-179a-46c1-93ec-e20467f6fe5d
   - content: >-
       https://support.uniswap.org/hc/en-us/articles/7423194619661-How-to-provide-liquidity-on-Uniswap-V3
 
