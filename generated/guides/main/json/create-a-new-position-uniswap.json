@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "How to provide liquidity and create a new position",
-  "created": "2023-04-19T17:52:01.080Z",
+  "created": "2023-04-22T14:54:39.585Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -12,7 +12,7 @@
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "\n# Coming Soon        ",
+      "content": "Uniswap V3 enables Liquidity Providers to concentrate their capital within specific price ranges, allowing them to provide more liquidity at preferred prices. Unlike Uniswap V2, which required all users to provide liquidity across the entire price curve from 0 to infinity, Uniswap V3 allows LPs to selectively allocate capital within the price range they anticipate to yield the highest return.\n\nThis tutorial will guide you through the process of providing liquidity using the Uniswap application.\n\n![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175276579_select_pair_1.png)\n",
       "name": "Introduction",
       "stepItems": [],
       "uuid": "48b10b21-2901-47a0-a8e0-a7bbccd227a2"
