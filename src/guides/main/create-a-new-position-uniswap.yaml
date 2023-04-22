@@ -1,6 +1,6 @@
 categories: []
 content: How to provide liquidity and create a new position
-created: '2023-04-22T15:04:43.695Z'
+created: '2023-04-22T15:23:02.947Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -9,7 +9,7 @@ name: Create a New Position
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
-  - content: >+
+  - content: >-
       Uniswap V3 enables Liquidity Providers to concentrate their capital within
       specific price ranges, allowing them to provide more liquidity at
       preferred prices. Unlike Uniswap V2, which required all users to provide
@@ -44,10 +44,10 @@ steps:
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175276579_select_pair_1.png"/>
 
       </div>
-
-
-      ## Select Fee
-
+    name: Select Pair
+    stepItems: []
+    uuid: 48b10b21-2901-47a0-a8e0-a7bbccd227a2
+  - content: >
       After selecting a token pair, the next step is to choose the appropriate
       fee tier. Uniswap V3 offers three fee tiers for each pair:
 
@@ -55,12 +55,12 @@ steps:
       1. 0.01% fee tier: suitable for stablecoin pairs with minimal price risk
       and fees.
 
-      1. 0.05% fee tier: suitable for stabler pairs.
+      2. 0.05% fee tier: suitable for stabler pairs.
 
-      2. 0.30% fee tier: best for less correlated token pairs that are more
+      3. 0.30% fee tier: best for less correlated token pairs that are more
       exposed to significant price movements.
 
-      3. 1.00% fee tier: designed for exotic assets that are highly prone to
+      4. 1.00% fee tier: designed for exotic assets that are highly prone to
       price volatility.
 
       The app will automatically choose the fee tier with the most liquidity,
@@ -83,10 +83,34 @@ steps:
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175799696_select_fees_2.png"/>
 
       </div>
-
-    name: Select Pair and Fee
+    name: Select Fee
     stepItems: []
-    uuid: 48b10b21-2901-47a0-a8e0-a7bbccd227a2
+    uuid: f8fb9a35-a63b-429c-8293-6cf9e3fcdb52
+  - content: >
+      To provide liquidity in Uniswap V3, you need to select a specific price
+      range. It's important to consider the potential price movements of the
+      assets and your willingness to actively manage the position as the market
+      changes. If the price moves beyond the specified range, your position will
+      be concentrated in one asset and won't earn trading fees until it returns
+      to the range. You can also choose to provide liquidity across the full
+      range, but the rate of return will be lower. Tools like the Flipside
+      Uniswap V3 calculator and Defi-lab.xyz can help evaluate the price range,
+      but they are not audited by Uniswap Labs and may not be entirely accurate.
+
+
+      <div align="center">
+
+      <img style="max-height:600px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682176838834_select_range_3.png"/>
+
+      </div>
+    name: Select Range
+    stepItems: []
+    uuid: cf984f74-8001-4a2a-9004-46fc6c6ff4b3
+  - content: ''
+    name: Select Amount
+    stepItems: []
+    uuid: 2aab2c92-3821-4d35-b14c-4d65b7d3ea6d
   - content: >-
       https://support.uniswap.org/hc/en-us/articles/7423194619661-How-to-provide-liquidity-on-Uniswap-V3
 
