@@ -1,6 +1,6 @@
 categories: []
 content: How to provide liquidity and create a new position
-created: '2023-04-22T15:03:38.493Z'
+created: '2023-04-22T15:04:43.695Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -40,7 +40,7 @@ steps:
 
       <div align="center">
 
-      <img style="max-height:400px"
+      <img style="max-height:600px"
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175276579_select_pair_1.png"/>
 
       </div>
@@ -79,7 +79,7 @@ steps:
 
       <div align="center">
 
-      <img style="max-height:400px"
+      <img style="max-height:600px"
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682175799696_select_fees_2.png"/>
 
       </div>
