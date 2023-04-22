@@ -1,6 +1,6 @@
 categories: []
 content: How to provide liquidity and create a new position
-created: '2023-04-22T15:23:02.947Z'
+created: '2023-04-22T19:20:38.586Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -93,8 +93,9 @@ steps:
       changes. If the price moves beyond the specified range, your position will
       be concentrated in one asset and won't earn trading fees until it returns
       to the range. You can also choose to provide liquidity across the full
-      range, but the rate of return will be lower. Tools like the Flipside
-      Uniswap V3 calculator and Defi-lab.xyz can help evaluate the price range,
+      range, but the rate of return will be lower. Tools like the
+      [defi-lab.xyz](https://defi-lab.xyz/) and
+      [uniswap.fish](https://uniswap.fish/) can help evaluate the price range,
       but they are not audited by Uniswap Labs and may not be entirely accurate.
 
 
@@ -107,7 +108,36 @@ steps:
     name: Select Range
     stepItems: []
     uuid: cf984f74-8001-4a2a-9004-46fc6c6ff4b3
-  - content: ''
+  - content: >-
+      Once you have chosen your pair, fee tier, and price range, you can
+      determine the amount of capital to invest in the position. Simply enter a
+      value in one of the "Deposit Amounts" boxes, and the corresponding amount
+      in the other box will automatically appear.
+
+
+      The ratio between the two amounts depends on where your price range falls
+      in relation to the market price. If your price range is skewed towards one
+      side of the market price, you will provide more of that particular asset.
+      This doesn't necessarily have to be a 50/50 split, as some strategies may
+      prefer a different ratio.
+
+
+      You can adjust the ratio by moving the price range left or right on the
+      chart, or by dragging the minimum or maximum price boundary. The deposit
+      amount you enter will remain constant, while the amount of the second
+      asset will adjust based on the new ratio and price range.
+
+
+      If your chosen price range doesn't include the current market price, you
+      only need to provide one asset instead of both.
+
+
+      <div align="center">
+
+      <img style="max-height:600px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/create-a-new-position-uniswap/1682191211191_select_amount_04.png"/>
+
+      </div>
     name: Select Amount
     stepItems: []
     uuid: 2aab2c92-3821-4d35-b14c-4d65b7d3ea6d
