@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-04-21T20:04:21.789Z'
+created: '2023-04-22T21:53:46.364Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -77,6 +77,10 @@ steps:
     name: Introduction
     stepItems: []
     uuid: b8f8ea33-460f-4e82-bb89-20e3ed6d6d4e
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: abab4326-9796-401c-bfed-4d529e3081a2
   - content: >-
       ### AMM Intro
 
@@ -171,6 +175,10 @@ steps:
     name: How AMM Works
     stepItems: []
     uuid: 6b4b78d4-fcb2-40db-8730-3f5852f414d0
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 95f27fdc-4fac-40dd-843a-2a9e6dcef4c8
   - content: >+
       ### What are Liquidity Pools?
 
@@ -232,6 +240,10 @@ steps:
     name: Liquidity Pool
     stepItems: []
     uuid: cb76826a-cbdd-4e31-8e22-a36600d004b3
+  - content: ''
+    name: Evaulation
+    stepItems: []
+    uuid: 2ff4d1a9-5897-4638-a432-9d509ea0cbf7
   - content: >
       There are several types of AMMs, each with their own unique features and
       characteristics. In this answer, we'll explore the three most common types
@@ -337,6 +349,10 @@ steps:
     name: Type of AMMs
     stepItems: []
     uuid: d582ba24-8c76-40ce-9ca2-b83d5625b3b9
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 6f8b42c1-2725-4d6d-afc4-265c8b18aea0
   - content: >-
       ### Conclusion
 
