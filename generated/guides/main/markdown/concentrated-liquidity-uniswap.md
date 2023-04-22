@@ -41,6 +41,45 @@ Uniswap V3's concentrated liquidity models address some of the key limitations o
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### What is the formula used by Constant Product AMMs to determine token prices?  
+     
+- [ ]  x + y = k
+- [x]  x * y = k
+- [ ]  x - y = k
+- [ ]  x / y = k
+
+
+
+
+
+##### Which of the following is a limitation of Constant Product AMMs?  
+     
+- [x]  Capital Inefficiency
+- [ ]  High Liquidity Concentration
+- [ ]  Flexible Customization Options
+- [ ]  Low Slippage
+
+
+
+
+
+##### How does Uniswap V3 address some of the limitations of Constant Product AMMs?  
+     
+- [ ]  By using a different formula for token prices
+- [ ]  By offering a centralized exchange model
+- [x]  By offering concentrated liquidity models
+- [ ]  By eliminating the need for liquidity providers
+
+    
+
+
+---
 ## Concentrated Liquidity
 
 ### What is Concentrated Liquidity AMM?
@@ -75,6 +114,45 @@ By focusing their liquidity on narrower price ranges, Alice, Bob, and Carols can
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### What is the main difference between traditional AMMs and concentrated liquidity AMMs?  
+     
+- [ ]  Concentrated liquidity AMMs require more tokens to be deposited
+- [ ]  Traditional AMMs offer better price stability
+- [x]  Concentrated liquidity AMMs allow liquidity providers to choose a specific price range for providing liquidity
+- [ ]  Traditional AMMs have lower risks of impermanent loss
+
+
+
+
+
+##### How does concentrated liquidity AMM help reduce the risk of impermanent loss?  
+     
+- [ ]  By eliminating price fluctuations
+- [x]  By giving users the choice over the price range to deposit their liquidity
+- [ ]  By using a different token pricing formula
+- [ ]  By increasing the number of tokens required for liquidity provision
+
+
+
+
+
+##### What are the benefits of providing liquidity in a narrower price range using concentrated liquidity AMM?  
+     
+- [ ]  Higher risks of impermanent loss
+- [ ]  Lower returns from trading fees
+- [ ]  Increased price fluctuations
+- [x]  Better price stability, reduced slippage, and potentially higher returns from trading fees
+
+    
+
+
+---
 ## Earning Fees
 
 We can examine some instances to understand how concentrated liquidity operates and how liquidity providers make profits, depending on their position within the range and the level of liquidity concentration. This is determined by the narrowness of the range in which liquidity is provided.
@@ -98,6 +176,45 @@ In this scenario the liquidity is out of range for both Alice and Bob, but is in
 
 
 ---
+## Evaulation
+
+
+
+
+
+##### What determines the level of liquidity concentration in concentrated liquidity AMM?  
+     
+- [x]  The narrowness of the range in which liquidity is provided
+- [ ]  The total amount of liquidity in the pool
+- [ ]  The number of liquidity providers participating
+- [ ]  The price of the tokens being traded
+
+
+
+
+
+##### In Scenario 1, why did Alice earn more fees than Carlos, even though they both provided the same liquidity?  
+     
+- [ ]  Alice provided liquidity in a more volatile price range
+- [x]  Alice had a higher concentration of liquidity within the specified range
+- [ ]  Alice's tokens were more valuable than Carlos's tokens
+- [ ]  Alice had more trading volume in her chosen range
+
+
+
+
+
+##### In Scenario 2, who has their liquidity within the range?  
+     
+- [ ]  Alice
+- [ ]  Bob
+- [x]  Carlos
+- [ ]  Alice and Bob
+
+    
+
+
+---
 ## Final Thoughts
 
 When creating a position in a Concentrated Liquidity Automated Market Maker (AMM) like Uniswap V3, there are several key points to keep in mind to ensure an optimal strategy and manage risks effectively:
@@ -111,6 +228,45 @@ When creating a position in a Concentrated Liquidity Automated Market Maker (AMM
 7. Gas Fees: Keep in mind that interacting with smart contracts on the Ethereum network incurs gas fees. These fees can vary depending on network congestion and should be factored into your overall investment strategy.
 
 By considering these points and conducting thorough research, you can create an effective position in a concentrated liquidity AMM and manage your risks accordingly.
+
+    
+
+
+---
+## Evaluation
+
+
+
+
+
+##### What does the price range in a concentrated liquidity AMM determine?  
+     
+- [ ]  The size of the liquidity pool
+- [x]  At which prices your liquidity will be active and generate fees
+- [ ]  The trading volume of the token pair
+- [ ]  The gas fees associated with providing liquidity
+
+
+
+
+
+##### What is the relationship between impermanent loss and the concentrated nature of liquidity in Uniswap V3?  
+     
+- [x]  Concentrated liquidity can lead to higher impermanent loss
+- [ ]  Concentrated liquidity reduces impermanent loss
+- [ ]  Concentrated liquidity has no impact on impermanent loss
+- [ ]  Impermanent loss only occurs in traditional AMMs
+
+
+
+
+
+##### What factor should be considered when interacting with smart contracts on the Ethereum network while providing liquidity?  
+     
+- [ ]  Token price stability
+- [ ]  Liquidity provider fees
+- [ ]  Price range width
+- [x]  Gas fees
 
     
 
