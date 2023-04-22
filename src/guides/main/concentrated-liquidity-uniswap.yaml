@@ -1,6 +1,6 @@
 categories: []
 content: What is Concentrated Liquidity and its Benefits
-created: '2023-04-19T16:25:53.012Z'
+created: '2023-04-22T23:09:39.076Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -108,6 +108,10 @@ steps:
     name: Constant Product AMM
     stepItems: []
     uuid: d08d4e1e-b1a9-4a51-b13c-2ec6f6354bbc
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 3a989356-b6b9-4373-8104-795e54277bc7
   - content: >+
       ### What is Concentrated Liquidity AMM?
 
@@ -177,6 +181,10 @@ steps:
     name: Concentrated Liquidity
     stepItems: []
     uuid: 14dc53fc-fac1-479c-8141-4aef4214d556
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 54c8e896-deab-48ac-9c06-a818499106c0
   - content: >-
       We can examine some instances to understand how concentrated liquidity
       operates and how liquidity providers make profits, depending on their
@@ -218,6 +226,10 @@ steps:
     name: Earning Fees
     stepItems: []
     uuid: a88b21cc-51db-4a8a-bfec-d2da1a7d008a
+  - content: ''
+    name: Evaulation
+    stepItems: []
+    uuid: 71df2fd1-5df3-4316-824c-0babf3970027
   - content: >-
       When creating a position in a Concentrated Liquidity Automated Market
       Maker (AMM) like Uniswap V3, there are several key points to keep in mind
@@ -264,6 +276,10 @@ steps:
     name: Final Thoughts
     stepItems: []
     uuid: 20e797da-8d02-456c-ba11-9110a3525bb2
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 9ad3b615-553c-4c45-bbdc-ea28d274c6f4
   - content: ''
     name: Your Info
     stepItems:
