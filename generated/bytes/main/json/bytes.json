@@ -1,5 +1,7 @@
 [
+  "centralized-vs-decentralized-exchanges.json",
   "impermanent-loss-uniswap.json",
   "amm-benefits-uniswap.json",
-  "ticks-and-ranges.json"
+  "ticks-and-ranges.json",
+  "real-and-virtual-reserves.json"
 ]
