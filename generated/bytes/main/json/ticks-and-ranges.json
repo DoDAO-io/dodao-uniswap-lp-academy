@@ -1,42 +1,48 @@
 {
-  "content": "Understanding Uniswap V3 Ticks and Price Ranges",
-  "id": "uniswap-v3-ticks-price-ranges",
-  "name": "Uniswap V3 Ticks and Price Ranges",
+  "content": "Understanding Ticks in Uniswap V3",
+  "id": "ticks-uniswap-v3",
+  "name": "Ticks in Uniswap V3",
   "steps": [
     {
-      "content": "Uniswap V3's innovation starts with ticks. Ticks divide the price range into numerous granular intervals, making trading on V3 similar to order book exchanges.",
-      "name": "Ticks in Uniswap V3",
+      "content": "🦄 Uniswap V3 introduces \"ticks\" for concentrated liquidity, allowing LPs to provide liquidity in specific price ranges. More efficient than V2!",
+      "name": "Introduction",
       "stepItems": [],
-      "uuid": "12345678-1234-1234-1234-1234567890ab"
+      "uuid": "e4f31e1c-9b46-4f89-9d40-9f348c5f5e5b"
     },
     {
-      "content": "The tick design enables Uniswap V3 to possess the merits of both AMM and order book exchanges. Ticks have a predefined price range, with trades following the AMM pricing function.",
-      "name": "Advantages of Tick Design",
+      "content": "📈 Ticks represent discrete points on the price curve, with each tick corresponding to a specific price ratio between the two tokens in a pair.",
+      "name": "Tick Definition",
       "stepItems": [],
-      "uuid": "22345678-1234-1234-1234-1234567890ab"
+      "uuid": "07d3f53b-3dc4-4e4c-af25-90f4cd7d9d9a"
     },
     {
-      "content": "The price range of each tick is decided with a 0.01% (1 basis point) price change between adjacent ticks, based on a multiplication factor of 1.0001.",
-      "name": "Price Range Calculation",
+      "content": "🎯 LPs can set their positions' range boundaries by choosing ticks for their desired minimum and maximum prices.",
+      "name": "Range-based Liquidity",
       "stepItems": [],
-      "uuid": "32345678-1234-1234-1234-1234567890ab"
+      "uuid": "4ab6df42-bafc-4dcb-9e9b-6b3811f32e3c"
     },
     {
-      "content": "Uniswap V3's int24 tick state variable allows for a wide range of prices, covering >99.99% of all asset prices in the universe.",
-      "name": "Price Range Coverage",
+      "content": "📊 Ticks help track the net position of all LPs to calculate the total liquidity available at any given price.",
+      "name": "Net Position Tracking",
       "stepItems": [],
-      "uuid": "42345678-1234-1234-1234-1234567890ab"
+      "uuid": "8c56e67c-77df-45fd-a95b-91f32f32e3c3"
     },
     {
-      "content": "To find the tick index for a specific price, simply take the logarithm base 1.0001 of the price. This helps map the price to its respective tick.",
-      "name": "Tick Index Calculation",
+      "content": "💡 Ticks are crucial for determining trade slippage and the overall functioning of the Uniswap V3 protocol.",
+      "name": "Ticks Importance",
       "stepItems": [],
-      "uuid": "52345678-1234-1234-1234-1234567890ab"
+      "uuid": "0d37a77c-98d4-4c56-af25-90f4cd7d9d9a"
+    },
+    {
+      "content": "🧑‍🎓 Example: In an ETH/USDC pool, an LP can provide liquidity between $2,500 and $3,500 per ETH by selecting corresponding tick indices.",
+      "name": "Practical Example",
+      "stepItems": [],
+      "uuid": "3e27b84c-5c32-4d56-af25-90f4cd7d9d9b"
     }
   ],
   "publishStatus": "Live",
   "admins": [],
   "tags": [],
   "priority": 0,
-  "created": "2023-04-13T18:58:14.031Z"
+  "created": "2023-04-23T18:58:14.031Z"
 }
