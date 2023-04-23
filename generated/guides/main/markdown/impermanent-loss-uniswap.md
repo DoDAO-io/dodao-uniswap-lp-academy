@@ -20,6 +20,45 @@ Impermanent loss occurs when liquidity providers deposit assets into an AMM's li
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### What is impermanent loss?  
+     
+- [x]  A phenomenon experienced by liquidity providers in AMMs when the value of their deposited assets changes compared to the initial deposit
+- [ ]  The change in value of assets held separately from a liquidity pool
+- [ ]  The profit made by arbitrageurs when adjusting AMM's prices
+- [ ]  The trading fees earned by liquidity providers in a liquidity pool
+
+
+
+
+
+##### What causes impermanent loss to occur?  
+     
+- [ ]  The change in value of assets held separately from a liquidity pool
+- [ ]  The trading fees earned by liquidity providers in a liquidity pool
+- [x]  The change in prices of assets deposited in an AMM's liquidity pool relative to each other
+- [ ]  The profits made by arbitrageurs when adjusting AMM's prices
+
+
+
+
+
+##### How do AMMs adjust their prices based on external markets?  
+     
+- [ ]  AMMs adjust their prices automatically based on external markets
+- [x]  AMMs rely on arbitrageurs to buy underpriced assets or sell overpriced assets until the AMM's prices match external market prices
+- [ ]  AMMs adjust their prices based on the trading fees collected
+- [ ]  AMMs adjust their prices based on the total value of the liquidity pool
+
+    
+
+
+---
 ## Example
 
 Let's consider an example of two friends, Alice and Bob, who each have $10,000 worth of assets. Alice decides to provide liquidity to a USDC-ETH pool, while Bob decides to hold on to his ETH. Let's assume that at the time of deposit, 1 ETH is worth $2,000, and Alice has 5 ETH and $5,000 in USDC.
@@ -43,6 +82,45 @@ In this example, Alice experiences impermanent loss due to the change in the val
 Impermanent loss is the difference between the value of the assets if Alice had held them separately and the value of her share in the liquidity pool. In this case, Alice's impermanent loss is $20,000 (the value if she had held her assets) - $13,500 (the value of her share in the liquidity pool) = $6,500.
 
 
+
+    
+
+
+---
+## Evaluation
+
+
+
+
+
+##### What happens when the price of an asset in a liquidity pool changes?  
+     
+- [x]  Arbitrageurs trade the cheaper asset for the more expensive one, changing the pool's balance
+- [ ]  The total value of the liquidity pool remains constant
+- [ ]  The price change has no effect on the pool's balance
+- [ ]  Liquidity providers receive the difference in price as a bonus
+
+
+
+
+
+##### What is the impermanent loss in the given example for Alice?  
+     
+- [ ]  $5,000
+- [ ]  $7,500
+- [ ]  $5,500
+- [x]  $6,500
+
+
+
+
+
+##### What would have happened if Alice held onto her 5 ETH like Bob did?  
+     
+- [ ]  Her assets would still be worth $10,000
+- [ ]  Her assets would be worth $15,000
+- [x]  Her assets would be worth $20,000, a 100% increase in value
+- [ ]  Her assets would be worth $13,500, a 35% increase in value
 
     
 
@@ -73,6 +151,45 @@ The factors that impact impermanent loss are:
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### What factor is likely to increase the risk of impermanent loss in a liquidity pool?  
+     
+- [x]  High price volatility of the assets
+- [ ]  Stable price of the assets
+- [ ]  Positive correlation between the assets
+- [ ]  Short duration of assets in the pool
+
+
+
+
+
+##### How does asset correlation impact impermanent loss in a liquidity pool?  
+     
+- [ ]  Positively correlated assets increase impermanent loss
+- [x]  Negatively correlated or uncorrelated assets increase impermanent loss
+- [ ]  Correlation between assets has no impact on impermanent loss
+- [ ]  Impermanent loss is only affected by the pool's duration
+
+
+
+
+
+##### How does the duration of assets in the liquidity pool impact impermanent loss?  
+     
+- [x]  Longer duration increases the chance of impermanent loss, but fees can offset it
+- [ ]  Longer duration decreases the chance of impermanent loss
+- [ ]  Duration has no impact on impermanent loss
+- [ ]  Impermanent loss only occurs in the short term
+
+    
+
+
+---
 ## How to Reduce IL
 
 Although impermanent loss is inevitable. However, there are measures that can be taken to mitigate this risk. They are discussed below:
@@ -83,6 +200,45 @@ Although impermanent loss is inevitable. However, there are measures that can be
 4. **Utilize risk management tools**: Some DeFi platforms offer risk management tools that allow you to set limits on your trades or automatically adjust your positions to minimize the risk of loss. These tools can also be helpful when trading on Uniswap V3. **It is important to be aware of the security risks associated with using third party tools.**
 
 It is important to note that impermanent loss is only "realized" when a liquidity provider withdraws their assets from the pool. If the prices of the assets return to their initial levels before withdrawal, the impermanent loss is effectively negated.
+
+    
+
+
+---
+## Evaulation
+
+
+
+
+
+##### How can concentrated liquidity pools help mitigate impermanent loss?  
+     
+- [x]  By specifying a price range, limiting exposure to impermanent loss
+- [ ]  By increasing the price volatility of the assets
+- [ ]  By making the assets positively correlated
+- [ ]  By offering higher fees for the liquidity providers
+
+
+
+
+
+##### How can selecting less volatile token pairs help mitigate impermanent loss?  
+     
+- [ ]  By increasing the price volatility of the assets
+- [ ]  By increasing the correlation between the assets
+- [x]  By minimizing potential impermanent loss due to lower price fluctuations
+- [ ]  By allowing LPs to withdraw assets more frequently
+
+
+
+
+
+##### When is impermanent loss "realized" by a liquidity provider?  
+     
+- [ ]  When the price of the assets in the pool changes
+- [x]  When a liquidity provider withdraws their assets from the pool
+- [ ]  When the liquidity provider deposits their assets into the pool
+- [ ]  When a new liquidity provider joins the pool
 
     
 
