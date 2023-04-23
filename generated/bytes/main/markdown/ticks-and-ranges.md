@@ -46,3 +46,4 @@
 🧑‍🎓 Example: In an ETH/USDC pool, an LP can provide liquidity between $2,500 and $3,500 per ETH by selecting corresponding tick indices.
 
     
+   
