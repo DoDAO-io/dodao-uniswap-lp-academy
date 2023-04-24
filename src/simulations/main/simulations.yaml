@@ -1,2 +1,3 @@
 simulations:
   - add-liquidity-uniswap.yaml
+  - check-position-details-uniswap.yaml
