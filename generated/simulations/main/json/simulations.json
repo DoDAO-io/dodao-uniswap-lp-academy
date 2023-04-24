@@ -1,4 +1,5 @@
 [
   "add-liquidity-uniswap.json",
-  "check-position-details-uniswap.json"
+  "check-position-details-uniswap.json",
+  "collect-fees-uniswap.json"
 ]
