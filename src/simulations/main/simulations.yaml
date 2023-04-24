@@ -1,1 +1,2 @@
-simulations: []
+simulations:
+  - add-liquidity-uniswap.yaml
