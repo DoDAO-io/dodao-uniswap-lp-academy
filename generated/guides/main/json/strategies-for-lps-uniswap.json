@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Different strategies that LPs can use to deploy funds",
-  "created": "2023-04-07T14:31:34.202Z",
+  "created": "2023-05-17T23:25:02.273Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -12,7 +12,7 @@
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "# Coming Soon \n        ",
+      "content": "Uniswap V3's introduction of concentrated liquidity has transformed the game for liquidity providers, offering them an unparalleled level of flexibility through a range of strategic options.\n\n1. **Choice of Pool**: Liquidity providers can decide on which pool they wish to deposit their liquidity, offering a level of customization previously unattainable.\n2. **Fee Selection**: Providers can now select their fee tier, enabling them to align their liquidity provision with their risk tolerance and expected return on investment.\n3. **Price Range Determination**: Upon selecting a pool and fee, providers can then specify the price range within which they wish to place their liquidity.\n\nWhile this newfound flexibility brings with it a wealth of opportunities, it also ushers in a level of complexity that can seem daunting, particularly to those new to the DeFi space. This complexity prompts a multitude of questions:\n\n1. **Strategic Approach**: What should be the optimal strategy for a liquidity provider?\n2. **Pool Selection**: Which pool is the most suitable for their assets and goals?\n3. **Asset Allocation**: Should they deposit all their assets as liquidity, or reserve a portion?\n4. **Range Width**: Is it more advantageous to choose a wide or a narrow price range?\n5. **Timeframe**: What is the ideal duration for liquidity deposit?\n6. **Rebalancing**: Should they rebalance their position if their pool shifts out of the selected price range?\n\nThese questions represent just a few of the considerations every liquidity provider must grapple with. As we delve further into this guide, we aim to explore these issues and provide guidance on the best strategies for liquidity providers navigating the dynamic world of Uniswap V3.",
       "name": "Introduction",
       "stepItems": [],
       "uuid": "76465a85-2834-419e-b6bb-e240b54fc132"
@@ -32,5 +32,5 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_strategies.png",
-  "uuid": "af62b935-2d2c-4d83-bfa9-6670d6123a8e"
+  "uuid": "strategies-for-lps-uniswap"
 }
