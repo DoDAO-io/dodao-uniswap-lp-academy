@@ -1,6 +1,6 @@
 categories: []
 content: Different strategies that LPs can use to deploy funds
-created: '2023-05-18T00:52:11.996Z'
+created: '2023-05-18T00:58:40.316Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -184,7 +184,58 @@ steps:
     name: Pros and Cons
     stepItems: []
     uuid: 14d6f330-aac3-4efe-b1a4-946b1511010a
-  - content: ''
+  - content: >-
+      Let's categorize these strategies based on the investor's circumstances,
+      goals, risk tolerance, and liquidity needs:
+
+
+      ### 1. Conservative Risk Tolerance / Preservation of Capital Goal /
+      Immediate Liquidity Needs:
+
+      * **Holding Stable Coins**: With their low risk and high liquidity, stable
+      coins are a suitable strategy for conservative investors who prioritize
+      capital preservation.
+
+      * **Holding Stable Assets**: This strategy also aligns with a conservative
+      risk tolerance, focusing on preserving capital through stable assets. The
+      liquidity of these assets may vary.
+
+
+      ### 2. Moderate Risk Tolerance / Balanced Goals / Medium to Long-term
+      Liquidity Needs:
+
+      * **Hybrid Holding & Liquidity Provision**: By providing a balance between
+      capital appreciation and earning fees, this strategy suits those with
+      moderate risk tolerance and longer-term liquidity needs.
+
+      * **Wide Range Liquidity Provision**: This approach also aligns with a
+      moderate risk tolerance. It provides a steady flow of fee income while
+      reducing the risk of impermanent loss, making it ideal for those with
+      medium to long-term liquidity needs.
+
+
+      ### 3. High Risk Tolerance / High Return Goals / Flexible Liquidity Needs:
+
+
+      * **Holding Volatile Assets**: This strategy, with its potential for
+      significant returns, aligns well with high risk tolerance and a goal for
+      high returns. Liquidity needs are flexible as the assets can be highly
+      liquid, but might also face periods of reduced liquidity.
+
+      * **Narrow Range Liquidity Provision**: Suitable for those with high risk
+      tolerance, this strategy can yield high returns from fees but carries an
+      increased risk of impermanent loss.
+
+      **Edge Liquidity Provision**: This strategy is also suited for high-risk
+      tolerant investors who aim for high returns. It offers the potential for
+      large profits if the market moves as expected, but it also comes with
+      significant risk and requires accurate price predictions.
+
+
+      Remember, individual circumstances can change over time, and the chosen
+      strategy should reflect these changes. It's also essential to consider
+      that while categorizations can guide decision-making, they may not cover
+      all potential situations and outcomes.
     name: Final Words
     stepItems: []
     uuid: bf1597ec-217d-4d97-96a4-c4ce15104905
