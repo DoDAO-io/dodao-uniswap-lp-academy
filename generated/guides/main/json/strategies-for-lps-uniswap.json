@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Different strategies that LPs can use to deploy funds",
-  "created": "2023-05-18T00:34:52.877Z",
+  "created": "2023-05-18T00:52:11.996Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -24,7 +24,7 @@
       "uuid": "a09f233a-0ec9-4ecb-a02e-08b562d18960"
     },
     {
-      "content": "",
+      "content": "let's delve deeper into the pros and cons of these various strategies:\n\n### Holding Stable Coins\n* Pros: Lower risk due to the stable value of these coins, preserving capital in volatile markets.\n* Cons: Limited potential for high returns, as stable coins don’t typically appreciate significantly.\n\n### Holding Stable Assets:\n* Pros: Lower risk due to reduced price volatility. This can provide a more predictable return on investment.\n* Cons: Limited potential for high returns, similar to stable coins. They may also be less liquid than more popular volatile assets.\n\n### Holding Volatile Assets:\n* Pros: High potential for significant returns due to price fluctuations.\n* Cons: Greater risk due to high price volatility, potentially leading to substantial losses.\n\n### Hybrid Holding & Liquidity Provision:\n* Pros: This balanced approach spreads risk and potential rewards between holding assets and providing liquidity. It can provide both capital appreciation and fee income.\n* Cons: The potential for high returns is diluted due to the split of assets. Additionally, the liquidity providing portion is exposed to potential impermanent loss.\n\n### Narrow Range Liquidity Provision:\n* Pros: Higher potential earnings from fees, as transactions are more likely to occur within the defined narrow range.\n* Cons: Higher risk of impermanent loss if the asset price moves outside the defined range, as your assets are then fully exposed to the relative price movement of the pool tokens.\n\n### Wide Range Liquidity Provision:\n* Pros: Lower risk of impermanent loss as the assets are likely to stay within a wide price range. It also provides more consistent fee income.\n* Cons: Potentially lower returns as fees are spread out across a wider price range, reducing the yield from fees at any given price.\n\n### Edge Liquidity Provision:\n* Pros: Can maximize returns if a significant price movement is anticipated in a particular direction.\n* Cons: High risk strategy as it depends heavily on accurate price prediction. If the price doesn't move as expected, your position might rarely earn fees or potentially suffer from impermanent loss.\n\nThese strategies each offer unique advantages and potential pitfalls. Deciding which strategy to employ depends on your individual risk tolerance, investment goals, and understanding of the market.",
       "name": "Pros and Cons",
       "stepItems": [],
       "uuid": "14d6f330-aac3-4efe-b1a4-946b1511010a"
