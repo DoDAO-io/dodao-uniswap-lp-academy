@@ -1,6 +1,6 @@
 categories: []
 content: Different strategies that LPs can use to deploy funds
-created: '2023-05-17T23:59:47.939Z'
+created: '2023-05-18T00:34:52.877Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -72,38 +72,33 @@ steps:
       consider:
 
 
-      Holding Stable Coins: This strategy involves keeping assets in stable
-      coins, which are designed to maintain a steady value.
+      1. **Holding Stable Coins**: This strategy involves keeping assets in
+      stable coins, which are designed to maintain a steady value.
 
+      2. **Holding Stable Assets**: Similar to stable coins, this strategy
+      includes retaining assets that exhibit low volatility, thus minimizing
+      risk.
 
-      Holding Stable Assets: Similar to stable coins, this strategy includes
-      retaining assets that exhibit low volatility, thus minimizing risk.
+      3. **Holding Volatile Assets**: This strategy suggests holding assets with
+      higher volatility, which can offer greater returns but also greater risk.
 
+      4. **Hybrid Holding & Liquidity Provision**: This approach involves a
+      balanced split between holding assets and providing liquidity. For
+      instance, you might choose to hold 50% of your assets and use the
+      remaining 50% to provide liquidity in Uniswap V3.
 
-      Holding Volatile Assets: This strategy suggests holding assets with higher
-      volatility, which can offer greater returns but also greater risk.
-
-
-      Hybrid Holding & Liquidity Provision: This approach involves a balanced
-      split between holding assets and providing liquidity. For instance, you
-      might choose to hold 50% of your assets and use the remaining 50% to
-      provide liquidity in Uniswap V3.
-
-
-      Narrow Range Liquidity Provision: This strategy maximizes potential
+      5. **Narrow Range Liquidity Provision**: This strategy maximizes potential
       earnings by providing liquidity within a narrow price range. However, it
       also increases the risk of impermanent loss.
 
-
-      Wide Range Liquidity Provision: Providing liquidity over a wider price
-      range mitigates the risk of impermanent loss while still earning
+      6. **Wide Range Liquidity Provision**: Providing liquidity over a wider
+      price range mitigates the risk of impermanent loss while still earning
       consistent fees, albeit the APR might not be as high.
 
-
-      Edge Liquidity Provision: If you're interested in going long or short on a
-      particular asset, you could consider providing liquidity at a specific
-      price point. This method positions you to potentially capitalize on
-      significant price movements.
+      7. **Edge Liquidity Provision**: If you're interested in going long or
+      short on a particular asset, you could consider providing liquidity at a
+      specific price point. This method positions you to potentially capitalize
+      on significant price movements.
 
 
       Remember, the effectiveness of each strategy will depend on various
