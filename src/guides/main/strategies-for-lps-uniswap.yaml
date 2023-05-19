@@ -1,6 +1,6 @@
 categories: []
 content: Different strategies that LPs can use to deploy funds
-created: '2023-05-19T11:48:47.306Z'
+created: '2023-05-19T11:58:47.701Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -52,8 +52,12 @@ steps:
       shifts out of the selected price range?
 
 
-      ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategies-for-lps-uniswap/1684496923797_basic_questions.png)
+      <div align="center">
 
+      <img style="max-height:400px;margin-bottom:30px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategies-for-lps-uniswap/1684497505964_basic_questions.png"/>
+
+      </div>
 
 
       These questions represent just a few of the considerations every liquidity
