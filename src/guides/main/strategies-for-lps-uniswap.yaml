@@ -1,6 +1,6 @@
 categories: []
 content: Different strategies that LPs can use to deploy funds
-created: '2023-05-19T11:58:47.701Z'
+created: '2023-05-19T16:46:19.299Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -103,10 +103,13 @@ steps:
       price range mitigates the risk of impermanent loss while still earning
       consistent fees, albeit the APR might not be as high.
 
-      7. **Edge Liquidity Provision**: If you're interested in going long or
-      short on a particular asset, you could consider providing liquidity at a
-      specific price point. This method positions you to potentially capitalize
-      on significant price movements.
+
+      <div align="center">
+
+      <img style="max-height:400px;margin-bottom:30px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategies-for-lps-uniswap/1684514747296_strategies.png"/>
+
+      </div>
 
 
       Remember, the effectiveness of each strategy will depend on various
