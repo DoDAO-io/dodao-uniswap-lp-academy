@@ -1,6 +1,6 @@
 categories: []
 content: How to calculate returns on your position and tools that help
-created: '2023-05-20T20:04:44.911Z'
+created: '2023-05-20T20:27:51.924Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -135,8 +135,85 @@ steps:
     name: Revert Finance
     stepItems: []
     uuid: d26cb0ef-eef8-43d8-b150-8faff8bd0a12
-  - content: |
-      yewbow
+  - content: >
+      # Detailed Historical Position Overview
+
+      Provides comprehensive performance metrics and data related to specific
+      positions, including:
+
+      - Position income (farming rewards, fees)
+
+      - Capital’s performance
+
+      - Position ROI
+
+      - Position APY
+
+      - Daily position data
+
+      - Impermanent loss
+
+      - Account holdings and balances
+
+      - PnL
+
+      - User transactions
+
+
+      # User Position Page 
+
+      This data is integrated into the user's existing position page on the
+      protocol's website.
+
+
+      # Monthly Summaries
+
+      apy.vision also high-level, bank-like monthly statements. These summaries
+      contain the following data:
+
+      - Beginning and ending balances of a given period
+
+      - Deposits, withdrawals, gains/loss from asset price changes
+
+
+      # Protocol-Level User Performance
+
+      This includes:
+
+      - Protocol-level user income tracking (farming rewards, fees)
+
+      - Performance of all deposited assets
+
+      - Historical user ROI in the protocol
+
+      - Total APY in the protocol
+
+      - Daily user protocol data
+
+      - Impermanent loss
+
+      - Account holdings and balances
+
+      - PnL
+
+      - User transactions history
+
+      - Tracking of collected fees
+
+
+      # Collected Fees Report
+
+      Offers a detailed report on collected fees, which includes:
+
+      - Amount of reward tokens claimed
+
+      - Token price at the time of collection
+
+      - Current token price
+
+      - Dates
+
+      - User transactions history
     name: apy.vision
     stepItems: []
     uuid: 73b43f07-ba2b-4def-b642-bbef1dad2677
