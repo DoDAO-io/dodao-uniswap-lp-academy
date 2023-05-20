@@ -1,6 +1,6 @@
 categories: []
 content: How to calculate returns on your position and tools that help
-created: '2023-05-20T20:27:51.924Z'
+created: '2023-05-20T20:28:53.041Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -136,7 +136,7 @@ steps:
     stepItems: []
     uuid: d26cb0ef-eef8-43d8-b150-8faff8bd0a12
   - content: >
-      # Detailed Historical Position Overview
+      ### Detailed Historical Position Overview
 
       Provides comprehensive performance metrics and data related to specific
       positions, including:
@@ -160,13 +160,13 @@ steps:
       - User transactions
 
 
-      # User Position Page 
+      ### User Position Page 
 
       This data is integrated into the user's existing position page on the
       protocol's website.
 
 
-      # Monthly Summaries
+      ### Monthly Summaries
 
       apy.vision also high-level, bank-like monthly statements. These summaries
       contain the following data:
@@ -176,7 +176,7 @@ steps:
       - Deposits, withdrawals, gains/loss from asset price changes
 
 
-      # Protocol-Level User Performance
+      ### Protocol-Level User Performance
 
       This includes:
 
@@ -201,7 +201,7 @@ steps:
       - Tracking of collected fees
 
 
-      # Collected Fees Report
+      ### Collected Fees Report
 
       Offers a detailed report on collected fees, which includes:
 

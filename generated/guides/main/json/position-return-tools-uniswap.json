@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "How to calculate returns on your position and tools that help",
-  "created": "2023-05-20T20:27:51.924Z",
+  "created": "2023-05-20T20:28:53.041Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -24,7 +24,7 @@
       "uuid": "d26cb0ef-eef8-43d8-b150-8faff8bd0a12"
     },
     {
-      "content": "# Detailed Historical Position Overview\nProvides comprehensive performance metrics and data related to specific positions, including:\n- Position income (farming rewards, fees)\n- Capital’s performance\n- Position ROI\n- Position APY\n- Daily position data\n- Impermanent loss\n- Account holdings and balances\n- PnL\n- User transactions\n\n# User Position Page \nThis data is integrated into the user's existing position page on the protocol's website.\n\n# Monthly Summaries\napy.vision also high-level, bank-like monthly statements. These summaries contain the following data:\n- Beginning and ending balances of a given period\n- Deposits, withdrawals, gains/loss from asset price changes\n\n# Protocol-Level User Performance\nThis includes:\n- Protocol-level user income tracking (farming rewards, fees)\n- Performance of all deposited assets\n- Historical user ROI in the protocol\n- Total APY in the protocol\n- Daily user protocol data\n- Impermanent loss\n- Account holdings and balances\n- PnL\n- User transactions history\n- Tracking of collected fees\n\n# Collected Fees Report\nOffers a detailed report on collected fees, which includes:\n- Amount of reward tokens claimed\n- Token price at the time of collection\n- Current token price\n- Dates\n- User transactions history\n",
+      "content": "### Detailed Historical Position Overview\nProvides comprehensive performance metrics and data related to specific positions, including:\n- Position income (farming rewards, fees)\n- Capital’s performance\n- Position ROI\n- Position APY\n- Daily position data\n- Impermanent loss\n- Account holdings and balances\n- PnL\n- User transactions\n\n### User Position Page \nThis data is integrated into the user's existing position page on the protocol's website.\n\n### Monthly Summaries\napy.vision also high-level, bank-like monthly statements. These summaries contain the following data:\n- Beginning and ending balances of a given period\n- Deposits, withdrawals, gains/loss from asset price changes\n\n### Protocol-Level User Performance\nThis includes:\n- Protocol-level user income tracking (farming rewards, fees)\n- Performance of all deposited assets\n- Historical user ROI in the protocol\n- Total APY in the protocol\n- Daily user protocol data\n- Impermanent loss\n- Account holdings and balances\n- PnL\n- User transactions history\n- Tracking of collected fees\n\n### Collected Fees Report\nOffers a detailed report on collected fees, which includes:\n- Amount of reward tokens claimed\n- Token price at the time of collection\n- Current token price\n- Dates\n- User transactions history\n",
       "name": "apy.vision",
       "stepItems": [],
       "uuid": "73b43f07-ba2b-4def-b642-bbef1dad2677"
