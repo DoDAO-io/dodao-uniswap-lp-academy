@@ -1,6 +1,6 @@
 categories: []
 content: How to calculate returns on your position and tools that help
-created: '2023-05-20T10:25:46.245Z'
+created: '2023-05-20T19:19:30.136Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -42,20 +42,6 @@ steps:
       profitability of providing liquidity. Also, other factors such as managing
       liquidity actively or passively, anticipating the market movements, etc.,
       can affect the PnL.
-
-
-      ## Tools to monitor LP positions including:
-
-      - Current Value of LP positions
-
-      - Fee APY
-
-      - Impermanent loss
-
-      - Total Return
-
-      The aim of these tools is to provide an overview of LP position
-      profitability.
     name: Introduction
     stepItems: []
     uuid: f8e78b4d-59b4-4f90-8a7c-ea6d0055aced
