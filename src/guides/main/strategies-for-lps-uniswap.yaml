@@ -1,6 +1,6 @@
 categories: []
 content: Different strategies that LPs can use to deploy funds
-created: '2023-05-20T15:41:59.042Z'
+created: '2023-05-20T15:49:01.664Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -179,16 +179,6 @@ steps:
       price range, reducing the yield from fees at any given price.
 
 
-      ### Edge Liquidity Provision:
-
-      * Pros: Can maximize returns if a significant price movement is
-      anticipated in a particular direction.
-
-      * Cons: High risk strategy as it depends heavily on accurate price
-      prediction. If the price doesn't move as expected, your position might
-      rarely earn fees or potentially suffer from impermanent loss.
-
-
       These strategies each offer unique advantages and potential pitfalls.
       Deciding which strategy to employ depends on your individual risk
       tolerance, investment goals, and understanding of the market.
@@ -330,11 +320,6 @@ steps:
       * **Narrow Range Liquidity Provision**: Suitable for those with high risk
       tolerance, this strategy can yield high returns from fees but carries an
       increased risk of impermanent loss.
-
-      **Edge Liquidity Provision**: This strategy is also suited for high-risk
-      tolerant investors who aim for high returns. It offers the potential for
-      large profits if the market moves as expected, but it also comes with
-      significant risk and requires accurate price predictions.
 
 
       Remember, individual circumstances can change over time, and the chosen
