@@ -1,6 +1,6 @@
 categories: []
 content: How to calculate returns on your position and tools that help
-created: '2023-05-20T20:03:13.497Z'
+created: '2023-05-20T20:04:44.911Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -67,15 +67,17 @@ steps:
 
       <div align="center">
 
-      <img style="max-height:600px"
+      <img style="max-height:900px"
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684612942587_revert_2_a.png"/>
 
       </div>
 
 
+      ### Position Details
+
       <div align="center">
 
-      <img style="max-height:600px"
+      <img style="max-height:800px"
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684612976393_revert_2.png"/>
 
       </div>
