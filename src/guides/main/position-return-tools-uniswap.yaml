@@ -1,6 +1,6 @@
 categories: []
 content: How to calculate returns on your position and tools that help
-created: '2023-05-20T10:24:38.636Z'
+created: '2023-05-20T10:25:46.245Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -28,7 +28,7 @@ steps:
       Uniswap v3 is the changes in the value of the assets you've provided as
       liquidity. This is where the concept of impermanent loss comes into play.
 
-        **Impermanent loss** happens when the price of your assets changes compared to when you deposited them. If the relative price of your two assets changes, you could end up with less value than if you had simply held onto the assets. This loss is "impermanent" because it could be negated if the prices revert back to their original state.
+          **Impermanent loss** happens when the price of your assets changes compared to when you deposited them. If the relative price of your two assets changes, you could end up with less value than if you had simply held onto the assets. This loss is "impermanent" because it could be negated if the prices revert back to their original state.
 
       3. Gas Costs: This is especially important in Uniswap v3 because of its
       capital efficiency feature. Liquidity providers might adjust their
@@ -42,11 +42,6 @@ steps:
       profitability of providing liquidity. Also, other factors such as managing
       liquidity actively or passively, anticipating the market movements, etc.,
       can affect the PnL.
-
-
-      Please note that providing liquidity on Uniswap or other similar platforms
-      involves a considerable risk and it's recommended to thoroughly understand
-      these complexities before getting involved.
 
 
       ## Tools to monitor LP positions including:
