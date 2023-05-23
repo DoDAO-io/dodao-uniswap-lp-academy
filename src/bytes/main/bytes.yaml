@@ -6,3 +6,4 @@ bytes:
   - real-and-virtual-reserves.yaml
   - impermanent-loss-uniswap.yaml
   - ticks-and-ranges.yaml
+  - centralized-vs-decentralized-exchange-uniswap.yaml
