@@ -3,21 +3,17 @@
 
 ## Introduction
 
+In Uniswap v3, the profit and loss (PnL) for a liquidity provider (LP) are primarily determined by two factors: fees earned and changes in asset values due to price movements. These can also be affected by other factors like gas costs for transactions and impermanent loss, among others.
 
-Tools to monitor LP positions including:
-- Current Value of LP positions
-- Fee APY
-- Impermanent loss
-- Total Return
-The aim of these tools is to provide an overview of LP position profitability.
+1. **Fees Earned**: As an LP, you earn fees on trades that occur within the price range you've set for your liquidity. In Uniswap v3, the fees are not distributed evenly among all LPs but rather are proportional to the amount of liquidity you provide within the active price range. The more your liquidity is utilized (i.e., the more trades that happen within your set price range), the more fees you earn.
 
-    
+2. **Changes in Asset Values**: The other component of PnL calculation in Uniswap v3 is the changes in the value of the assets you've provided as liquidity. This is where the concept of impermanent loss comes into play.
 
+    **Impermanent loss** happens when the price of your assets changes compared to when you deposited them. If the relative price of your two assets changes, you could end up with less value than if you had simply held onto the assets. This loss is "impermanent" because it could be negated if the prices revert back to their original state.
 
----
-## Seedle Finance
+3. **Gas Costs**: This is especially important in Uniswap v3 because of its capital efficiency feature. Liquidity providers might adjust their positions more frequently, which incurs Ethereum network transaction (gas) fees.
 
-
+However, calculating PnL in Uniswap v3 is complex due to these factors and others, like the specific price range you choose as a liquidity provider. The specific price range and liquidity depth can significantly affect the profitability of providing liquidity. Also, other factors such as managing liquidity actively or passively, anticipating the market movements, etc., can affect the PnL.
 
     
 
@@ -25,15 +21,98 @@ The aim of these tools is to provide an overview of LP position profitability.
 ---
 ## Revert Finance
 
+Revert develops analytics and management tools for liquidity providers in AMM protocols and has a great support for Uniswap V3.
+
+### Revert Home Screen
+<div align="center">
+<img style="max-height:600px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684612775072_revert_1.png"/>
+</div>
+You just need to input your address and you should be able to see all the details related to your postion
+
+### Position List
+<div align="center">
+<img style="max-height:900px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684612942587_revert_2_a.png"/>
+</div>
+
+### Position Details
+<div align="center">
+<img style="max-height:800px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684612976393_revert_2.png"/>
+</div>
+
+
+Below are some of the important data points shown by revert
+### **Uniswap v3 Position Definitions**
+
+- **Pooled_assets**: The total value of the position in USD.
+- **APR**: The yearly return rate considering the value of the position assets, deposits, withdrawals, gas costs, and staking rewards at current prices.
+- **Fee APR**: The yearly return rate based on accrued fees only, without considering divergence loss.
+- **APR_excluding_gas**: The yearly return rate taking into account the value of the position, fees, and divergence loss, but ignoring gas costs.
+- **Pool_PnL & Total_PnL**: These metrics measure the profit and loss for a position. While Pool PnL considers only fees and price divergence, Total PnL also factors in gas costs and reward incentives.
+- **Current_assets**: The current amount of tokens associated with this liquidity provider (LP) position.
+- **Invested_assets & Withdrawn**: The total assets put into and taken out of the position, respectively.
+- **Diffs**: The difference between invested assets, withdrawn assets, and current assets.
+- **Unclaimed_rewards & Claimed_rewards**: The total detected unclaimed and claimed staking rewards for the account and pool, respectively.
+
+### **Uniswap v3 Pool Definitions**
+
+- **Reserves**: The USD value of the token reserves for the pool.
+- **Volume**: The USD value of the traded volume within the pool.
+- **Price_divergence**: The absolute difference between the percentage changes in prices for the underlying assets compared to the prices 30 days ago. This can lead to losses for LPs if the two assets' prices diverge significantly.
+- **Position_age**: The time (in days) since the position was first created.
 
 
     
 
 
 ---
-## yewbow
+## apy.vision
 
-yewbow
+Similar to the "revert" and other position tracking tools, apy.vision has the capability to monitor your position and provide detailed information in a user-friendly format. Additionally, it offers a wide range of supplementary analytics and position tracking features.
+
+<div align="center">
+<img style="max-height:1200px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684615191588_apy_vision.png"/>
+</div>
+
+### Detailed Historical Position Overview
+Provides comprehensive performance metrics and data related to specific positions, including:
+- Position income (farming rewards, fees)
+- Capital’s performance
+- Position ROI
+- Position APY
+- Daily position data
+- Impermanent loss
+- Account holdings and balances
+- PnL
+- User transactions
+
+### User Position Page 
+This data is integrated into the user's existing position page on the protocol's website.
+
+### Monthly Summaries
+apy.vision also high-level, bank-like monthly statements. These summaries contain the following data:
+- Beginning and ending balances of a given period
+- Deposits, withdrawals, gains/loss from asset price changes
+
+### Protocol-Level User Performance
+This includes:
+- Protocol-level user income tracking (farming rewards, fees)
+- Performance of all deposited assets
+- Historical user ROI in the protocol
+- Total APY in the protocol
+- Daily user protocol data
+- Impermanent loss
+- Account holdings and balances
+- PnL
+- User transactions history
+- Tracking of collected fees
+
+### Collected Fees Report
+Offers a detailed report on collected fees, which includes:
+- Amount of reward tokens claimed
+- Token price at the time of collection
+- Current token price
+- Dates
+- User transactions history
 
 
     
