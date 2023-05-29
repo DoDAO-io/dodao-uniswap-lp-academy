@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Tools that you can use to back test your strategies",
-  "created": "2023-05-29T22:35:37.208Z",
+  "created": "2023-05-29T22:56:06.679Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -30,7 +30,7 @@
       "uuid": "b9974294-bc09-47fe-b554-0b4030a9fe17"
     },
     {
-      "content": "![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685399724525_revert_back_1.png)\n\n\n![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685399732682_revert_back_2.png)\n",
+      "content": "Revert Finance, available at https://revert.finance/#/initiator, is an excellent resource for conducting backtests on different strategies.\n\nTo begin, you can choose the specific pool to which you wish to provide liquidity and set the desired range.\n\nNext, specify the quantity of tokens you intend to deposit and select the strategy you prefer.\n\n\n![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685399724525_revert_back_1.png)\n\nFinally, initiate the backtesting process to compare the outcomes against various base strategies, such as HODL 50-50 or HODL 100% of one of the tokens.\n\n![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685399732682_revert_back_2.png)\n",
       "name": "Revert Finance",
       "stepItems": [],
       "uuid": "48f26b6d-6a83-43f3-a9f8-cb2607bd5ff6"
