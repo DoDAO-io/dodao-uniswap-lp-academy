@@ -1,6 +1,6 @@
 categories: []
 content: Different strategies that LPs can use to deploy funds
-created: '2023-05-20T15:49:01.664Z'
+created: '2023-05-29T20:57:12.595Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -88,28 +88,54 @@ steps:
       consider:
 
 
-      1. **Holding Stable Coins**: This strategy involves keeping assets in
-      stable coins, which are designed to maintain a steady value.
+      1) **HODL Stable Coins:** In this strategy, users hold onto stable coins
+      rather than investing or providing liquidity in any liquidity pools.
+      Stable coins, as their name suggests, are designed to minimize volatility
+      as they are pegged to a stable asset, usually a reserve of fiat currency
+      like the USD. By holding stable coins, users may be able to preserve their
+      capital during turbulent market conditions.
 
-      2. **Holding Stable Assets**: Similar to stable coins, this strategy
-      includes retaining assets that exhibit low volatility, thus minimizing
-      risk.
 
-      3. **Holding Volatile Assets**: This strategy suggests holding assets with
-      higher volatility, which can offer greater returns but also greater risk.
+      2) **HODL 50% of Both Tokens:** This strategy involves holding onto 50% of
+      two different tokens, but not providing liquidity in Uniswap pools. This
+      may be useful for hedging risk between the two tokens. If one token's
+      value declines, it may be offset by the other token's increase in value.
+      This strategy might work well with tokens that have inverse correlations.
 
-      4. **Hybrid Holding & Liquidity Provision**: This approach involves a
-      balanced split between holding assets and providing liquidity. For
-      instance, you might choose to hold 50% of your assets and use the
-      remaining 50% to provide liquidity in Uniswap V3.
 
-      5. **Narrow Range Liquidity Provision**: This strategy maximizes potential
-      earnings by providing liquidity within a narrow price range. However, it
-      also increases the risk of impermanent loss.
+      3) **HODL 100% of One Token:** In this strategy, users hold 100% of a
+      single token, which can be beneficial if they believe strongly in the
+      potential upside of a particular token. However, this approach exposes the
+      holder to significant risk if the value of that single token decreases.
 
-      6. **Wide Range Liquidity Provision**: Providing liquidity over a wider
-      price range mitigates the risk of impermanent loss while still earning
-      consistent fees, albeit the APR might not be as high.
+
+      4) **Provide Wide Range Liquidity:** In Uniswap V3, users can set custom
+      price ranges for their liquidity provision. Providing a wide range
+      liquidity means that users set a wide price range for their liquidity.
+      This could mean less risk of their liquidity being outside of the trading
+      range and not earning fees, but the downside is that the capital
+      efficiency is lower, meaning they will earn less fees for a given amount
+      of capital compared to a narrower range.
+
+
+      5) **Provide Narrow Range Liquidity:** Conversely, providing narrow range
+      liquidity means setting a narrower price range for liquidity. The
+      advantage here is increased capital efficiency; the liquidity providers
+      can potentially earn more fees for a given amount of capital. However, the
+      risk is higher, as the price of the token pair is more likely to move
+      outside the specified range, at which point the liquidity provider stops
+      earning fees.
+
+
+      6) **Provide Liquidity in Volatile Token Pools:** Volatile token pools are
+      those with significant price fluctuation. Providing liquidity in these
+      pools can be profitable due to high trading volumes (which means more
+      fees), but it's also riskier. Prices can move dramatically and quickly,
+      potentially leading to significant impermanent loss if the token prices
+      deviate considerably from the price at which you provided liquidity. The
+      decision to provide liquidity in these pools should be based on an
+      individual's risk tolerance and belief in the long-term value of the
+      tokens in question.
 
 
       Remember, the effectiveness of each strategy will depend on various
@@ -123,60 +149,51 @@ steps:
       let's delve deeper into the pros and cons of these various strategies:
 
 
-      ### Holding Stable Coins
+      1) **HODL Stable Coins:**
+         - Pros: 
+           - Protection against market volatility.
+           - Preserves capital during bear markets.
+         - Cons: 
+           - No potential for high returns.
+           - Misses out on potential earnings from other investment strategies, including providing liquidity and staking.
 
-      * Pros: Lower risk due to the stable value of these coins, preserving
-      capital in volatile markets.
+      2) **HODL 50% of Both Tokens:**
+         - Pros: 
+           - Diversification of assets can minimize risk.
+           - Potential for high returns if both tokens appreciate in value.
+         - Cons: 
+           - If one or both tokens depreciate in value, the holder can incur significant losses.
+           - Misses out on potential earnings from providing liquidity.
 
-      * Cons: Limited potential for high returns, as stable coins don’t
-      typically appreciate significantly.
+      3) **HODL 100% of One Token:**
+         - Pros: 
+           - Potential for high returns if the token appreciates in value significantly.
+         - Cons: 
+           - High risk due to lack of diversification.
+           - If the token's value decreases, the holder could incur significant losses.
 
+      4) **Provide Wide Range Liquidity:**
+         - Pros: 
+           - Lower risk of prices moving outside the specified range, ensuring consistent fee earnings.
+           - Suitable for less predictable or more stable markets.
+         - Cons: 
+           - Lower capital efficiency.
+           - Lower returns in comparison to narrow range liquidity, given equal trading volumes.
 
-      ### Holding Stable Assets:
+      5) **Provide Narrow Range Liquidity:**
+         - Pros: 
+           - High capital efficiency, potentially leading to higher returns from fees for a given amount of capital.
+           - Suitable for predictable or less volatile markets.
+         - Cons: 
+           - Higher risk of prices moving outside the specified range, resulting in no fee earnings during those periods.
+           - Potential for higher impermanent loss if prices fluctuate significantly.
 
-      * Pros: Lower risk due to reduced price volatility. This can provide a
-      more predictable return on investment.
-
-      * Cons: Limited potential for high returns, similar to stable coins. They
-      may also be less liquid than more popular volatile assets.
-
-
-      ### Holding Volatile Assets:
-
-      * Pros: High potential for significant returns due to price fluctuations.
-
-      * Cons: Greater risk due to high price volatility, potentially leading to
-      substantial losses.
-
-
-      ### Hybrid Holding & Liquidity Provision:
-
-      * Pros: This balanced approach spreads risk and potential rewards between
-      holding assets and providing liquidity. It can provide both capital
-      appreciation and fee income.
-
-      * Cons: The potential for high returns is diluted due to the split of
-      assets. Additionally, the liquidity providing portion is exposed to
-      potential impermanent loss.
-
-
-      ### Narrow Range Liquidity Provision:
-
-      * Pros: Higher potential earnings from fees, as transactions are more
-      likely to occur within the defined narrow range.
-
-      * Cons: Higher risk of impermanent loss if the asset price moves outside
-      the defined range, as your assets are then fully exposed to the relative
-      price movement of the pool tokens.
-
-
-      ### Wide Range Liquidity Provision:
-
-      * Pros: Lower risk of impermanent loss as the assets are likely to stay
-      within a wide price range. It also provides more consistent fee income.
-
-      * Cons: Potentially lower returns as fees are spread out across a wider
-      price range, reducing the yield from fees at any given price.
+      6) **Provide Liquidity in Volatile Token Pools:**
+         - Pros: 
+           - Higher potential returns due to higher trading volumes and thus higher fee earnings.
+         - Cons: 
+           - Increased risk of significant impermanent loss if token prices deviate considerably.
+           - High volatility of assets can lead to sudden and significant capital loss.
 
 
       These strategies each offer unique advantages and potential pitfalls.
