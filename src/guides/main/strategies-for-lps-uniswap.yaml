@@ -1,6 +1,6 @@
 categories: []
 content: Different strategies that LPs can use to deploy funds
-created: '2023-05-29T21:01:46.987Z'
+created: '2023-05-29T21:05:29.744Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -307,42 +307,23 @@ steps:
       goals, risk tolerance, and liquidity needs:
 
 
-      ### 1. Conservative Risk Tolerance / Preservation of Capital Goal /
-      Immediate Liquidity Needs:
+      1) **Low Risk and Low Gains:**
 
-      * **Holding Stable Coins**: With their low risk and high liquidity, stable
-      coins are a suitable strategy for conservative investors who prioritize
-      capital preservation.
+         - **HODL Stable Coins:** This strategy is considered low risk because stable coins are designed to minimize volatility as they are pegged to stable assets. However, the potential for high returns is limited compared to other strategies that involve investment or providing liquidity in pools.
 
-      * **Holding Stable Assets**: This strategy also aligns with a conservative
-      risk tolerance, focusing on preserving capital through stable assets. The
-      liquidity of these assets may vary.
+         - **Provide Wide Range Liquidity:** Providing wide range liquidity involves setting a wide price range for liquidity, which means lower risk of prices moving outside the specified range and consistent fee earnings. However, the downside is lower capital efficiency, which means lower potential gains compared to narrower range liquidity.
 
+      2) **Moderate Risk and Moderate Gains:**
 
-      ### 2. Moderate Risk Tolerance / Balanced Goals / Medium to Long-term
-      Liquidity Needs:
+         - **HODL 50% of Both Tokens:** Holding 50% of two different tokens diversifies risk between the two. If one token's value declines, it could be offset by the other token's increase in value. However, if both tokens depreciate, losses can be significant.
 
-      * **Hybrid Holding & Liquidity Provision**: By providing a balance between
-      capital appreciation and earning fees, this strategy suits those with
-      moderate risk tolerance and longer-term liquidity needs.
+         - **HODL 100% of One Token:** Holding 100% of a single token can have moderate risk and gain depending on the stability of the chosen token. There's potential for high returns if the token appreciates, but there's also risk if the token's value decreases.
 
-      * **Wide Range Liquidity Provision**: This approach also aligns with a
-      moderate risk tolerance. It provides a steady flow of fee income while
-      reducing the risk of impermanent loss, making it ideal for those with
-      medium to long-term liquidity needs.
+      3) **More Risk and More Gains:**
 
+         - **Provide Narrow Range Liquidity:** Providing narrow range liquidity has increased risk because the price of the token pair is more likely to move outside the specified range, stopping the liquidity provider from earning fees. However, the potential returns can be higher due to increased capital efficiency.
 
-      ### 3. High Risk Tolerance / High Return Goals / Flexible Liquidity Needs:
-
-
-      * **Holding Volatile Assets**: This strategy, with its potential for
-      significant returns, aligns well with high risk tolerance and a goal for
-      high returns. Liquidity needs are flexible as the assets can be highly
-      liquid, but might also face periods of reduced liquidity.
-
-      * **Narrow Range Liquidity Provision**: Suitable for those with high risk
-      tolerance, this strategy can yield high returns from fees but carries an
-      increased risk of impermanent loss.
+         - **Provide Liquidity in Volatile Token Pools:** Providing liquidity in volatile token pools is high risk due to significant price fluctuations. However, the potential returns can be higher due to the increased trading volumes and thus higher fee earnings.
 
 
       Remember, individual circumstances can change over time, and the chosen
