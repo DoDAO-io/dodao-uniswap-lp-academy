@@ -10,3 +10,4 @@ simulations:
   - use-apy-vision-for-pnl-uniswap.yaml
   - backtesting-in-defi-labs-uniswap.yaml
   - defi-labs-il-analysis-uniswap.yaml
+  - defi-labs-simulation-uniswap.yaml
