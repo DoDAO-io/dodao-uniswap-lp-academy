@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to manage and update your position
-created: '2023-05-30T02:49:44.782Z'
+created: '2023-05-30T03:02:33.704Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -78,17 +78,81 @@ steps:
 
       Remember, while position management tools can be extremely helpful, they
       do not replace the need for careful analysis and consideration of market
-      conditions and individual risk tolerance.```
+      conditions and individual risk tolerance.
     name: Position Management in V3
     stepItems: []
     uuid: ed7a28c7-6575-473c-9a7f-8c670a718189
-  - content: ''
-    name: Your Info
-    stepItems:
-      - label: Nickname
-        required: true
-        type: PublicShortInput
-        uuid: a41983d2-40d1-4cf6-91cf-93aa3393b2c3
+  - content: >
+      ## Position Management
+
+
+      Revert enables liquidity providers (LPs) to not only initiate but also
+      manage their positions. Available through the account and position pages,
+      the position management interface allows LPs to Add or Withdraw Liquidity
+      and Claim Fees. Revert simplifies the process by eliminating the need for
+      swapping your assets to achieve the optimal ratio when adding more
+      liquidity or withdrawing or claiming. Supported on Uniswap V3 on Ethereum,
+      Polygon, Optimism, and Arbitrum networks, position management features
+      streamline the whole process. Regular transactions carry no fees on
+      Revert, but a 0.50% fee applies to swap transactions.
+
+
+      ### Add Liquidity
+
+
+      Increase the liquidity to any position in the required proportions using
+      the balances of the connected wallet and a handy slider. If you lack the
+      correct proportions, activate the "enter custom amounts" option, and
+      Revert will swap them to match the actual pool ratio. If you possess none
+      or only one of the pool assets, select the token you wish to use for
+      adding liquidity from the "add liquidity using" dropdown. Revert will then
+      swap it into the pair and the actual pool ratio, augmenting the liquidity
+      of your position.
+
+
+      ### Withdraw Liquidity
+
+
+      Upon connecting your wallet, you can withdraw any amount of liquidity from
+      a position you own. If you prefer the withdrawn tokens in a specific
+      currency, select the currency from the "withdraw liquidity in" dropdown,
+      and Revert will handle the swapping in the same transaction. Adjust the
+      slippage settings as needed.
+
+
+      ### Claim Fees
+
+
+      Use the handy slides to collect any amount of uncollected fees from a
+      position you own. To save you the inconvenience of claiming and then
+      swapping, select the new currency under the "Claim fees in" dropdown, and
+      Revert will handle both actions in a single transaction.
+
+
+      ### Slippage
+
+
+      Slippage, the difference between the anticipated price of a trade and the
+      price at which it's executed, arises due to rapid price updates. In
+      Revert, you can customize the slippage tolerance for each transaction
+      under the "settings button". If the price deviates beyond this percentage,
+      the transaction will revert. This applies to:
+
+
+      - **Add Liquidity Slippage:** The acceptable price discrepancy when adding
+      assets to a position.
+
+      - **Withdraw Slippage:** The tolerated difference between the displayed
+      amount on the site and the assets received in your wallet when
+      withdrawing.
+
+      - **Swap Slippage:** The potential variation in asset prices when using
+      Revert's swap transactions.
+
+
+      Remember, Revert applies a 0.50% fee for swap transactions.
+    name: Revert
+    stepItems: []
     uuid: 266b3dea-806c-4208-94be-4267e70b4a8d
 thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/position_management.png
 uuid: position-management-tools-uniswap
