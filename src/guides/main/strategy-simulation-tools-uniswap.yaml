@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to simulate your position
-created: '2023-05-30T01:40:31.465Z'
+created: '2023-05-30T02:18:24.723Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -116,14 +116,6 @@ steps:
     name: Examples
     stepItems: []
     uuid: da56c068-1378-43ac-9bb4-ff5ac5a31643
-  - content: ''
-    name: Your Info
-    stepItems:
-      - label: Nickname
-        required: true
-        type: PublicShortInput
-        uuid: 70679abe-2589-4997-be84-00ea6144cdc4
-    uuid: 20d6e5e7-9b32-466e-be6e-fc1365f95f47
   - content: >+
       You can visit the website defi-lab.xyz/uniswapv3simulator to access
       valuable insights on simulating various strategies. By selecting specific
@@ -145,8 +137,15 @@ steps:
       </div>
 
 
+      The below chart in DeFi Lab makes it very clear how each of the strategy
+      performs as the price of the assets change
+
+
       ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685410720026_defi_lab_sim_2.png)
 
+
+      It also gives an idea of how much impermanent loss you should expect while
+      holding the position. 
 
       ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685410728240_defi_lab_sim_3.png)
 
@@ -155,6 +154,14 @@ steps:
     name: DeFi Lab
     stepItems: []
     uuid: a1c98069-6736-475e-8bfa-b5d077d4c72e
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: true
+        type: PublicShortInput
+        uuid: 70679abe-2589-4997-be84-00ea6144cdc4
+    uuid: 20d6e5e7-9b32-466e-be6e-fc1365f95f47
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/simulate_strategy_tools.png
 uuid: strategy-simulation-tools-uniswap
