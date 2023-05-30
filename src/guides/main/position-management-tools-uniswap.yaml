@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to manage and update your position
-created: '2023-05-30T03:06:50.430Z'
+created: '2023-05-30T11:13:01.953Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -174,5 +174,10 @@ steps:
     name: Revert
     stepItems: []
     uuid: 266b3dea-806c-4208-94be-4267e70b4a8d
+  - content: >-
+      https://mirror.xyz/0x916563f8476b988855af0b8b8A3D56072E1917FA/dDECIZ2xM5EUolG5Lrkrk5XyXgUrfrnaboDDuGYXXBg
+    name: Arrakis V2
+    stepItems: []
+    uuid: 57479135-45b9-4657-9a03-d53b2b56ddd7
 thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/position_management.png
 uuid: position-management-tools-uniswap
