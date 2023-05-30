@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to simulate your position
-created: '2023-05-30T02:39:17.225Z'
+created: '2023-05-30T02:40:16.872Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -154,14 +154,6 @@ steps:
     name: DeFi Lab
     stepItems: []
     uuid: a1c98069-6736-475e-8bfa-b5d077d4c72e
-  - content: ''
-    name: Your Info
-    stepItems:
-      - label: Nickname
-        required: true
-        type: PublicShortInput
-        uuid: 70679abe-2589-4997-be84-00ea6144cdc4
-    uuid: 20d6e5e7-9b32-466e-be6e-fc1365f95f47
   - content: >+
       Another excellent tool for simulating your position is available at
       uniswap.fish. Similar to other tools, it enables you to choose the chain
@@ -189,6 +181,14 @@ steps:
     name: Uniswap Fish
     stepItems: []
     uuid: beb48592-160a-4b18-b52e-557c03a422a3
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: true
+        type: PublicShortInput
+        uuid: 70679abe-2589-4997-be84-00ea6144cdc4
+    uuid: 20d6e5e7-9b32-466e-be6e-fc1365f95f47
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/simulate_strategy_tools.png
 uuid: strategy-simulation-tools-uniswap
