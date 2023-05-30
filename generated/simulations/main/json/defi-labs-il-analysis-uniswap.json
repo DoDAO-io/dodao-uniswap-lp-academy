@@ -1,0 +1,23 @@
+{
+  "content": "How to analyze Impermaenent Loss using DeFi Lab",
+  "id": "defi-labs-il-analysis-uniswap",
+  "name": "DeFi Labs - IL Analysis",
+  "steps": [
+    {
+      "content": "\n## ✅ How to use https://defi-lab.xyz \n## ✅ How to analyze Impermanent Loss in DeFi Lab",
+      "name": "Introduction",
+      "uuid": "26f9328d-0a34-44d9-834d-49b3697a3fb6"
+    },
+    {
+      "content": "",
+      "name": "Introduction Evaluation",
+      "uuid": "a51bc8c1-c847-4d44-92be-0cedc80eb853",
+      "iframeUrl": "https://dodao.navattic.com/5v4u0ldx"
+    }
+  ],
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "created": "2023-05-30T20:15:51.249Z"
+}
