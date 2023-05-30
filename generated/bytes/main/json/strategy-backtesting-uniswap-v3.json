@@ -1,0 +1,42 @@
+{
+  "id": "strategy-backtesting-uniswap-v3",
+  "name": "Strategy Backtesting in Uniswap V3",
+  "content": "Understanding strategy backtesting in the context of Uniswap V3 and its importance for liquidity providers",
+  "created": "2023-05-30T18:58:14.031Z",
+  "steps": [
+    {
+      "uuid": "6b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "name": "Introduction to Strategy Backtesting",
+      "content": "Strategy backtesting is a simulation technique used in trading to test an investment strategy against historical market data.\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "7d6f6a7f-6441-4113-86be-aad4a31511f6",
+      "name": "Process of Backtesting",
+      "content": "In backtesting, a hypothetical portfolio is established at a certain time point and subjected to the trading rules defining the investment strategy.\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "8d23d50a-3a65-4b33-85c9-5b8484f0a259",
+      "name": "Limitations of Backtesting",
+      "content": "Backtesting assumes that historical performance can predict future results, but remember, past performance isn't always indicative of future results.\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "9bbd6c88-ac6d-4d4a-88e6-b5f3d353838b",
+      "name": "Strategy Backtesting in Uniswap V3",
+      "content": "In Uniswap V3, strategy backtesting involves simulating LP strategies using historical on-chain data. This includes testing dynamic or fixed price ranges.\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "aed48f3a-4c41-4d53-aee4-10f3d6c8a8db",
+      "name": "Metrics for Backtesting in Uniswap V3",
+      "content": "Backtesting in Uniswap V3 measures ROI, impermanent loss, and fees collected, assisting LPs in evaluating the potential profitability of strategies.\n",
+      "stepItems": []
+    }
+  ],
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0
+}

@@ -1,0 +1,44 @@
+id: uniswap-v3-strategies
+name: Uniswap V3 Strategies
+content: Exploring various strategies for liquidity providers in Uniswap V3
+created: '2023-05-30T18:58:14.031Z'
+steps:
+  - uuid: "8ba7b810-9dad-11d1-80b4-00c04fd430c8"
+    name: Introduction to Strategies
+    stepItems: []
+    content: >
+      The same principles of traditional finance apply to DeFi; optimal strategy varies based on individual circumstances, goals, and risk tolerance.
+  - uuid: "8ba7b810-9dad-11d1-80b4-00c04fd430c9"
+    name: HODL Stable Coins
+    stepItems: []
+    content: >
+      This strategy involves holding onto stable coins to preserve capital during turbulent market conditions.
+  - uuid: "8ba7b810-9dad-11d1-80b4-00c04fd431c0"
+    name: HODL 50% of Both Tokens
+    stepItems: []
+    content: >
+      Holding 50% of two different tokens can help hedge risk between the two. Ideal for tokens with inverse correlations.
+  - uuid: "8ba7b810-9dad-11d1-80b4-00c04fd431c1"
+    name: HODL 100% of One Token
+    stepItems: []
+    content: >
+      Holding 100% of a single token is beneficial if a user strongly believes in the token's potential. This strategy has high risk if the token's value decreases.
+  - uuid: "8ba7b810-9dad-11d1-80b4-00c04fd431c2"
+    name: Provide Wide Range Liquidity
+    stepItems: []
+    content: >
+      Providing a wide range liquidity has less risk of liquidity being outside the trading range but has lower capital efficiency.
+  - uuid: "8ba7b810-9dad-11d1-80b4-00c04fd431c3"
+    name: Provide Narrow Range Liquidity
+    stepItems: []
+    content: >
+      Providing narrow range liquidity offers increased capital efficiency, but higher risk as price is more likely to move outside the specified range.
+  - uuid: "8ba7b810-9dad-11d1-80b4-00c04fd431c4"
+    name: Provide Liquidity in Volatile Token Pools
+    stepItems: []
+    content: >
+      Providing liquidity in volatile token pools can be profitable but also riskier due to price fluctuations and potential for significant impermanent loss.
+publishStatus: Live
+admins: []
+tags: []
+priority: 0

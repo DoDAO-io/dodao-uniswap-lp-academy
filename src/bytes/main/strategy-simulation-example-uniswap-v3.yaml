@@ -1,0 +1,29 @@
+id: strategy-simulation-example-uniswap-v3
+name: Example of Strategy Simulation
+content: An example simulation evaluating three liquidity providing strategies for the ETH/USDT pair in Uniswap V3.
+created: '2023-05-30T21:07:12.000Z'
+steps:
+  - uuid: "123abc34-56d7-89ef-1011-1213ghijk14"
+    name: Wide Range
+    content: >
+      You provide liquidity across a wide price range from $2,000 to $4,000 per ETH. The wide-range strategy yields lower returns due to its lower capital efficiency, but the fees earned are consistent due to the price of ETH remaining within the range most of the time.
+    stepItems: []
+  - uuid: "1516lmn17-18op-1920-qrst-2122uvwx23"
+    name: Narrow Range
+    content: >
+      You provide liquidity across a narrow price range from $2,500 to $2,750 per ETH. The narrow-range strategy yields higher returns when the price of ETH is within the range due to its higher capital efficiency. However, there are periods with no fee earnings when the price moves outside the range.
+    stepItems: []
+  - uuid: "2425yz26-27ab-2829-cdef-3031ghij32"
+    name: Off-center Range
+    content: >
+      You provide liquidity across a range from $3,000 to $3,500, anticipating that the price of ETH will increase. The off-center range strategy yields high returns only for the periods when the price of ETH rises above $3,000. For the rest of the time, no fees are earned.
+    stepItems: []
+  - uuid: "3334klmn35-36op-3738-qrst-3940uvwx41"
+    name: Strategy Evaluation
+    content: >
+      This simulation helps you understand the trade-offs between the three strategies and allows you to make a more informed decision based on your expectations about the future price of ETH and your risk tolerance.
+    stepItems: []
+publishStatus: Live
+admins: []
+tags: []
+priority: 0

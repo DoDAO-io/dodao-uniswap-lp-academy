@@ -6,3 +6,11 @@ bytes:
   - real-and-virtual-reserves.yaml
   - impermanent-loss-uniswap.yaml
   - ticks-and-ranges.yaml
+  - why-use-strategies-uniswap.yaml
+  - uniswap-v3-strategies.yaml
+  - pros-cons-uniswap-v3-strategies.yaml
+  - pnl-uniswap-v3-explained.yaml
+  - strategy-backtesting-uniswap-v3.yaml
+  - benefits-backtesting-uniswap-v3.yaml
+  - strategy-simulation-uniswap-v3.yaml
+  - uniswap-v3-position-management-tools-functions.yaml

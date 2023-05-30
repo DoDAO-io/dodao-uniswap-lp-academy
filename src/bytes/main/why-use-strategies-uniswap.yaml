@@ -1,0 +1,34 @@
+id: why-use-strategies-uniswap
+name: Why use Strategies?
+content: Understanding the strategic implications and choices in Uniswap V3
+created: '2023-05-30T18:58:14.031Z'
+steps:
+  - uuid: "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
+    name: Uniswap V3 and Flexibility
+    stepItems: []
+    content: >
+      Uniswap V3 revolutionized the game for liquidity providers, introducing concentrated liquidity and greater strategic flexibility.
+  - uuid: "6ba7b810-9dad-11d1-80b4-00c04fd430c9"
+    name: Choices for Liquidity Providers
+    stepItems: []
+    content: >
+      Providers can choose the pool for deposit, fee tier, and price range for their liquidity, aligning their risk and returns.
+  - uuid: "6ba7b810-9dad-11d1-80b4-00c04fd431c0"
+    name: Complexity in Uniswap V3
+    stepItems: []
+    content: >
+      This new level of flexibility and choice, while powerful, also brings complexity, particularly for newcomers to DeFi.
+  - uuid: "6ba7b810-9dad-11d1-80b4-00c04fd431c1"
+    name: Strategic Considerations
+    stepItems: []
+    content: >
+      Providers must consider optimal strategy, pool selection, asset allocation, range width, timeframe, and rebalancing.
+  - uuid: "6ba7b810-9dad-11d1-80b4-00c04fd431c2"
+    name: Unpacking the Questions
+    stepItems: []
+    content: >
+      Strategies can help providers navigate these choices and align their risk and returns with their investment goals.
+publishStatus: Live
+admins: []
+tags: []
+priority: 0

@@ -5,5 +5,13 @@
   "capital-efficiency-in-uniswap-v3.json",
   "real-and-virtual-reserves.json",
   "impermanent-loss-uniswap.json",
-  "ticks-and-ranges.json"
+  "ticks-and-ranges.json",
+  "why-use-strategies-uniswap.json",
+  "uniswap-v3-strategies.json",
+  "pros-cons-uniswap-v3-strategies.json",
+  "pnl-uniswap-v3-explained.json",
+  "strategy-backtesting-uniswap-v3.json",
+  "benefits-backtesting-uniswap-v3.json",
+  "strategy-simulation-uniswap-v3.json",
+  "uniswap-v3-position-management-tools-functions.json"
 ]

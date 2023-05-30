@@ -1,0 +1,29 @@
+id: pnl-uniswap-v3-explained
+name: Profit and Loss in Uniswap V3
+content: Understanding factors affecting profit and loss for liquidity providers in Uniswap V3
+created: '2023-05-30T18:58:14.031Z'
+steps:
+  - uuid: "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d"
+    name: Fees Earned
+    content: >
+      As an LP in Uniswap V3, you earn fees on trades within your set price range. Fees are proportional to the amount of liquidity you provide within the active price range.
+    stepItems: []
+  - uuid: "5d6f6a7f-6441-4113-86be-aad4a31511f6"
+    name: Changes in Asset Values
+    content: >
+      The value of the assets you've provided as liquidity and changes due to price movements impact your PnL. This includes the concept of impermanent loss.
+    stepItems: []
+  - uuid: "8423d50a-3a65-4b33-85c9-5b8484f0a259"
+    name: Gas Costs
+    content: >
+      In Uniswap V3, due to its capital efficiency feature, LPs might adjust their positions more frequently, incurring Ethereum network transaction (gas) fees.
+    stepItems: []
+  - uuid: "dbbd6c88-ac6d-4d4a-88e6-b5f3d353838b"
+    name: Complexity of PnL Calculation
+    content: >
+      Calculating PnL in Uniswap V3 is complex due to factors like specific price range, liquidity depth, and active or passive liquidity management.
+    stepItems: []
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
