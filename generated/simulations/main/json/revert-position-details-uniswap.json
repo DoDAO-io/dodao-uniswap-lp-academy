@@ -1,0 +1,23 @@
+{
+  "content": "How to use Revert Finance to see details of your position",
+  "id": "revert-position-details-uniswap",
+  "name": "Revert - Position Details",
+  "steps": [
+    {
+      "content": "\n## ✅ How to use revert.finance \n## ✅ How to check details about your position",
+      "name": "Introduction",
+      "uuid": "20e2e8f8-89ee-4c2b-b25e-83b9e6a2ddca"
+    },
+    {
+      "content": "",
+      "name": "Introduction Evaluation",
+      "uuid": "7801e19d-fb9a-4998-8ee3-138cc8e91389",
+      "iframeUrl": "https://dodao.navattic.com/vc1910av5"
+    }
+  ],
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "created": "2023-05-30T19:59:28.181Z"
+}

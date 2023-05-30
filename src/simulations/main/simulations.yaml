@@ -5,3 +5,4 @@ simulations:
   - remove-liquidity-uniswap.yaml
   - increase-liquidity-uniswap.yaml
   - revert-backtest-uniswap.yaml
+  - revert-position-details-uniswap.yaml

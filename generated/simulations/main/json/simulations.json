@@ -4,5 +4,6 @@
   "collect-fees-uniswap.json",
   "remove-liquidity-uniswap.json",
   "increase-liquidity-uniswap.json",
-  "revert-backtest-uniswap.json"
+  "revert-backtest-uniswap.json",
+  "revert-position-details-uniswap.json"
 ]
