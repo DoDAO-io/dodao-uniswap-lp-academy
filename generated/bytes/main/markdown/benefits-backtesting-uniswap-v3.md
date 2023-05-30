@@ -1,4 +1,4 @@
-## Benefits of Backtesting in Uniswap V3
+## Benefits of Backtesting
 
 
 ## Risk Management

@@ -1,4 +1,4 @@
-## Profit and Loss in Uniswap V3
+## Profit and Loss in Uniswap
 
 
 ## Fees Earned

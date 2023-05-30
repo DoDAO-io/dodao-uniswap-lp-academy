@@ -1,4 +1,4 @@
-## Pros and Cons of Uniswap V3 Strategies
+## Pros and Cons of Strategies
 
 
 ## HODL Stable Coins

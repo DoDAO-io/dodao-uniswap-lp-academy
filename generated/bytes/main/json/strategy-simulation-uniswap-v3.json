@@ -1,7 +1,7 @@
 {
   "id": "strategy-simulation-uniswap-v3",
-  "name": "Strategy Simulation in Uniswap V3",
-  "content": "An exploration of strategy simulation in Uniswap V3, considering key factors such as token pairs, price ranges, investment duration, and market conditions.",
+  "name": "Strategy Simulation",
+  "content": "An exploration of strategy simulation in Uniswap V3 by considering some key factors",
   "created": "2023-05-30T20:07:12.000Z",
   "steps": [
     {

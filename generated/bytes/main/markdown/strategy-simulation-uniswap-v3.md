@@ -1,4 +1,4 @@
-## Strategy Simulation in Uniswap V3
+## Strategy Simulation
 
 
 ## Selection of Token Pairs

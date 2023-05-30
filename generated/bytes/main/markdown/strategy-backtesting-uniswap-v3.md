@@ -1,4 +1,4 @@
-## Strategy Backtesting in Uniswap V3
+## Strategy Backtesting
 
 
 ## Introduction to Strategy Backtesting
