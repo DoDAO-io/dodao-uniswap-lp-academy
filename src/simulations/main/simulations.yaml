@@ -4,3 +4,4 @@ simulations:
   - collect-fees-uniswap.yaml
   - remove-liquidity-uniswap.yaml
   - increase-liquidity-uniswap.yaml
+  - revert-backtest-uniswap.yaml

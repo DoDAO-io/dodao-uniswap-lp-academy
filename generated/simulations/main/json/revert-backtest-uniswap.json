@@ -1,0 +1,23 @@
+{
+  "content": "How to use Revert Finance to backtest your strategy",
+  "id": "revert-backtest-uniswap",
+  "name": "Revert - Backtest",
+  "steps": [
+    {
+      "content": "\n## ✅ How to use revert.finance \n## ✅ How to backtest your strategy",
+      "name": "Introduction",
+      "uuid": "cbb0f6a2-54ff-4e19-83cd-59526b960be3"
+    },
+    {
+      "content": "    ",
+      "name": "Introduction Evaluation",
+      "uuid": "756dc81c-c1a5-494e-9984-3f311d9df609",
+      "iframeUrl": "https://dodao.navattic.com/byh1006s"
+    }
+  ],
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "created": "2023-05-30T19:52:12.174Z"
+}
