@@ -11,3 +11,4 @@ simulations:
   - backtesting-in-defi-labs-uniswap.yaml
   - defi-labs-il-analysis-uniswap.yaml
   - defi-labs-simulation-uniswap.yaml
+  - uniswap-fish-simulation-uniswap.yaml
