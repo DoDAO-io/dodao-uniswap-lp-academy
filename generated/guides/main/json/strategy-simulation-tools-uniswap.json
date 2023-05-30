@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Tools that you can use to simulate your position",
-  "created": "2023-05-30T00:43:26.943Z",
+  "created": "2023-05-30T01:40:31.465Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -41,6 +41,12 @@
         }
       ],
       "uuid": "20d6e5e7-9b32-466e-be6e-fc1365f95f47"
+    },
+    {
+      "content": "You can visit the website defi-lab.xyz/uniswapv3simulator to access valuable insights on simulating various strategies. By selecting specific tokens, the simulator demonstrates both narrow and wide range strategies. \n\nAdditionally, it offers conservative alternatives such as providing unbounded liquidity, maintaining a 50/50 token holding, or exclusively holding 100% of one token. These options make it effortless for liquidity providers (LPs) to compare and analyze the performance of their positions under different price fluctuations.\n\n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685410710908_defi_lab_sim_1.png\"/>\n</div>\n\n![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685410720026_defi_lab_sim_2.png)\n\n![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685410728240_defi_lab_sim_3.png)\n\n\n\n",
+      "name": "DeFi Lab",
+      "stepItems": [],
+      "uuid": "a1c98069-6736-475e-8bfa-b5d077d4c72e"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/simulate_strategy_tools.png",
