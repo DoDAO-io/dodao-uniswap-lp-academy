@@ -8,3 +8,4 @@ simulations:
   - revert-position-details-uniswap.yaml
   - revert-position-management-uniswap.yaml
   - use-apy-vision-for-pnl-uniswap.yaml
+  - backtesting-in-defi-labs-uniswap.yaml

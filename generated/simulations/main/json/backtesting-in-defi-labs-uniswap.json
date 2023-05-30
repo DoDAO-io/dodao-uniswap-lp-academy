@@ -1,0 +1,23 @@
+{
+  "content": "How to use Defi Labs to backtest your strategy",
+  "id": "backtesting-in-defi-labs-uniswap",
+  "name": "Backtesting in DeFi Labs",
+  "steps": [
+    {
+      "content": "\n## ✅ How to use https://defi-lab.xyz/\n## ✅ How to backtest your strategy",
+      "name": "Introduction",
+      "uuid": "d6e05554-6ee5-4f5f-8634-0d56bf659888"
+    },
+    {
+      "content": "",
+      "name": "Introduction Evaluation",
+      "uuid": "620a3c20-b417-4a60-b07a-0396e16fc0e3",
+      "iframeUrl": "https://dodao.navattic.com/3sb800z5"
+    }
+  ],
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "created": "2023-05-30T20:13:41.822Z"
+}
