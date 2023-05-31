@@ -69,7 +69,46 @@ steps:
     uuid: 76465a85-2834-419e-b6bb-e240b54fc132
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+        - uuid: 32054a9a-3c39-46b0-8e77-5f0e059a671d
+          type: SingleChoice
+          content: What is a new complexity that liquidity providers must face with Uniswap V3?
+          hint: 'NoHint'
+          explanation: >-
+              One new complexity that liquidity providers must face with Uniswap V3 is determining whether they should rebalance their position if their pool shifts out of the selected price range.
+          answerKeys:
+              - D
+          subTopics: [ ]
+          difficultyLevel: Medium
+          choices:
+              - content: Deciding which cryptocurrency to invest in
+                key: A
+              - content: Figuring out how to mine new tokens
+                key: B
+              - content: Learning how to convert their crypto into fiat currency
+                key: C
+              - content: Deciding whether to rebalance their position if their pool shifts out of the selected price range
+                key: D
+
+        - uuid: 5a29f8fd-2c12-4701-9e2c-005a4e6b5c14
+          type: SingleChoice
+          content: Which factor should a liquidity provider consider when deciding to deposit their assets?
+          hint: 'NoHint'
+          explanation: >-
+              A liquidity provider should consider whether they should deposit all their assets as liquidity or reserve a portion when deciding to deposit their assets in Uniswap V3.
+          answerKeys:
+              - B
+          subTopics: [ ]
+          difficultyLevel: Medium
+          choices:
+              - content: The current weather conditions
+                key: A
+              - content: Whether to deposit all their assets as liquidity or reserve a portion
+                key: B
+              - content: The current political climate
+                key: C
+              - content: The number of followers they have on social media
+                key: D
     uuid: 855b6e3e-4b0e-422c-815f-c53210edfd3c
   - content: >-
       In the realm of traditional finance, a single investment strategy doesn't
@@ -146,9 +185,73 @@ steps:
       factors, including market conditions, asset volatility, and your personal
       risk tolerance. Therefore, it is crucial to thoroughly assess your
       circumstances and objectives before committing to a strategy.
-    name: Stategies
+    name: Strategies
     stepItems: []
     uuid: a09f233a-0ec9-4ecb-a02e-08b562d18960
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - uuid: 1f1db5d2-b1a3-447a-8792-cbd78e1b1d67
+        type: SingleChoice
+        content: What is the advantage of the HODL 100% of One Token strategy?
+        hint: 'NoHint'
+        explanation: >-
+          The HODL 100% of One Token strategy can be beneficial if users believe strongly in the potential upside of a particular token.
+        answerKeys:
+          - C
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: It minimizes volatility
+            key: A
+          - content: It hedges risk between two tokens
+            key: B
+          - content: It can be beneficial if users believe strongly in the potential upside of a particular token
+            key: C
+          - content: It reduces risk of liquidity being outside of the trading range
+            key: D
+
+      - uuid: 9a17f4f1-161d-4232-b17a-2daca94ac3fb
+        type: SingleChoice
+        content: What is the advantage of providing narrow range liquidity in Uniswap V3?
+        hint: 'NoHint'
+        explanation: >-
+          Providing narrow range liquidity increases capital efficiency; the liquidity providers can potentially earn more fees for a given amount of capital.
+        answerKeys:
+          - D
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: It minimizes volatility
+            key: A
+          - content: It hedges risk between two tokens
+            key: B
+          - content: It preserves capital during turbulent market conditions
+            key: C
+          - content: It increases capital efficiency, potentially earning more fees for a given amount of capital
+            key: D
+
+      - uuid: 597e9b59-8094-4315-8e5d-d5c5c80abf8e
+        type: SingleChoice
+        content: What is a potential risk when providing liquidity in volatile token pools?
+        hint: 'NoHint'
+        explanation: >-
+          Providing liquidity in volatile token pools can lead to significant impermanent loss if the token prices deviate considerably from the price at which you provided liquidity.
+        answerKeys:
+          - B
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: The risk of losing stable coins
+            key: A
+          - content: The risk of significant impermanent loss if token prices deviate considerably from the price at which liquidity was provided
+            key: B
+          - content: The risk of the pool becoming non-volatile
+            key: C
+          - content: The risk of decreasing capital efficiency
+            key: D
+
+    uuid: 5bee4095-28ef-410f-8bdc-5933f2e73f0b
   - content: >-
       let's delve deeper into the pros and cons of these various strategies:
 
@@ -206,10 +309,7 @@ steps:
     name: Pros and Cons
     stepItems: []
     uuid: 14d6f330-aac3-4efe-b1a4-946b1511010a
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: 5bee4095-28ef-410f-8bdc-5933f2e73f0b
+
   - content: >-
       Multiple strategies can be developed based on the fundamental positions
       taken by liquidity providers (LPs), and these strategies can be automated
@@ -233,7 +333,67 @@ steps:
     uuid: afa75eef-f9b1-4c6c-854c-fd51779567ff
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - uuid: 1ab8d1fa-c2cd-4b9b-8733-4b4d48265ea2
+        type: SingleChoice
+        content: What is a con of the HODL Stable Coins strategy?
+        hint: 'NoHint'
+        explanation: >-
+          A con of the HODL Stable Coins strategy is that it misses out on potential earnings from other investment strategies, including providing liquidity and staking.
+        answerKeys:
+          - D
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: It has a high risk due to lack of diversification
+            key: A
+          - content: It has a higher risk of prices moving outside the specified range
+            key: B
+          - content: It is suitable only for less predictable or more stable markets
+            key: C
+          - content: It misses out on potential earnings from other investment strategies, including providing liquidity and staking
+            key: D
+
+      - uuid: d1a32ca2-1dbd-47e9-a663-424ee9b617a3
+        type: SingleChoice
+        content: What is a pro of providing narrow range liquidity in Uniswap V3?
+        hint: 'NoHint'
+        explanation: >-
+          Providing narrow range liquidity in Uniswap V3 can potentially lead to higher returns from fees for a given amount of capital due to high capital efficiency.
+        answerKeys:
+          - C
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: It lowers risk of prices moving outside the specified range
+            key: A
+          - content: It preserves capital during bear markets
+            key: B
+          - content: It potentially leads to higher returns from fees for a given amount of capital due to high capital efficiency
+            key: C
+          - content: It minimizes risk through diversification of assets
+            key: D
+
+      - uuid: 85c0572b-df44-4f85-a1e8-ea4ef5ef4366
+        type: SingleChoice
+        content: What is a potential risk when providing liquidity in volatile token pools?
+        hint: 'NoHint'
+        explanation: >-
+          Providing liquidity in volatile token pools can lead to increased risk of significant impermanent loss if token prices deviate considerably.
+        answerKeys:
+          - B
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: The risk of lower capital efficiency
+            key: A
+          - content: The risk of significant impermanent loss if token prices deviate considerably
+            key: B
+          - content: The risk of the pool becoming non-volatile
+            key: C
+          - content: The risk of missing out on potential earnings from other investment strategies
+            key: D
+
     uuid: fa5a19a1-53e2-4700-8f45-24c3138a57a4
   - content: >-
       LPs can potentially employ the Black-Scholes Model to assist them in
@@ -347,7 +507,67 @@ steps:
     uuid: bf1597ec-217d-4d97-96a4-c4ce15104905
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - uuid: 6c83b934-cca9-4b7a-8eb7-3a99473d5bb3
+        type: SingleChoice
+        content: Which strategy is considered low risk and offers low gains due to lower capital efficiency?
+        hint: 'NoHint'
+        explanation: >-
+          Providing wide range liquidity involves setting a wide price range for liquidity, which means lower risk of prices moving outside the specified range and consistent fee earnings. However, the downside is lower capital efficiency, which means lower potential gains compared to narrower range liquidity.
+        answerKeys:
+          - B
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: HODL 100% of One Token
+            key: A
+          - content: Provide Wide Range Liquidity
+            key: B
+          - content: Provide Liquidity in Volatile Token Pools
+            key: C
+          - content: HODL 50% of Both Tokens
+            key: D
+
+      - uuid: 3be1a5b5-4e23-49f1-84a4-2fe7588d5a04
+        type: SingleChoice
+        content: Which strategy is considered to have moderate risk and potential for moderate gains?
+        hint: 'NoHint'
+        explanation: >-
+          The strategy of holding 100% of a single token can have moderate risk and gain depending on the stability of the chosen token. There's potential for high returns if the token appreciates, but there's also risk if the token's value decreases.
+        answerKeys:
+          - D
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: HODL Stable Coins
+            key: A
+          - content: Provide Wide Range Liquidity
+            key: B
+          - content: Provide Liquidity in Volatile Token Pools
+            key: C
+          - content: HODL 100% of One Token
+            key: D
+
+      - uuid: b47428b2-a0b7-4f56-88f6-3b6300f5512a
+        type: SingleChoice
+        content: Which strategy is considered high risk with potential for high returns?
+        hint: 'NoHint'
+        explanation: >-
+          Providing liquidity in volatile token pools is high risk due to significant price fluctuations. However, the potential returns can be higher due to the increased trading volumes and thus higher fee earnings.
+        answerKeys:
+          - C
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: HODL Stable Coins
+            key: A
+          - content: Provide Wide Range Liquidity
+            key: B
+          - content: Provide Liquidity in Volatile Token Pools
+            key: C
+          - content: HODL 50% of Both Tokens
+            key: D
+
     uuid: 52c0a720-d233-4105-9dbc-17bff240107f
   - content: ''
     name: Your Info

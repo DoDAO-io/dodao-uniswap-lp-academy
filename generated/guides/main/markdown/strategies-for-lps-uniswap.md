@@ -28,7 +28,35 @@ These questions represent just a few of the considerations every liquidity provi
 
 
 ---
-## Stategies
+## Evaluation
+
+
+
+
+
+##### What is a new complexity that liquidity providers must face with Uniswap V3?  
+     
+- [ ]  Deciding which cryptocurrency to invest in
+- [ ]  Figuring out how to mine new tokens
+- [ ]  Learning how to convert their crypto into fiat currency
+- [x]  Deciding whether to rebalance their position if their pool shifts out of the selected price range
+
+
+
+
+
+##### Which factor should a liquidity provider consider when deciding to deposit their assets?  
+     
+- [ ]  The current weather conditions
+- [x]  Whether to deposit all their assets as liquidity or reserve a portion
+- [ ]  The current political climate
+- [ ]  The number of followers they have on social media
+
+    
+
+
+---
+## Strategies
 
 In the realm of traditional finance, a single investment strategy doesn't fit all. The optimal approach varies based on an investor's individual circumstances, goals, risk tolerance, and liquidity needs. The same principle applies to liquidity providers in the world of DeFi, such as Uniswap V3. Understanding the pros and cons of different strategies is key to making informed decisions.
 
@@ -51,6 +79,45 @@ Let's explore a few potential strategies that liquidity providers can consider:
 6) **Provide Liquidity in Volatile Token Pools:** Volatile token pools are those with significant price fluctuation. Providing liquidity in these pools can be profitable due to high trading volumes (which means more fees), but it's also riskier. Prices can move dramatically and quickly, potentially leading to significant impermanent loss if the token prices deviate considerably from the price at which you provided liquidity. The decision to provide liquidity in these pools should be based on an individual's risk tolerance and belief in the long-term value of the tokens in question.
 
 Remember, the effectiveness of each strategy will depend on various factors, including market conditions, asset volatility, and your personal risk tolerance. Therefore, it is crucial to thoroughly assess your circumstances and objectives before committing to a strategy.
+
+    
+
+
+---
+## Evaluation
+
+
+
+
+
+##### What is the advantage of the HODL 100% of One Token strategy?  
+     
+- [ ]  It minimizes volatility
+- [ ]  It hedges risk between two tokens
+- [x]  It can be beneficial if users believe strongly in the potential upside of a particular token
+- [ ]  It reduces risk of liquidity being outside of the trading range
+
+
+
+
+
+##### What is the advantage of providing narrow range liquidity in Uniswap V3?  
+     
+- [ ]  It minimizes volatility
+- [ ]  It hedges risk between two tokens
+- [ ]  It preserves capital during turbulent market conditions
+- [x]  It increases capital efficiency, potentially earning more fees for a given amount of capital
+
+
+
+
+
+##### What is a potential risk when providing liquidity in volatile token pools?  
+     
+- [ ]  The risk of losing stable coins
+- [x]  The risk of significant impermanent loss if token prices deviate considerably from the price at which liquidity was provided
+- [ ]  The risk of the pool becoming non-volatile
+- [ ]  The risk of decreasing capital efficiency
 
     
 
@@ -126,6 +193,45 @@ Many traditional liquidity providers draw a parallel between Uniswap's V3 positi
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### What is a con of the HODL Stable Coins strategy?  
+     
+- [ ]  It has a high risk due to lack of diversification
+- [ ]  It has a higher risk of prices moving outside the specified range
+- [ ]  It is suitable only for less predictable or more stable markets
+- [x]  It misses out on potential earnings from other investment strategies, including providing liquidity and staking
+
+
+
+
+
+##### What is a pro of providing narrow range liquidity in Uniswap V3?  
+     
+- [ ]  It lowers risk of prices moving outside the specified range
+- [ ]  It preserves capital during bear markets
+- [x]  It potentially leads to higher returns from fees for a given amount of capital due to high capital efficiency
+- [ ]  It minimizes risk through diversification of assets
+
+
+
+
+
+##### What is a potential risk when providing liquidity in volatile token pools?  
+     
+- [ ]  The risk of lower capital efficiency
+- [x]  The risk of significant impermanent loss if token prices deviate considerably
+- [ ]  The risk of the pool becoming non-volatile
+- [ ]  The risk of missing out on potential earnings from other investment strategies
+
+    
+
+
+---
 ## Strategy Modeling
 
 LPs can potentially employ the Black-Scholes Model to assist them in determining the optimal price ranges for providing liquidity. For instance, they can calculate the implied volatility of the tokens using the model and utilize this information to assess the probability of the token's price remaining within their specified range. By doing so, they can aim to maximize their fee earnings while minimizing risks.
@@ -179,6 +285,45 @@ Let's categorize these strategies based on the investor's circumstances, goals, 
 
 
 Remember, individual circumstances can change over time, and the chosen strategy should reflect these changes. It's also essential to consider that while categorizations can guide decision-making, they may not cover all potential situations and outcomes.
+
+    
+
+
+---
+## Evaluation
+
+
+
+
+
+##### Which strategy is considered low risk and offers low gains due to lower capital efficiency?  
+     
+- [ ]  HODL 100% of One Token
+- [x]  Provide Wide Range Liquidity
+- [ ]  Provide Liquidity in Volatile Token Pools
+- [ ]  HODL 50% of Both Tokens
+
+
+
+
+
+##### Which strategy is considered to have moderate risk and potential for moderate gains?  
+     
+- [ ]  HODL Stable Coins
+- [ ]  Provide Wide Range Liquidity
+- [ ]  Provide Liquidity in Volatile Token Pools
+- [x]  HODL 100% of One Token
+
+
+
+
+
+##### Which strategy is considered high risk with potential for high returns?  
+     
+- [ ]  HODL Stable Coins
+- [ ]  Provide Wide Range Liquidity
+- [x]  Provide Liquidity in Volatile Token Pools
+- [ ]  HODL 50% of Both Tokens
 
     
 

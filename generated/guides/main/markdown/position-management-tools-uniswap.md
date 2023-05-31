@@ -91,6 +91,11 @@ Remember, Revert applies a 0.50% fee for swap transactions.
 ---
 ## Arrakis V2
 
+Arrakis V2 serves as a sophisticated abstraction layer built on top of concentrated liquidity automated market makers (AMMs) like Uniswap V3, enabling central limit order book (CLOB) like interactions. This system permits the execution of advanced strategies previously only viable on centralized exchanges (CEXs). Key to this system are 'vaults', which can be privately managed or publicly available, and are operated by a variety of entities including DAOs, institutions, or individual traders. These vaults can deploy intricate market making strategies optimized for factors such as liquidity depth, trading fee APRs, or mimicking traditional AMM invariants.
+
+Beyond this, Arrakis V2 introduces a range of significant features. It allows for multiple concentrated liquidity positions, enabling a collection of custom positions rather than a single position on Uniswap V3. This flexibility encourages the creation of a limitless variety of custom strategies. Other features include cross fee tier liquidity allocation, inventory management for better risk management, and cross protocol rebalancing to ensure minimal slippage. These features and innovations allow Arrakis V2 to bring sophisticated market-making strategies on-chain and help DEXs like Uniswap V3 rival CEXs in terms of liquidity depth and efficiency.
+
+
 https://mirror.xyz/0x916563f8476b988855af0b8b8A3D56072E1917FA/dDECIZ2xM5EUolG5Lrkrk5XyXgUrfrnaboDDuGYXXBg
 
     
