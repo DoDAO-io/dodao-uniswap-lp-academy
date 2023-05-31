@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to simulate your position
-created: '2023-05-31T12:25:05.731Z'
+created: '2023-05-31T12:26:00.805Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -18,6 +18,14 @@ steps:
       LPs to develop diverse strategies to maximize their returns.
 
 
+      <div align="center">
+
+      <img style="max-height:350px;margin-bottom:30px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685535793742_simulation.png"/>
+
+      </div>
+
+
       The simulations typically consider the following factors:
 
 
@@ -28,15 +36,6 @@ steps:
       * **Price Range Setting:** Uniswap V3 allows LPs to set price ranges for
       their liquidity. Simulating different price range settings can aid in
       determining the optimal ranges for a given strategy.
-
-
-      <div align="center">
-
-      <img style="max-height:350px;margin-bottom:30px"
-      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685535793742_simulation.png"/>
-
-      </div>
-
 
 
       * **Duration of Investment:** The length of time for which liquidity is
