@@ -1,6 +1,6 @@
 categories: []
 content: How to calculate returns on your position and tools that help
-created: '2023-05-31T12:20:45.523Z'
+created: '2023-05-31T12:21:26.678Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -10,12 +10,6 @@ publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
   - content: >-
-      <div align="center">
-
-      <img style="max-height:350px;margin-bottom:30px"
-      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1685535623640_profit_and_loss.png"/>
-
-      </div>
 
 
       In Uniswap v3, the profit and loss (PnL) for a liquidity provider (LP) are
@@ -30,6 +24,14 @@ steps:
       amount of liquidity you provide within the active price range. The more
       your liquidity is utilized (i.e., the more trades that happen within your
       set price range), the more fees you earn.
+
+
+      <div align="center">
+
+      <img style="max-height:350px;margin-bottom:30px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1685535623640_profit_and_loss.png"/>
+
+      </div>
 
 
       2. **Changes in Asset Values**: The other component of PnL calculation in
