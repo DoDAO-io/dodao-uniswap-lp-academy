@@ -47,7 +47,67 @@ steps:
     uuid: f8e78b4d-59b4-4f90-8a7c-ea6d0055aced
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - uuid: 53291a34-d157-4393-9dc2-2dc6fb4b0264
+        type: SingleChoice
+        content: What are the primary determinants of profit and loss (PnL) for a liquidity provider (LP) in Uniswap v3?
+        hint: 'NoHint'
+        explanation: >-
+          In Uniswap v3, the profit and loss (PnL) for a liquidity provider (LP) are primarily determined by two factors: fees earned and changes in asset values due to price movements.
+        answerKeys:
+          - B
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: Fees earned and gas costs
+            key: A
+          - content: Fees earned and changes in asset values
+            key: B
+          - content: Changes in asset values and gas costs
+            key: C
+          - content: Gas costs and impermanent loss
+            key: D
+
+      - uuid: 1087b6cc-d5a3-49b4-a1b9-6fccc1609ec8
+        type: SingleChoice
+        content: What is impermanent loss in the context of Uniswap v3?
+        hint: 'NoHint'
+        explanation: >-
+          Impermanent loss happens when the price of your assets changes compared to when you deposited them. If the relative price of your two assets changes, you could end up with less value than if you had simply held onto the assets. This loss is "impermanent" because it could be negated if the prices revert back to their original state.
+        answerKeys:
+          - A
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: Decrease in value due to price changes of deposited assets
+            key: A
+          - content: Increase in value due to price changes of deposited assets
+            key: B
+          - content: Loss incurred due to Ethereum network transaction fees
+            key: C
+          - content: Loss incurred due to trades outside of set price range
+            key: D
+
+      - uuid: 1fd74760-4643-4fc3-ba63-8cdd6bb6bf9b
+        type: SingleChoice
+        content: Why might liquidity providers adjust their positions more frequently in Uniswap v3?
+        hint: 'NoHint'
+        explanation: >-
+          This is especially important in Uniswap v3 because of its capital efficiency feature. Liquidity providers might adjust their positions more frequently, which incurs Ethereum network transaction (gas) fees.
+        answerKeys:
+          - C
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: To decrease impermanent loss
+            key: A
+          - content: To earn more fees
+            key: B
+          - content: To take advantage of the capital efficiency feature
+            key: C
+          - content: To anticipate market movements
+            key: D
+
     uuid: 07020adb-0cfc-478c-94df-58bc8ad9ebde
   - content: >
       Revert develops analytics and management tools for liquidity providers in
@@ -141,7 +201,47 @@ steps:
     uuid: d26cb0ef-eef8-43d8-b150-8faff8bd0a12
   - content: ''
     name: Evaulation
-    stepItems: []
+    stepItems:
+      - uuid: e5b31f45-08de-4132-9746-bec7d12ee729
+        type: SingleChoice
+        content: Which among the following is NOT a data point provided by Revert for Uniswap V3 position analysis?
+        hint: 'NoHint'
+        explanation: >-
+          All the other choices except "Trade Volume" are data points provided by Revert for Uniswap V3 position analysis. "Trade Volume" is not a data point under Position Definitions, but it's part of the Pool Definitions.
+        answerKeys:
+          - D
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: Pooled_assets
+            key: A
+          - content: APR
+            key: B
+          - content: Pool_PnL
+            key: C
+          - content: Trade Volume
+            key: D
+
+      - uuid: 43cbaf18-66f1-4009-bb2a-eb7636e7ac46
+        type: SingleChoice
+        content: What is the meaning of "Price_divergence" in Uniswap v3 Pool Definitions provided by Revert?
+        hint: 'NoHint'
+        explanation: >-
+          Price_divergence refers to the absolute difference between the percentage changes in prices for the underlying assets compared to the prices 30 days ago. This can lead to losses for LPs if the two assets' prices diverge significantly.
+        answerKeys:
+          - A
+        subTopics: [ ]
+        difficultyLevel: Medium
+        choices:
+          - content: The absolute difference between the percentage changes in prices for the underlying assets compared to the prices 30 days ago.
+            key: A
+          - content: The total value of the position in USD.
+            key: B
+          - content: The total detected unclaimed and claimed staking rewards for the account and pool, respectively.
+            key: C
+          - content: The yearly return rate considering the value of the position assets, deposits, withdrawals, gas costs, and staking rewards at current prices.
+            key: D
+
     uuid: 2b8e84da-c6e4-4309-8e31-66b9d685b6d7
   - content: >
       Similar to the "revert" and other position tracking tools, apy.vision has

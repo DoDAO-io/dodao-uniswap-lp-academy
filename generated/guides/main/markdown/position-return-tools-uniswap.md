@@ -19,6 +19,45 @@ However, calculating PnL in Uniswap v3 is complex due to these factors and other
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### What are the primary determinants of profit and loss (PnL) for a liquidity provider (LP) in Uniswap v3?  
+     
+- [ ]  Fees earned and gas costs
+- [x]  Fees earned and changes in asset values
+- [ ]  Changes in asset values and gas costs
+- [ ]  Gas costs and impermanent loss
+
+
+
+
+
+##### What is impermanent loss in the context of Uniswap v3?  
+     
+- [x]  Decrease in value due to price changes of deposited assets
+- [ ]  Increase in value due to price changes of deposited assets
+- [ ]  Loss incurred due to Ethereum network transaction fees
+- [ ]  Loss incurred due to trades outside of set price range
+
+
+
+
+
+##### Why might liquidity providers adjust their positions more frequently in Uniswap v3?  
+     
+- [ ]  To decrease impermanent loss
+- [ ]  To earn more fees
+- [x]  To take advantage of the capital efficiency feature
+- [ ]  To anticipate market movements
+
+    
+
+
+---
 ## Revert Finance
 
 Revert develops analytics and management tools for liquidity providers in AMM protocols and has a great support for Uniswap V3.
@@ -60,6 +99,34 @@ Below are some of the important data points shown by revert
 - **Price_divergence**: The absolute difference between the percentage changes in prices for the underlying assets compared to the prices 30 days ago. This can lead to losses for LPs if the two assets' prices diverge significantly.
 - **Position_age**: The time (in days) since the position was first created.
 
+
+    
+
+
+---
+## Evaulation
+
+
+
+
+
+##### Which among the following is NOT a data point provided by Revert for Uniswap V3 position analysis?  
+     
+- [ ]  Pooled_assets
+- [ ]  APR
+- [ ]  Pool_PnL
+- [x]  Trade Volume
+
+
+
+
+
+##### What is the meaning of "Price_divergence" in Uniswap v3 Pool Definitions provided by Revert?  
+     
+- [x]  The absolute difference between the percentage changes in prices for the underlying assets compared to the prices 30 days ago.
+- [ ]  The total value of the position in USD.
+- [ ]  The total detected unclaimed and claimed staking rewards for the account and pool, respectively.
+- [ ]  The yearly return rate considering the value of the position assets, deposits, withdrawals, gas costs, and staking rewards at current prices.
 
     
 
