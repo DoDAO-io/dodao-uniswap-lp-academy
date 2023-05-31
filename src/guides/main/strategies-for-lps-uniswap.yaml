@@ -1,6 +1,6 @@
 categories: []
 content: Different strategies that LPs can use to deploy funds
-created: '2023-05-30T03:21:32.467Z'
+created: '2023-05-31T02:11:43.690Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -67,6 +67,10 @@ steps:
     name: Introduction
     stepItems: []
     uuid: 76465a85-2834-419e-b6bb-e240b54fc132
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 855b6e3e-4b0e-422c-815f-c53210edfd3c
   - content: >-
       In the realm of traditional finance, a single investment strategy doesn't
       fit all. The optimal approach varies based on an investor's individual
@@ -202,6 +206,10 @@ steps:
     name: Pros and Cons
     stepItems: []
     uuid: 14d6f330-aac3-4efe-b1a4-946b1511010a
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 5bee4095-28ef-410f-8bdc-5933f2e73f0b
   - content: >-
       Multiple strategies can be developed based on the fundamental positions
       taken by liquidity providers (LPs), and these strategies can be automated
@@ -223,6 +231,10 @@ steps:
     name: Options Strategy using V3
     stepItems: []
     uuid: afa75eef-f9b1-4c6c-854c-fd51779567ff
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: fa5a19a1-53e2-4700-8f45-24c3138a57a4
   - content: >-
       LPs can potentially employ the Black-Scholes Model to assist them in
       determining the optimal price ranges for providing liquidity. For
@@ -333,6 +345,10 @@ steps:
     name: Final Words
     stepItems: []
     uuid: bf1597ec-217d-4d97-96a4-c4ce15104905
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 52c0a720-d233-4105-9dbc-17bff240107f
   - content: ''
     name: Your Info
     stepItems:

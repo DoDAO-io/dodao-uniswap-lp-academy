@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Different strategies that LPs can use to deploy funds",
-  "created": "2023-05-30T03:21:32.467Z",
+  "created": "2023-05-31T02:11:43.690Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -18,6 +18,12 @@
       "uuid": "76465a85-2834-419e-b6bb-e240b54fc132"
     },
     {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "855b6e3e-4b0e-422c-815f-c53210edfd3c"
+    },
+    {
       "content": "In the realm of traditional finance, a single investment strategy doesn't fit all. The optimal approach varies based on an investor's individual circumstances, goals, risk tolerance, and liquidity needs. The same principle applies to liquidity providers in the world of DeFi, such as Uniswap V3. Understanding the pros and cons of different strategies is key to making informed decisions.\n\n<div align=\"center\">\n<img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategies-for-lps-uniswap/1685416836003_strategies_uniswap.png\"/>\n</div>\n\nLet's explore a few potential strategies that liquidity providers can consider:\n\n1) **HODL Stable Coins:** In this strategy, users hold onto stable coins rather than investing or providing liquidity in any liquidity pools. Stable coins, as their name suggests, are designed to minimize volatility as they are pegged to a stable asset, usually a reserve of fiat currency like the USD. By holding stable coins, users may be able to preserve their capital during turbulent market conditions.\n\n2) **HODL 50% of Both Tokens:** This strategy involves holding onto 50% of two different tokens, but not providing liquidity in Uniswap pools. This may be useful for hedging risk between the two tokens. If one token's value declines, it may be offset by the other token's increase in value. This strategy might work well with tokens that have inverse correlations.\n\n3) **HODL 100% of One Token:** In this strategy, users hold 100% of a single token, which can be beneficial if they believe strongly in the potential upside of a particular token. However, this approach exposes the holder to significant risk if the value of that single token decreases.\n\n4) **Provide Wide Range Liquidity:** In Uniswap V3, users can set custom price ranges for their liquidity provision. Providing a wide range liquidity means that users set a wide price range for their liquidity. This could mean less risk of their liquidity being outside of the trading range and not earning fees, but the downside is that the capital efficiency is lower, meaning they will earn less fees for a given amount of capital compared to a narrower range.\n\n5) **Provide Narrow Range Liquidity:** Conversely, providing narrow range liquidity means setting a narrower price range for liquidity. The advantage here is increased capital efficiency; the liquidity providers can potentially earn more fees for a given amount of capital. However, the risk is higher, as the price of the token pair is more likely to move outside the specified range, at which point the liquidity provider stops earning fees.\n\n6) **Provide Liquidity in Volatile Token Pools:** Volatile token pools are those with significant price fluctuation. Providing liquidity in these pools can be profitable due to high trading volumes (which means more fees), but it's also riskier. Prices can move dramatically and quickly, potentially leading to significant impermanent loss if the token prices deviate considerably from the price at which you provided liquidity. The decision to provide liquidity in these pools should be based on an individual's risk tolerance and belief in the long-term value of the tokens in question.\n\nRemember, the effectiveness of each strategy will depend on various factors, including market conditions, asset volatility, and your personal risk tolerance. Therefore, it is crucial to thoroughly assess your circumstances and objectives before committing to a strategy.",
       "name": "Stategies",
       "stepItems": [],
@@ -30,10 +36,22 @@
       "uuid": "14d6f330-aac3-4efe-b1a4-946b1511010a"
     },
     {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "5bee4095-28ef-410f-8bdc-5933f2e73f0b"
+    },
+    {
       "content": "Multiple strategies can be developed based on the fundamental positions taken by liquidity providers (LPs), and these strategies can be automated as well. However, it is essential to acknowledge that, similar to traditional finance, there are no models that can guarantee gains without any associated risks.\n\nMany traditional liquidity providers draw a parallel between Uniswap's V3 position and an option. In Uniswap V3, when LPs offer concentrated liquidity within a specific price range, they are essentially selling a type of option. If the token price remains within their specified range, they earn fees analogous to the premium in an options contract. Conversely, if the price moves outside their range, they cease to earn fees, and they retain the token similar to an exercised option.\n\n\n ",
       "name": "Options Strategy using V3",
       "stepItems": [],
       "uuid": "afa75eef-f9b1-4c6c-854c-fd51779567ff"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "fa5a19a1-53e2-4700-8f45-24c3138a57a4"
     },
     {
       "content": "LPs can potentially employ the Black-Scholes Model to assist them in determining the optimal price ranges for providing liquidity. For instance, they can calculate the implied volatility of the tokens using the model and utilize this information to assess the probability of the token's price remaining within their specified range. By doing so, they can aim to maximize their fee earnings while minimizing risks.\n\nHowever, it is crucial to recognize that the Black-Scholes Model relies on several assumptions that may not hold true in the cryptocurrency realm, such as constant volatility and the ability to continuously hedge. Additionally, the model does not account for impermanent loss, which is a unique risk faced by LPs in decentralized exchanges. Therefore, while the Black-Scholes Model can be a valuable tool, it should be used cautiously and in conjunction with other risk management strategies.\n\n### Theoretical Examples\nTo illustrate how the Black-Scholes Model might be applied in the context of Uniswap V3, let's consider two examples. Please note that these are simplified examples and actual market dynamics involve more variables and risks.\n\n#### **Example 1**: \nLet's assume you are a liquidity provider (LP) for a ETH/USDT pool on Uniswap V3. You believe that the price of ETH will stay between $2,500 and $3,000 over the next month. So, you decide to provide liquidity in this specific price range. By doing so, you are essentially selling a type of options contract where you profit (in the form of trading fees) if the price stays within this range and potentially lose if it moves outside.\n\nNow, suppose you want to calculate the expected fees (analogous to options premium) you would receive. The Black-Scholes Model could be used here. You would consider the current price of ETH, the volatility (which you can calculate from historical price data), the time until your liquidity provision period ends, and a risk-free interest rate to compute the expected value of your position.\n\nThis could guide you in deciding whether providing liquidity in this range is expected to be profitable given the associated risks and the amount of capital you need to lock up.\n\n#### **Example 2**: \nLet's say you have a choice between two pools to provide liquidity: ETH/USDT and LINK/USDT. You believe ETH will trade between $2,500 and $3,000 and LINK will trade between $30 and $35 over the next month.\n\nYou can use the Black-Scholes Model to calculate the implied volatility of both ETH and LINK, which tells you how much market participants expect the price to change. If the implied volatility of LINK is significantly higher than ETH, that means the market expects LINK's price to change more dramatically.\n\nGiven that you're earning fees when the price stays within your specified range, you might decide to provide liquidity to the ETH/USDT pool because it's less likely for ETH to move out of your range, based on the implied volatility. This could potentially result in a more stable income stream for you.\n\nRemember, these examples are highly simplified. In reality, there are many other factors to consider, such as transaction costs, impermanent loss, the depth of the liquidity pool, and the unpredictability of cryptocurrency prices. The Black-Scholes Model also assumes a constant volatility and risk-free rate, and the ability to continuously hedge, which may not hold true in the volatile crypto market.",
@@ -46,6 +64,12 @@
       "name": "Final Words",
       "stepItems": [],
       "uuid": "bf1597ec-217d-4d97-96a4-c4ce15104905"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "52c0a720-d233-4105-9dbc-17bff240107f"
     },
     {
       "content": "",
