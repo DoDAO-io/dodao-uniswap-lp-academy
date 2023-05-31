@@ -20,7 +20,98 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174008",
+          "type": "SingleChoice",
+          "content": "In the context of Uniswap V3, what does strategy simulation refer to?",
+          "hint": "NoHint",
+          "explanation": "Strategy simulation in Uniswap V3 refers to the process of modeling and testing various strategies for providing liquidity in the protocol.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The process of choosing the most valuable tokens.",
+              "key": "A"
+            },
+            {
+              "content": "Modeling and testing various strategies for providing liquidity.",
+              "key": "B"
+            },
+            {
+              "content": "Estimating the future price of tokens.",
+              "key": "C"
+            },
+            {
+              "content": "Tracking the historical performance of a specific token pair.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174009",
+          "type": "SingleChoice",
+          "content": "What does strategy simulation in Uniswap V3 typically consider?",
+          "hint": "NoHint",
+          "explanation": "Strategy simulation in Uniswap V3 typically considers factors such as the selection of token pairs, price range setting, duration of investment, and market conditions.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The total number of token holders.",
+              "key": "A"
+            },
+            {
+              "content": "The daily trading volume of the Uniswap V3 protocol.",
+              "key": "B"
+            },
+            {
+              "content": "The price of Ethereum gas.",
+              "key": "C"
+            },
+            {
+              "content": "The selection of token pairs, price range setting, duration of investment, and market conditions.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174010",
+          "type": "SingleChoice",
+          "content": "What can LPs gain by simulating strategies in Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "By simulating strategies, liquidity providers can gain insights into the potential outcomes and make informed decisions when providing liquidity on Uniswap V3.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "They can predict the exact future price of a token.",
+              "key": "A"
+            },
+            {
+              "content": "They can gain insights into potential outcomes and make informed decisions.",
+              "key": "B"
+            },
+            {
+              "content": "They can control the price of a particular token.",
+              "key": "C"
+            },
+            {
+              "content": "They can predict the exact future trading volume of a token pair.",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "uuid": "f40b3298-8ae2-4969-a84e-8221c5b7cbf6"
     },
     {
@@ -32,7 +123,68 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174011",
+          "type": "SingleChoice",
+          "content": "What is one major advantage of strategy simulation in Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "One major advantage of strategy simulation in Uniswap V3 is that it aids in making more informed decisions about providing liquidity by simulating different strategies to gain insights into potential returns and risks.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Predicting the future price of tokens.",
+              "key": "A"
+            },
+            {
+              "content": "Guaranteeing a certain level of return.",
+              "key": "B"
+            },
+            {
+              "content": "Making more informed decisions about providing liquidity.",
+              "key": "C"
+            },
+            {
+              "content": "Manipulating market dynamics.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174012",
+          "type": "SingleChoice",
+          "content": "How does strategy simulation in Uniswap V3 contribute to risk mitigation?",
+          "hint": "NoHint",
+          "explanation": "Strategy simulation in Uniswap V3 contributes to risk mitigation by allowing users to understand potential outcomes and risks associated with different strategies, enabling them to choose strategies that align with their risk tolerance level.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "It guarantees no loss in any market condition.",
+              "key": "A"
+            },
+            {
+              "content": "It allows understanding potential outcomes and risks associated with different strategies.",
+              "key": "B"
+            },
+            {
+              "content": "It provides insurance against loss.",
+              "key": "C"
+            },
+            {
+              "content": "It manipulates market conditions to avoid risks.",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "uuid": "3c688b83-5ffb-4dcc-8dfd-cb9f8dbfdfca"
     },
     {

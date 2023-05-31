@@ -32,7 +32,71 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174003",
+          "type": "MultipleChoice",
+          "content": "What functionalities can position management tools offer in Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "In Uniswap V3, position management tools can offer functionalities like monitoring performance of liquidity positions, adjusting price ranges, managing multiple positions, and providing transaction history.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Monitoring the performance of liquidity positions.",
+              "key": "A"
+            },
+            {
+              "content": "Helping in adjusting the price ranges of positions.",
+              "key": "B"
+            },
+            {
+              "content": "Managing multiple positions across different token pairs or price ranges.",
+              "key": "C"
+            },
+            {
+              "content": "Providing transaction history related to each position.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174004",
+          "type": "SingleChoice",
+          "content": "What should be kept in mind despite the aid of position management tools in Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "Despite the aid of position management tools in Uniswap V3, it's important to remember that these tools do not replace the need for careful analysis and consideration of market conditions and individual risk tolerance.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The need for high-speed internet connection.",
+              "key": "A"
+            },
+            {
+              "content": "The need for expert coding skills.",
+              "key": "B"
+            },
+            {
+              "content": "The need for constant monitoring of the cryptocurrency market.",
+              "key": "C"
+            },
+            {
+              "content": "The need for careful analysis and consideration of market conditions and individual risk tolerance.",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "uuid": "9ff7f8bd-d5c7-43f0-90f1-0e3df2537802"
     },
     {
