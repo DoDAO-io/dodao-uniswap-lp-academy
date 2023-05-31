@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to back test your strategies
-created: '2023-05-31T12:13:28.477Z'
+created: '2023-05-31T12:15:13.109Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -38,8 +38,12 @@ steps:
       outcomes.
 
 
-      ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685535205741_strategies.png)
+      <div align="center">
 
+      <img style="max-height:350px;margin-bottom:30px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685535205741_strategies.png"/>
+
+      </div>
 
 
       ### Strategy Backtesting in the Context of Uniswap V3
