@@ -1,6 +1,6 @@
 categories: []
 content: How to calculate returns on your position and tools that help
-created: '2023-05-20T20:40:46.501Z'
+created: '2023-05-31T02:26:44.867Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -45,6 +45,10 @@ steps:
     name: Introduction
     stepItems: []
     uuid: f8e78b4d-59b4-4f90-8a7c-ea6d0055aced
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 07020adb-0cfc-478c-94df-58bc8ad9ebde
   - content: >
       Revert develops analytics and management tools for liquidity providers in
       AMM protocols and has a great support for Uniswap V3.
@@ -135,6 +139,10 @@ steps:
     name: Revert Finance
     stepItems: []
     uuid: d26cb0ef-eef8-43d8-b150-8faff8bd0a12
+  - content: ''
+    name: Evaulation
+    stepItems: []
+    uuid: 2b8e84da-c6e4-4309-8e31-66b9d685b6d7
   - content: >
       Similar to the "revert" and other position tracking tools, apy.vision has
       the capability to monitor your position and provide detailed information

@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "How to calculate returns on your position and tools that help",
-  "created": "2023-05-20T20:40:46.501Z",
+  "created": "2023-05-31T02:26:44.867Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -18,10 +18,22 @@
       "uuid": "f8e78b4d-59b4-4f90-8a7c-ea6d0055aced"
     },
     {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "07020adb-0cfc-478c-94df-58bc8ad9ebde"
+    },
+    {
       "content": "Revert develops analytics and management tools for liquidity providers in AMM protocols and has a great support for Uniswap V3.\n\n### Revert Home Screen\n<div align=\"center\">\n<img style=\"max-height:600px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684612775072_revert_1.png\"/>\n</div>\nYou just need to input your address and you should be able to see all the details related to your postion\n\n### Position List\n<div align=\"center\">\n<img style=\"max-height:900px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684612942587_revert_2_a.png\"/>\n</div>\n\n### Position Details\n<div align=\"center\">\n<img style=\"max-height:800px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684612976393_revert_2.png\"/>\n</div>\n\n\nBelow are some of the important data points shown by revert\n### **Uniswap v3 Position Definitions**\n\n- **Pooled_assets**: The total value of the position in USD.\n- **APR**: The yearly return rate considering the value of the position assets, deposits, withdrawals, gas costs, and staking rewards at current prices.\n- **Fee APR**: The yearly return rate based on accrued fees only, without considering divergence loss.\n- **APR_excluding_gas**: The yearly return rate taking into account the value of the position, fees, and divergence loss, but ignoring gas costs.\n- **Pool_PnL & Total_PnL**: These metrics measure the profit and loss for a position. While Pool PnL considers only fees and price divergence, Total PnL also factors in gas costs and reward incentives.\n- **Current_assets**: The current amount of tokens associated with this liquidity provider (LP) position.\n- **Invested_assets & Withdrawn**: The total assets put into and taken out of the position, respectively.\n- **Diffs**: The difference between invested assets, withdrawn assets, and current assets.\n- **Unclaimed_rewards & Claimed_rewards**: The total detected unclaimed and claimed staking rewards for the account and pool, respectively.\n\n### **Uniswap v3 Pool Definitions**\n\n- **Reserves**: The USD value of the token reserves for the pool.\n- **Volume**: The USD value of the traded volume within the pool.\n- **Price_divergence**: The absolute difference between the percentage changes in prices for the underlying assets compared to the prices 30 days ago. This can lead to losses for LPs if the two assets' prices diverge significantly.\n- **Position_age**: The time (in days) since the position was first created.\n",
       "name": "Revert Finance",
       "stepItems": [],
       "uuid": "d26cb0ef-eef8-43d8-b150-8faff8bd0a12"
+    },
+    {
+      "content": "",
+      "name": "Evaulation",
+      "stepItems": [],
+      "uuid": "2b8e84da-c6e4-4309-8e31-66b9d685b6d7"
     },
     {
       "content": "Similar to the \"revert\" and other position tracking tools, apy.vision has the capability to monitor your position and provide detailed information in a user-friendly format. Additionally, it offers a wide range of supplementary analytics and position tracking features.\n\n<div align=\"center\">\n<img style=\"max-height:1200px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684615191588_apy_vision.png\"/>\n</div>\n\n### Detailed Historical Position Overview\nProvides comprehensive performance metrics and data related to specific positions, including:\n- Position income (farming rewards, fees)\n- Capital’s performance\n- Position ROI\n- Position APY\n- Daily position data\n- Impermanent loss\n- Account holdings and balances\n- PnL\n- User transactions\n\n### User Position Page \nThis data is integrated into the user's existing position page on the protocol's website.\n\n### Monthly Summaries\napy.vision also high-level, bank-like monthly statements. These summaries contain the following data:\n- Beginning and ending balances of a given period\n- Deposits, withdrawals, gains/loss from asset price changes\n\n### Protocol-Level User Performance\nThis includes:\n- Protocol-level user income tracking (farming rewards, fees)\n- Performance of all deposited assets\n- Historical user ROI in the protocol\n- Total APY in the protocol\n- Daily user protocol data\n- Impermanent loss\n- Account holdings and balances\n- PnL\n- User transactions history\n- Tracking of collected fees\n\n### Collected Fees Report\nOffers a detailed report on collected fees, which includes:\n- Amount of reward tokens claimed\n- Token price at the time of collection\n- Current token price\n- Dates\n- User transactions history\n",
