@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to simulate your position
-created: '2023-05-31T02:35:36.177Z'
+created: '2023-05-31T12:23:36.432Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -30,6 +30,15 @@ steps:
       determining the optimal ranges for a given strategy.
 
 
+      <div align="center">
+
+      <img style="max-height:350px;margin-bottom:30px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685535793742_simulation.png"/>
+
+      </div>
+
+
+
       - **Duration of Investment:** The length of time for which liquidity is
       provided can significantly influence potential returns. Strategy
       simulations often consider various durations to understand their impact on
@@ -52,16 +61,8 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - uuid: 123e4567-e89b-12d3-a456-426614174008
-        type: SingleChoice
-        content: In the context of Uniswap V3, what does strategy simulation refer to?
-        hint: 'NoHint'
-        explanation: >-
-          Strategy simulation in Uniswap V3 refers to the process of modeling and testing various strategies for providing liquidity in the protocol.
-        answerKeys:
+      - answerKeys:
           - B
-        subTopics: [ ]
-        difficultyLevel: Medium
         choices:
           - content: The process of choosing the most valuable tokens.
             key: A
@@ -71,17 +72,11 @@ steps:
             key: C
           - content: Tracking the historical performance of a specific token pair.
             key: D
-
-      - uuid: 123e4567-e89b-12d3-a456-426614174009
+        content: In the context of Uniswap V3, what does strategy simulation refer to?
         type: SingleChoice
-        content: What does strategy simulation in Uniswap V3 typically consider?
-        hint: 'NoHint'
-        explanation: >-
-          Strategy simulation in Uniswap V3 typically considers factors such as the selection of token pairs, price range setting, duration of investment, and market conditions.
-        answerKeys:
+        uuid: 123e4567-e89b-12d3-a456-426614174008
+      - answerKeys:
           - D
-        subTopics: [ ]
-        difficultyLevel: Medium
         choices:
           - content: The total number of token holders.
             key: A
@@ -89,29 +84,29 @@ steps:
             key: B
           - content: The price of Ethereum gas.
             key: C
-          - content: The selection of token pairs, price range setting, duration of investment, and market conditions.
+          - content: >-
+              The selection of token pairs, price range setting, duration of
+              investment, and market conditions.
             key: D
-
-      - uuid: 123e4567-e89b-12d3-a456-426614174010
+        content: What does strategy simulation in Uniswap V3 typically consider?
         type: SingleChoice
-        content: What can LPs gain by simulating strategies in Uniswap V3?
-        hint: 'NoHint'
-        explanation: >-
-          By simulating strategies, liquidity providers can gain insights into the potential outcomes and make informed decisions when providing liquidity on Uniswap V3.
-        answerKeys:
+        uuid: 123e4567-e89b-12d3-a456-426614174009
+      - answerKeys:
           - B
-        subTopics: [ ]
-        difficultyLevel: Medium
         choices:
           - content: They can predict the exact future price of a token.
             key: A
-          - content: They can gain insights into potential outcomes and make informed decisions.
+          - content: >-
+              They can gain insights into potential outcomes and make informed
+              decisions.
             key: B
           - content: They can control the price of a particular token.
             key: C
           - content: They can predict the exact future trading volume of a token pair.
             key: D
-
+        content: What can LPs gain by simulating strategies in Uniswap V3?
+        type: SingleChoice
+        uuid: 123e4567-e89b-12d3-a456-426614174010
     uuid: f40b3298-8ae2-4969-a84e-8221c5b7cbf6
   - content: >
       **Pros of Strategy Simulation:**
@@ -141,16 +136,8 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - uuid: 123e4567-e89b-12d3-a456-426614174011
-        type: SingleChoice
-        content: What is one major advantage of strategy simulation in Uniswap V3?
-        hint: 'NoHint'
-        explanation: >-
-          One major advantage of strategy simulation in Uniswap V3 is that it aids in making more informed decisions about providing liquidity by simulating different strategies to gain insights into potential returns and risks.
-        answerKeys:
+      - answerKeys:
           - C
-        subTopics: [ ]
-        difficultyLevel: Medium
         choices:
           - content: Predicting the future price of tokens.
             key: A
@@ -160,27 +147,27 @@ steps:
             key: C
           - content: Manipulating market dynamics.
             key: D
-
-      - uuid: 123e4567-e89b-12d3-a456-426614174012
+        content: What is one major advantage of strategy simulation in Uniswap V3?
         type: SingleChoice
-        content: How does strategy simulation in Uniswap V3 contribute to risk mitigation?
-        hint: 'NoHint'
-        explanation: >-
-          Strategy simulation in Uniswap V3 contributes to risk mitigation by allowing users to understand potential outcomes and risks associated with different strategies, enabling them to choose strategies that align with their risk tolerance level.
-        answerKeys:
+        uuid: 123e4567-e89b-12d3-a456-426614174011
+      - answerKeys:
           - B
-        subTopics: [ ]
-        difficultyLevel: Medium
         choices:
           - content: It guarantees no loss in any market condition.
             key: A
-          - content: It allows understanding potential outcomes and risks associated with different strategies.
+          - content: >-
+              It allows understanding potential outcomes and risks associated
+              with different strategies.
             key: B
           - content: It provides insurance against loss.
             key: C
           - content: It manipulates market conditions to avoid risks.
             key: D
-
+        content: >-
+          How does strategy simulation in Uniswap V3 contribute to risk
+          mitigation?
+        type: SingleChoice
+        uuid: 123e4567-e89b-12d3-a456-426614174012
     uuid: 3c688b83-5ffb-4dcc-8dfd-cb9f8dbfdfca
   - content: >-
       **Example of Strategy Simulation:**
