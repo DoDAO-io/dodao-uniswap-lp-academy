@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to back test your strategies
-created: '2023-05-29T22:56:06.679Z'
+created: '2023-05-31T02:34:41.576Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -60,6 +60,10 @@ steps:
     name: Introduction
     stepItems: []
     uuid: 9a28ad54-96fe-4145-a991-8f4bc073c176
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 7a6eac19-7ed0-4852-8d8b-c0ab7e0f881c
   - content: >-
       ### Benefits of Backtesting in Uniswap V3
 
@@ -111,6 +115,10 @@ steps:
     name: Benefits and Scenarios
     stepItems: []
     uuid: 7d6a8568-3374-4fca-b7a2-9b6cbd5fb72c
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 3aa16264-8c62-451d-943f-5b7cffc3a51a
   - content: >+
       https://defi-lab.xyz/uniswapv3simulator is an excellent tool for
       backtesting
