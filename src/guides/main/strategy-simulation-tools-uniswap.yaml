@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to simulate your position
-created: '2023-05-30T02:40:16.872Z'
+created: '2023-05-31T02:35:36.177Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -49,6 +49,10 @@ steps:
     name: Introduction
     stepItems: []
     uuid: cd490f02-a974-4097-b51f-68fbbd3c340a
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: f40b3298-8ae2-4969-a84e-8221c5b7cbf6
   - content: >
       **Pros of Strategy Simulation:**
 
@@ -74,6 +78,10 @@ steps:
     name: Benefits
     stepItems: []
     uuid: da65d4ca-cc8e-483b-bde7-2a0772b6ba8a
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 3c688b83-5ffb-4dcc-8dfd-cb9f8dbfdfca
   - content: >-
       **Example of Strategy Simulation:**
 

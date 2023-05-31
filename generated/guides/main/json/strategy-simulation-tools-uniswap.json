@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Tools that you can use to simulate your position",
-  "created": "2023-05-30T02:40:16.872Z",
+  "created": "2023-05-31T02:35:36.177Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -18,10 +18,22 @@
       "uuid": "cd490f02-a974-4097-b51f-68fbbd3c340a"
     },
     {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "f40b3298-8ae2-4969-a84e-8221c5b7cbf6"
+    },
+    {
       "content": "**Pros of Strategy Simulation:**\n\n- **Informed Decision Making:** By simulating different strategies, you can gain insights into potential returns and risks, which aids in making more informed decisions about providing liquidity in Uniswap V3.\n\n- **Optimization of Returns:** Simulations can help identify the optimal price ranges and token pairs for providing liquidity, which can maximize returns.\n\n- **Risk Mitigation:** By understanding potential outcomes and risks associated with different strategies, you can choose strategies that align with your risk tolerance level.\n\n- **Understanding Market Dynamics:** Strategy simulations take into account various market conditions, helping you understand how these conditions can affect your returns.\n",
       "name": "Benefits",
       "stepItems": [],
       "uuid": "da65d4ca-cc8e-483b-bde7-2a0772b6ba8a"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "3c688b83-5ffb-4dcc-8dfd-cb9f8dbfdfca"
     },
     {
       "content": "**Example of Strategy Simulation:**\n\nLet's say you are considering providing liquidity for the ETH/USDT pair in Uniswap V3 and are uncertain about what price range to set for your capital. You decide to run a simulation to evaluate three strategies:\n\n1. **Wide Range:** You provide liquidity across a wide price range from $2,000 to $4,000 per ETH.\n2. **Narrow Range:** You provide liquidity across a narrow price range from $2,500 to $2,750 per ETH.\n3. **Off-center Range:** You provide liquidity across a range from $3,000 to $3,500, anticipating that the price of ETH will increase.\n\nThe simulation runs these strategies against historical price data for ETH over the last 30 days. The results show that:\n\n- The wide-range strategy yields lower returns due to its lower capital efficiency, but the fees earned are consistent due to the price of ETH remaining within the range most of the time.\n- The narrow-range strategy yields higher returns when the price of ETH is within the range due to its higher capital efficiency. However, there are periods with no fee earnings when the price moves outside the range.\n- The off-center range strategy yields high returns only for the periods when the price of ETH rises above $3,000. For the rest of the time, no fees are earned.\n\nThis simulation helps you understand the trade-offs between the three strategies and allows you to make a more informed decision based on your expectations about the future price of ETH and your risk tolerance.",
