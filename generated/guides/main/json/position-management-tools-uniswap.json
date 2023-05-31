@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Tools that you can use to manage and update your position",
-  "created": "2023-05-31T02:36:27.787Z",
+  "created": "2023-05-31T13:35:39.923Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -22,16 +22,9 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "123e4567-e89b-12d3-a456-426614174013",
-          "type": "SingleChoice",
-          "content": "Why are position management tools pivotal in the case of Uniswap V3?",
-          "hint": "NoHint",
-          "explanation": "Position management tools are pivotal in Uniswap V3 due to its unique concentrated liquidity feature. They enable users to efficiently manage their liquidity provision strategies by tracking the performance of their investments, adjusting parameters in response to market conditions, managing multiple positions simultaneously, and making informed trading decisions.",
           "answerKeys": [
             "C"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "They allow users to manipulate market prices.",
@@ -49,19 +42,15 @@
               "content": "They bypass the need for understanding market dynamics.",
               "key": "D"
             }
-          ]
+          ],
+          "content": "Why are position management tools pivotal in the case of Uniswap V3?",
+          "type": "SingleChoice",
+          "uuid": "123e4567-e89b-12d3-a456-426614174013"
         },
         {
-          "uuid": "123e4567-e89b-12d3-a456-426614174014",
-          "type": "SingleChoice",
-          "content": "How do position management tools contribute to profit optimization?",
-          "hint": "NoHint",
-          "explanation": "Position management tools contribute to profit optimization by allowing traders to monitor the performance of different positions. This monitoring helps traders identify which positions are performing well and which ones need to be adjusted to optimize returns.",
           "answerKeys": [
             "A"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "They allow traders to monitor performance and adjust positions to optimize returns.",
@@ -79,7 +68,10 @@
               "content": "They invest traders' assets in the most profitable tokens automatically.",
               "key": "D"
             }
-          ]
+          ],
+          "content": "How do position management tools contribute to profit optimization?",
+          "type": "SingleChoice",
+          "uuid": "123e4567-e89b-12d3-a456-426614174014"
         }
       ],
       "uuid": "96de0c4a-1442-4558-9e99-b45ec4622b92"
@@ -95,19 +87,12 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "123e4567-e89b-12d3-a456-426614174003",
-          "type": "MultipleChoice",
-          "content": "What functionalities can position management tools offer in Uniswap V3?",
-          "hint": "NoHint",
-          "explanation": "In Uniswap V3, position management tools can offer functionalities like monitoring performance of liquidity positions, adjusting price ranges, managing multiple positions, and providing transaction history.",
           "answerKeys": [
             "A",
             "B",
             "C",
             "D"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Monitoring the performance of liquidity positions.",
@@ -125,19 +110,15 @@
               "content": "Providing transaction history related to each position.",
               "key": "D"
             }
-          ]
+          ],
+          "content": "What functionalities can position management tools offer in Uniswap V3?",
+          "type": "MultipleChoice",
+          "uuid": "123e4567-e89b-12d3-a456-426614174003"
         },
         {
-          "uuid": "123e4567-e89b-12d3-a456-426614174004",
-          "type": "SingleChoice",
-          "content": "What should be kept in mind despite the aid of position management tools in Uniswap V3?",
-          "hint": "NoHint",
-          "explanation": "Despite the aid of position management tools in Uniswap V3, it's important to remember that these tools do not replace the need for careful analysis and consideration of market conditions and individual risk tolerance.",
           "answerKeys": [
             "D"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "The need for high-speed internet connection.",
@@ -155,7 +136,10 @@
               "content": "The need for careful analysis and consideration of market conditions and individual risk tolerance.",
               "key": "D"
             }
-          ]
+          ],
+          "content": "What should be kept in mind despite the aid of position management tools in Uniswap V3?",
+          "type": "SingleChoice",
+          "uuid": "123e4567-e89b-12d3-a456-426614174004"
         }
       ],
       "uuid": "9ff7f8bd-d5c7-43f0-90f1-0e3df2537802"
@@ -167,8 +151,8 @@
       "uuid": "266b3dea-806c-4208-94be-4267e70b4a8d"
     },
     {
-      "content": "Arrakis V2 serves as a sophisticated abstraction layer built on top of concentrated liquidity automated market makers (AMMs) like Uniswap V3, enabling central limit order book (CLOB) like interactions. This system permits the execution of advanced strategies previously only viable on centralized exchanges (CEXs). Key to this system are 'vaults', which can be privately managed or publicly available, and are operated by a variety of entities including DAOs, institutions, or individual traders. These vaults can deploy intricate market making strategies optimized for factors such as liquidity depth, trading fee APRs, or mimicking traditional AMM invariants.\n\nBeyond this, Arrakis V2 introduces a range of significant features. It allows for multiple concentrated liquidity positions, enabling a collection of custom positions rather than a single position on Uniswap V3. This flexibility encourages the creation of a limitless variety of custom strategies. Other features include cross fee tier liquidity allocation, inventory management for better risk management, and cross protocol rebalancing to ensure minimal slippage. These features and innovations allow Arrakis V2 to bring sophisticated market-making strategies on-chain and help DEXs like Uniswap V3 rival CEXs in terms of liquidity depth and efficiency.\n\n\nhttps://mirror.xyz/0x916563f8476b988855af0b8b8A3D56072E1917FA/dDECIZ2xM5EUolG5Lrkrk5XyXgUrfrnaboDDuGYXXBg",
-      "name": "Arrakis V2",
+      "content": "On Instadapp users generate their own self-custodial smart wallet called a DeFi Smart Account (DSA). DeFi Smart Account are DeFi superwallets that empower your DeFi experience enabling you to get the most from DeFi!\n\n### Create a new position\nYou can create a new position using the Balances in your DSA account.\n\n![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-management-tools-uniswap/1685539924980_create_position.gif)\n\n### Rebalancing your Position\nWhenever your position is out or range you will be shown the Rebalance button. You just click on Rebalance button to pull the Rebalance panel. You can set a new price range entering numbers or utilizing the graph.\n\n![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-management-tools-uniswap/1685539996795_rebalance.gif)\n\n### Managing Positions\nIn the interface you will find information regarding each NFT’s liquidity, earned fees, its current composition and if it currently in range.\n![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-management-tools-uniswap/1685540125588_manage_1.webp)\n\n1. Context Menu\n2. Opens Visual Graph\n3. Collect Fee \n4. Collect Liquidity Mining Reward\n5. Unstake Uniswap LP from Liquidity Mining\n\nThe context menu will show you all the functions available for your LP. Here you can remove or add liquidity to the current LP as well as access staking and reward options. \n\n![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-management-tools-uniswap/1685540136089_context_menu.webp)\n",
+      "name": "Instadapp",
       "stepItems": [],
       "uuid": "57479135-45b9-4657-9a03-d53b2b56ddd7"
     }
