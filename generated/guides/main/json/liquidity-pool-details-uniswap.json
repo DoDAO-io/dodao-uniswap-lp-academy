@@ -1,18 +1,14 @@
 {
   "categories": [],
   "content": "What are Ticks and Ranges in Uniswap V3",
-  "created": "2023-04-21T18:59:17.936Z",
-  "guideIntegrations": {
-    "discordRoleIds": []
-  },
+  "created": "2023-07-06T14:03:40.539Z",
   "guideType": "course",
   "key": "liquidity-pool-details-uniswap",
   "name": "Liquidity Pool Details",
   "publishStatus": "Live",
-  "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "### Uniswap V2 - Liquidity Graph\nIn Uniswap v2, liquidity providers (LPs) deposit an equal value of two tokens (e.g., ETH and DAI) to create a liquidity pool. In our example, the pool consists of 100 ETH and 150,000 DAI. The liquidity in Uniswap v2 is spread uniformly across the entire price range, from 0 to infinity. This means that liquidity is available for trading at all price levels.\n\nWhen a user trades in the pool, the price is determined by the current ratio of the two assets in the pool, following the constant product formula (x * y = k). In our example, the initial ratio is 100 ETH * 150,000 DAI = 15,000,000.\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912476448_07_v2_liquidity_chart.png\" />\n</div>\n\n### Uniswap V3 - Liquidity Graph\nUniswap v3 introduces the concept of concentrated liquidity, which allows liquidity providers to specify a price range for their liquidity. Instead of providing liquidity across the entire price spectrum, LPs can choose custom price ranges where they believe most of the trading will happen. This allows them to earn more fees for a given amount of deposited capital.\n\nIn our example, if an LP believes that the ETH/DAI price will stay between 1,400 DAI and 1,600 DAI, they can deposit their liquidity within this range. This effectively concentrates their liquidity around the expected price, which can lead to more efficient capital usage and potentially higher returns.\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912741645_07_v3_liquidity_chart.png\" />\n</div>\n\nTo sum up, in Uniswap v2, liquidity is spread uniformly across the entire price range, while in Uniswap v3, liquidity providers can concentrate their liquidity within custom price ranges, which can lead to more efficient capital usage and potentially higher returns.\n\n\n\n\n",
+      "content": "### Uniswap V2 - Liquidity Graph\nIn Uniswap v2, liquidity providers (LPs) deposit an equal value of two tokens (e.g., ETH and DAI) to create a liquidity pool. In our example, the pool consists of 100 ETH and 150,000 DAI. The liquidity in Uniswap v2 is spread uniformly across the entire price range, from 0 to infinity. This means that liquidity is available for trading at all price levels.\n\nWhen a user trades in the pool, the price is determined by the current ratio of the two assets in the pool, following the constant product formula (x * y = k). In our example, the initial ratio is 100 ETH * 150,000 DAI = 15,000,000.\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912476448_07_v2_liquidity_chart.png\" />\n</div>\n\n### Uniswap V3 - Liquidity Graph\nUniswap v3 introduces the concept of concentrated liquidity, which allows liquidity providers to specify a price range for their liquidity. Instead of providing liquidity across the entire price spectrum, LPs can choose custom price ranges where they believe most of the trading will happen. This allows them to earn more fees for a given amount of deposited capital.\n\nIn our example, if an LP believes that the ETH/DAI price will stay between 1,400 DAI and 1,600 DAI, they can deposit their liquidity within this range. This effectively concentrates their liquidity around the expected price, which can lead to more efficient capital usage and potentially higher returns.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qIN8CyhYREM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<div align=\"center\">\n<img src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912741645_07_v3_liquidity_chart.png\" />\n</div>\n\nTo sum up, in Uniswap v2, liquidity is spread uniformly across the entire price range, while in Uniswap v3, liquidity providers can concentrate their liquidity within custom price ranges, which can lead to more efficient capital usage and potentially higher returns.\n\n\n\n\n",
       "name": "Liquidity Graph",
       "stepItems": [],
       "uuid": "a8421242-16c4-4e2b-aafc-0d93be135acc"
@@ -45,7 +41,8 @@
           ],
           "content": "In Uniswap v2, how is liquidity spread across the price range?\n\n",
           "type": "SingleChoice",
-          "uuid": "8e13ac1f-4ac8-4849-bc5e-2d4c2903c60c"
+          "uuid": "8e13ac1f-4ac8-4849-bc5e-2d4c2903c60c",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -71,7 +68,8 @@
           ],
           "content": "What is the main difference between Uniswap v2 and Uniswap v3 regarding liquidity provision?",
           "type": "SingleChoice",
-          "uuid": "a93b7211-9002-4a31-841d-0ffd4435f914"
+          "uuid": "a93b7211-9002-4a31-841d-0ffd4435f914",
+          "explanation": null
         }
       ],
       "uuid": "fd372cf5-73cc-4fc2-b6cf-6a2e8d471c79"
@@ -110,7 +108,8 @@
           ],
           "content": "What do virtual reserves represent in Uniswap V3?",
           "type": "SingleChoice",
-          "uuid": "049b82da-9fab-4c58-8780-43fefa665691"
+          "uuid": "049b82da-9fab-4c58-8780-43fefa665691",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -136,7 +135,8 @@
           ],
           "content": "What happens when a user wants to swap tokens within the specified price range in Uniswap V3?",
           "type": "SingleChoice",
-          "uuid": "24176793-fd0b-425e-ab72-850174767296"
+          "uuid": "24176793-fd0b-425e-ab72-850174767296",
+          "explanation": null
         }
       ],
       "uuid": "00b9efec-9a67-4f81-94b6-5458d7ad53e2"
@@ -175,7 +175,8 @@
           ],
           "content": "What is the purpose of ticks in Uniswap V3?",
           "type": "SingleChoice",
-          "uuid": "01ef36c3-60c1-466b-87b2-e9df718ca6b9"
+          "uuid": "01ef36c3-60c1-466b-87b2-e9df718ca6b9",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -201,7 +202,8 @@
           ],
           "content": "How is the price at a given tick determined in Uniswap V3?",
           "type": "SingleChoice",
-          "uuid": "d8832f64-0b1b-4845-8a1a-778f537471c5"
+          "uuid": "d8832f64-0b1b-4845-8a1a-778f537471c5",
+          "explanation": null
         }
       ],
       "uuid": "4fe40039-28ad-4f06-ad2f-b1e8d3dcbcfd"
@@ -227,5 +229,6 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_pool_details.png",
-  "uuid": "liquidity-pool-details-uniswap"
+  "uuid": "liquidity-pool-details-uniswap",
+  "version": 1
 }
