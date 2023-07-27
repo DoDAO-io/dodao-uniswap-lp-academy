@@ -1,15 +1,11 @@
 {
   "categories": [],
   "content": "What is Concentrated Liquidity and its Benefits",
-  "created": "2023-04-22T23:09:39.076Z",
-  "guideIntegrations": {
-    "discordRoleIds": []
-  },
+  "created": "2023-07-27T21:41:55.877Z",
   "guideType": "course",
   "key": "concentrated-liquidity-uniswap",
   "name": "Concentrated Liquidity",
   "publishStatus": "Live",
-  "showIncorrectOnCompletion": true,
   "steps": [
     {
       "content": "\n### Recap of Constant Product AMM\n<div align=\"center\">\n<img style=\"max-height:400px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681500734628_constant_product_amm.png\"/>\n</div>\n\nConstant product Automated Market Maker (AMM) is a decentralized exchange model that allows users to trade digital assets without the need for an order book. It relies on a mathematical formula that keeps the product of the two token reserves constant. The most famous example is Uniswap, which uses the `x*y=k` formula, where x and y represent the reserves of two tokens and k is the constant. This mechanism provides liquidity for trades and adjusts the token prices as supply and demand change, while incentivizing liquidity providers with fees from trades.\n\n### Example of Constant Product AMM\n\n<div align=\"center\">\n<img style=\"max-height:400px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681500759976_constant_product_amm_example.png\"/>\n</div>\n\nLet's consider two tokens, A and B, in a constant product AMM. Suppose the reserves of tokens are initially x=100 for token A and y=100 for token B, making the constant product k=100*100=10,000.\n\nHere are a few points for different token ratios:\n- If someone buys 10 tokens of A, the new reserve of A becomes 90 (100-10). To maintain the constant product k, the reserve of B must increase: 90*y=10,000, so y≈111.11. The ratio becomes 90:111.11.\n- If someone buys 50 tokens of A, the new reserve of A becomes 50 (100-50). To maintain the constant product k, the reserve of B must increase: 50*y=10,000, so y=200. The ratio becomes 50:200.\n- If someone sells 10 tokens of A, the new reserve of A becomes 110 (100+10). To maintain the constant product k, the reserve of B must decrease: 110*y=10,000, so y≈90.91. The ratio becomes 110:90.91.\n\nIn each example, the constant product AMM adjusts the reserves of A and B to maintain the constant k, which in turn affects the token prices as the ratio between the two tokens changes.\n\n### Limitation of Constant Product AMMs\nWhile Constant Product AMMs have been widely adopted, they have certain limitations\n\n1. Capital Inefficiency: In Constant Product AMMs, liquidity is spread evenly across the entire price curve. This means that a significant portion of the deposited assets may not be actively used for trading, making the capital usage inefficient. Concentrated liquidity models allow liquidity providers to focus their capital on specific price ranges where trading is more likely, leading to better capital efficiency and potentially higher returns.\n\n2. Slippage: Constant Product AMMs use a simple x * y = k formula to determine token prices, which can result in significant slippage (price change due to trade size) for large trades. As the liquidity pool size increases, slippage decreases, but it is still a concern for large orders. Concentrated liquidity models can reduce slippage by concentrating liquidity within narrower price ranges, providing more accurate and stable prices.\n\n3. Limited Customization: Constant Product AMMs do not offer much flexibility for liquidity providers in terms of customizing their exposure to different tokens or price ranges. Concentrated liquidity models, on the other hand, provide more control to liquidity providers by allowing them to choose specific price ranges and even adjust their positions as market conditions change.\n\nUniswap V3's concentrated liquidity models address some of the key limitations of Constant Product AMMs by offering more efficient capital usage, reduced impermanent loss, lower slippage, and increased customization options for liquidity providers. These improvements can lead to better returns for liquidity providers and a more efficient and stable trading experience for users.",
@@ -22,16 +18,9 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "66e3c73d-4d4f-4fb4-8a2c-9b7f9b39d4df",
-          "type": "SingleChoice",
-          "content": "What is the formula used by Constant Product AMMs to determine token prices?",
-          "hint": "Nohint",
-          "explanation": "The formula used by Constant Product AMMs to determine token prices is x * y = k, where x and y represent the reserves of two tokens and k is the constant.",
           "answerKeys": [
             "B"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "x + y = k",
@@ -49,19 +38,16 @@
               "content": "x / y = k",
               "key": "D"
             }
-          ]
+          ],
+          "content": "What is the formula used by Constant Product AMMs to determine token prices?",
+          "type": "SingleChoice",
+          "uuid": "66e3c73d-4d4f-4fb4-8a2c-9b7f9b39d4df",
+          "explanation": "The formula used by Constant Product AMMs to determine token prices is x * y = k, where x and y represent the reserves of two tokens and k is the constant."
         },
         {
-          "uuid": "4a951f4d-d48a-4ad4-b7d5-36e461f7e9f5",
-          "type": "SingleChoice",
-          "content": "Which of the following is a limitation of Constant Product AMMs?",
-          "hint": "Nohint",
-          "explanation": "Capital Inefficiency is a limitation of Constant Product AMMs because liquidity is spread evenly across the entire price curve, leading to potentially inefficient capital usage.",
           "answerKeys": [
             "A"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Capital Inefficiency",
@@ -79,19 +65,16 @@
               "content": "Low Slippage",
               "key": "D"
             }
-          ]
+          ],
+          "content": "Which of the following is a limitation of Constant Product AMMs?",
+          "type": "SingleChoice",
+          "uuid": "4a951f4d-d48a-4ad4-b7d5-36e461f7e9f5",
+          "explanation": "Capital Inefficiency is a limitation of Constant Product AMMs because liquidity is spread evenly across the entire price curve, leading to potentially inefficient capital usage."
         },
         {
-          "uuid": "97f7e3e6-99ed-4b51-8d94-7649c6b24e6d",
-          "type": "SingleChoice",
-          "content": "How does Uniswap V3 address some of the limitations of Constant Product AMMs?",
-          "hint": "Nohint",
-          "explanation": "Uniswap V3 addresses some of the limitations of Constant Product AMMs by offering concentrated liquidity models, which provide more efficient capital usage, reduced impermanent loss, lower slippage, and increased customization options for liquidity providers.",
           "answerKeys": [
             "C"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "By using a different formula for token prices",
@@ -109,13 +92,17 @@
               "content": "By eliminating the need for liquidity providers",
               "key": "D"
             }
-          ]
+          ],
+          "content": "How does Uniswap V3 address some of the limitations of Constant Product AMMs?",
+          "type": "SingleChoice",
+          "uuid": "97f7e3e6-99ed-4b51-8d94-7649c6b24e6d",
+          "explanation": "Uniswap V3 addresses some of the limitations of Constant Product AMMs by offering concentrated liquidity models, which provide more efficient capital usage, reduced impermanent loss, lower slippage, and increased customization options for liquidity providers."
         }
       ],
       "uuid": "3a989356-b6b9-4373-8104-795e54277bc7"
     },
     {
-      "content": "### What is Concentrated Liquidity AMM?\nConcentrated liquidity AMM is a new approach to decentralized trading that allows people to provide liquidity to a market more efficiently. Here's a simple explanation:\n\n1. In traditional AMMs, people deposit two tokens in equal value to create a liquidity pool. This pool is used to facilitate trading between those two tokens.\n2. In the case of concentrated liquidity AMM, people can choose a specific price range where they want to provide liquidity, instead of spreading it evenly across all possible prices.\n3. By focusing their funds on a smaller price range, they can have a more significant impact on that range, which means their money is being used more effectively.\n4. This approach helps reduce the risk of impermanent loss, as it gives choice to the user over what range do they want to deposit the liquidity.\n5. Concentrated liquidity AMM also allows for better price stability and reduced slippage, which is the change in price when a trade is executed. This is important because high slippage can lead to unfavorable trade outcomes.\n\nIn a nutshell, concentrated liquidity AMM helps people get more out of their money by allowing them to focus their liquidity where it's needed most, reducing risks and providing better trading experiences for users.\n\n### Concentrated Liquidity Example\nLet's say Alice, Bob, and Carol want to provide liquidity to an ETH-USDC pool using a concentrated liquidity AMM. They each have an equal amount of ETH and USDC but want to deposit their funds over different price ranges.\n\n<div align=\"center\">\n<img style=\"max-height:400px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681575680046_concentrated_liquidity%20example.png\"/>\n</div>\n\nNow, the ETH-USDC pool has separate areas of concentrated liquidity:\n\nAs long as the price of ETH stays within their chosen ranges, Alice, Bob, and Carols's funds will be actively used to facilitate trades. If the price moves outside of their chosen ranges, their liquidity will not be used, and they won't earn fees from trades happening outside their specified price ranges.\n\nBy focusing their liquidity on narrower price ranges, Alice, Bob, and Carols can provide more substantial support for the market within those ranges. This leads to better price stability, reduced slippage, and potentially higher returns from trading fees for each of them.\n\n\n\n",
+      "content": "### What is Concentrated Liquidity AMM?\nConcentrated liquidity AMM is a new approach to decentralized trading that allows people to provide liquidity to a market more efficiently. Here's a simple explanation:\n\n1. In traditional AMMs, people deposit two tokens in equal value to create a liquidity pool. This pool is used to facilitate trading between those two tokens.\n2. In the case of concentrated liquidity AMM, people can choose a specific price range where they want to provide liquidity, instead of spreading it evenly across all possible prices.\n3. By focusing their funds on a smaller price range, they can have a more significant impact on that range, which means their money is being used more effectively.\n4. This approach helps reduce the risk of impermanent loss, as it gives choice to the user over what range do they want to deposit the liquidity.\n5. Concentrated liquidity AMM also allows for better price stability and reduced slippage, which is the change in price when a trade is executed. This is important because high slippage can lead to unfavorable trade outcomes.\n\nIn a nutshell, concentrated liquidity AMM helps people get more out of their money by allowing them to focus their liquidity where it's needed most, reducing risks and providing better trading experiences for users.\n\n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ClWR1570UQw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n</div>\n\n### Concentrated Liquidity Example\nLet's say Alice, Bob, and Carol want to provide liquidity to an ETH-USDC pool using a concentrated liquidity AMM. They each have an equal amount of ETH and USDC but want to deposit their funds over different price ranges.\n\n<div align=\"center\">\n<img style=\"max-height:400px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/concentrated-liquidity-uniswap/1681575680046_concentrated_liquidity%20example.png\"/>\n</div>\n\nNow, the ETH-USDC pool has separate areas of concentrated liquidity:\n\nAs long as the price of ETH stays within their chosen ranges, Alice, Bob, and Carols's funds will be actively used to facilitate trades. If the price moves outside of their chosen ranges, their liquidity will not be used, and they won't earn fees from trades happening outside their specified price ranges.\n\nBy focusing their liquidity on narrower price ranges, Alice, Bob, and Carols can provide more substantial support for the market within those ranges. This leads to better price stability, reduced slippage, and potentially higher returns from trading fees for each of them.\n\n\n\n",
       "name": "Concentrated Liquidity",
       "stepItems": [],
       "uuid": "14dc53fc-fac1-479c-8141-4aef4214d556"
@@ -125,16 +112,9 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "2d2d6a2c-45a9-4158-a6e0-1a3bda3e3b94",
-          "type": "SingleChoice",
-          "content": "What is the main difference between traditional AMMs and concentrated liquidity AMMs?",
-          "hint": "Nohint",
-          "explanation": "The main difference between traditional AMMs and concentrated liquidity AMMs is that concentrated liquidity AMMs allow liquidity providers to choose a specific price range where they want to provide liquidity, instead of spreading it evenly across all possible prices.",
           "answerKeys": [
             "C"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Concentrated liquidity AMMs require more tokens to be deposited",
@@ -152,19 +132,16 @@
               "content": "Traditional AMMs have lower risks of impermanent loss",
               "key": "D"
             }
-          ]
+          ],
+          "content": "What is the main difference between traditional AMMs and concentrated liquidity AMMs?",
+          "type": "SingleChoice",
+          "uuid": "2d2d6a2c-45a9-4158-a6e0-1a3bda3e3b94",
+          "explanation": "The main difference between traditional AMMs and concentrated liquidity AMMs is that concentrated liquidity AMMs allow liquidity providers to choose a specific price range where they want to provide liquidity, instead of spreading it evenly across all possible prices."
         },
         {
-          "uuid": "9d7a6d63-6f8c-4fd5-889a-6e8f6c8d0eab",
-          "type": "SingleChoice",
-          "content": "How does concentrated liquidity AMM help reduce the risk of impermanent loss?",
-          "hint": "Nohint",
-          "explanation": "Concentrated liquidity AMM helps reduce the risk of impermanent loss by giving users the choice over the price range in which they want to deposit their liquidity, providing better control over their exposure to price fluctuations.",
           "answerKeys": [
             "B"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "By eliminating price fluctuations",
@@ -182,19 +159,16 @@
               "content": "By increasing the number of tokens required for liquidity provision",
               "key": "D"
             }
-          ]
+          ],
+          "content": "How does concentrated liquidity AMM help reduce the risk of impermanent loss?",
+          "type": "SingleChoice",
+          "uuid": "9d7a6d63-6f8c-4fd5-889a-6e8f6c8d0eab",
+          "explanation": "Concentrated liquidity AMM helps reduce the risk of impermanent loss by giving users the choice over the price range in which they want to deposit their liquidity, providing better control over their exposure to price fluctuations."
         },
         {
-          "uuid": "6ab32a0a-1c89-4d76-bf6c-32b2f201e35c",
-          "type": "SingleChoice",
-          "content": "What are the benefits of providing liquidity in a narrower price range using concentrated liquidity AMM?",
-          "hint": "Nohint",
-          "explanation": "Providing liquidity in a narrower price range using concentrated liquidity AMM leads to better price stability, reduced slippage, and potentially higher returns from trading fees.",
           "answerKeys": [
             "D"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Higher risks of impermanent loss",
@@ -212,7 +186,11 @@
               "content": "Better price stability, reduced slippage, and potentially higher returns from trading fees",
               "key": "D"
             }
-          ]
+          ],
+          "content": "What are the benefits of providing liquidity in a narrower price range using concentrated liquidity AMM?",
+          "type": "SingleChoice",
+          "uuid": "6ab32a0a-1c89-4d76-bf6c-32b2f201e35c",
+          "explanation": "Providing liquidity in a narrower price range using concentrated liquidity AMM leads to better price stability, reduced slippage, and potentially higher returns from trading fees."
         }
       ],
       "uuid": "54c8e896-deab-48ac-9c06-a818499106c0"
@@ -228,16 +206,9 @@
       "name": "Evaulation",
       "stepItems": [
         {
-          "uuid": "7a1bcafe-9e0d-4a4f-b4ea-5436b09a6a13",
-          "type": "SingleChoice",
-          "content": "What determines the level of liquidity concentration in concentrated liquidity AMM?",
-          "hint": "Nohint",
-          "explanation": "The level of liquidity concentration is determined by the narrowness of the range in which liquidity is provided.",
           "answerKeys": [
             "A"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "The narrowness of the range in which liquidity is provided",
@@ -255,19 +226,16 @@
               "content": "The price of the tokens being traded",
               "key": "D"
             }
-          ]
+          ],
+          "content": "What determines the level of liquidity concentration in concentrated liquidity AMM?",
+          "type": "SingleChoice",
+          "uuid": "7a1bcafe-9e0d-4a4f-b4ea-5436b09a6a13",
+          "explanation": "The level of liquidity concentration is determined by the narrowness of the range in which liquidity is provided."
         },
         {
-          "uuid": "47a8e9b9-1d84-4a2e-8bcb-5d70f5b5f959",
-          "type": "SingleChoice",
-          "content": "In Scenario 1, why did Alice earn more fees than Carlos, even though they both provided the same liquidity?",
-          "hint": "Nohint",
-          "explanation": "Alice earned more fees than Carlos because she had a higher concentration of liquidity within the specified range.",
           "answerKeys": [
             "B"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Alice provided liquidity in a more volatile price range",
@@ -285,19 +253,16 @@
               "content": "Alice had more trading volume in her chosen range",
               "key": "D"
             }
-          ]
+          ],
+          "content": "In Scenario 1, why did Alice earn more fees than Carlos, even though they both provided the same liquidity?",
+          "type": "SingleChoice",
+          "uuid": "47a8e9b9-1d84-4a2e-8bcb-5d70f5b5f959",
+          "explanation": "Alice earned more fees than Carlos because she had a higher concentration of liquidity within the specified range."
         },
         {
-          "uuid": "1b11e4c4-4e4b-4c7a-a0c0-2f3f3e5d24d5",
-          "type": "SingleChoice",
-          "content": "In Scenario 2, who has their liquidity within the range?",
-          "hint": "Nohint",
-          "explanation": "In Scenario 2, the liquidity is out of range for both Alice and Bob, but it is within the range for Carlos.",
           "answerKeys": [
             "C"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Alice",
@@ -315,7 +280,11 @@
               "content": "Alice and Bob",
               "key": "D"
             }
-          ]
+          ],
+          "content": "In Scenario 2, who has their liquidity within the range?",
+          "type": "SingleChoice",
+          "uuid": "1b11e4c4-4e4b-4c7a-a0c0-2f3f3e5d24d5",
+          "explanation": "In Scenario 2, the liquidity is out of range for both Alice and Bob, but it is within the range for Carlos."
         }
       ],
       "uuid": "71df2fd1-5df3-4316-824c-0babf3970027"
@@ -331,16 +300,9 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "6a0d92a2-6dfc-4b1d-9f9d-ecf6c76a0a0a",
-          "type": "SingleChoice",
-          "content": "What does the price range in a concentrated liquidity AMM determine?",
-          "hint": "Nohint",
-          "explanation": "The price range in a concentrated liquidity AMM determines at which prices your liquidity will be active and generate fees.",
           "answerKeys": [
             "B"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "The size of the liquidity pool",
@@ -358,19 +320,16 @@
               "content": "The gas fees associated with providing liquidity",
               "key": "D"
             }
-          ]
+          ],
+          "content": "What does the price range in a concentrated liquidity AMM determine?",
+          "type": "SingleChoice",
+          "uuid": "6a0d92a2-6dfc-4b1d-9f9d-ecf6c76a0a0a",
+          "explanation": "The price range in a concentrated liquidity AMM determines at which prices your liquidity will be active and generate fees."
         },
         {
-          "uuid": "066b6c29-7a50-4a9c-9d5e-72298f5a6866",
-          "type": "SingleChoice",
-          "content": "What is the relationship between impermanent loss and the concentrated nature of liquidity in Uniswap V3?",
-          "hint": "Nohint",
-          "explanation": "The concentrated nature of liquidity in Uniswap V3 can lead to higher impermanent loss compared to other AMMs.",
           "answerKeys": [
             "A"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Concentrated liquidity can lead to higher impermanent loss",
@@ -388,19 +347,16 @@
               "content": "Impermanent loss only occurs in traditional AMMs",
               "key": "D"
             }
-          ]
+          ],
+          "content": "What is the relationship between impermanent loss and the concentrated nature of liquidity in Uniswap V3?",
+          "type": "SingleChoice",
+          "uuid": "066b6c29-7a50-4a9c-9d5e-72298f5a6866",
+          "explanation": "The concentrated nature of liquidity in Uniswap V3 can lead to higher impermanent loss compared to other AMMs."
         },
         {
-          "uuid": "5ec36c46-5b5c-48e1-88a8-e76e2f57ce2a",
-          "type": "SingleChoice",
-          "content": "What factor should be considered when interacting with smart contracts on the Ethereum network while providing liquidity?",
-          "hint": "Nohint",
-          "explanation": "When interacting with smart contracts on the Ethereum network, gas fees should be considered as they can vary depending on network congestion.",
           "answerKeys": [
             "D"
           ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Token price stability",
@@ -418,7 +374,11 @@
               "content": "Gas fees",
               "key": "D"
             }
-          ]
+          ],
+          "content": "What factor should be considered when interacting with smart contracts on the Ethereum network while providing liquidity?",
+          "type": "SingleChoice",
+          "uuid": "5ec36c46-5b5c-48e1-88a8-e76e2f57ce2a",
+          "explanation": "When interacting with smart contracts on the Ethereum network, gas fees should be considered as they can vary depending on network congestion."
         }
       ],
       "uuid": "9ad3b615-553c-4c45-bbdc-ea28d274c6f4"
@@ -438,5 +398,6 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_concentrated_liquidity.png",
-  "uuid": "concentrated-liquidity-uniswap"
+  "uuid": "concentrated-liquidity-uniswap",
+  "version": 1
 }
