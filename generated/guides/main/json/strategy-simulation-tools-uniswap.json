@@ -1,15 +1,11 @@
 {
   "categories": [],
   "content": "Tools that you can use to simulate your position",
-  "created": "2023-05-31T12:26:00.805Z",
-  "guideIntegrations": {
-    "discordRoleIds": []
-  },
+  "created": "2023-07-27T22:27:08.030Z",
   "guideType": "course",
   "key": "strategy-simulation-tools-uniswap",
   "name": "Strategy Simulation Tools",
   "publishStatus": "Live",
-  "showIncorrectOnCompletion": true,
   "steps": [
     {
       "content": "In the context of Uniswap V3, **strategy simulation** refers to the process of modeling and testing various strategies for providing liquidity in the protocol. With Uniswap V3's concentrated liquidity feature, individual liquidity providers (LPs) have granular control over the price ranges to which their capital is allocated. This increased control allows LPs to develop diverse strategies to maximize their returns.\n\n<div align=\"center\">\n<img style=\"max-height:350px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685535793742_simulation.png\"/>\n</div>\n\nThe simulations typically consider the following factors:\n\n* **Selection of Token Pairs:** The choice of token pairs for providing liquidity is a critical part of any strategy.\n\n* **Price Range Setting:** Uniswap V3 allows LPs to set price ranges for their liquidity. Simulating different price range settings can aid in determining the optimal ranges for a given strategy.\n\n* **Duration of Investment:** The length of time for which liquidity is provided can significantly influence potential returns. Strategy simulations often consider various durations to understand their impact on the outcomes.\n\n* **Market Conditions:** Simulations may factor in potential market conditions, such as changes in token prices, trading volumes, and overall market volatility.\n\nBy simulating these strategies, liquidity providers can gain insights into the potential outcomes and make informed decisions when providing liquidity on Uniswap V3. However, it's crucial to remember that these simulations are based on historical data and assumptions about the future. They cannot guarantee future results.\n",
@@ -45,7 +41,8 @@
           ],
           "content": "In the context of Uniswap V3, what does strategy simulation refer to?",
           "type": "SingleChoice",
-          "uuid": "123e4567-e89b-12d3-a456-426614174008"
+          "uuid": "123e4567-e89b-12d3-a456-426614174008",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -71,7 +68,8 @@
           ],
           "content": "What does strategy simulation in Uniswap V3 typically consider?",
           "type": "SingleChoice",
-          "uuid": "123e4567-e89b-12d3-a456-426614174009"
+          "uuid": "123e4567-e89b-12d3-a456-426614174009",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -97,13 +95,14 @@
           ],
           "content": "What can LPs gain by simulating strategies in Uniswap V3?",
           "type": "SingleChoice",
-          "uuid": "123e4567-e89b-12d3-a456-426614174010"
+          "uuid": "123e4567-e89b-12d3-a456-426614174010",
+          "explanation": null
         }
       ],
       "uuid": "f40b3298-8ae2-4969-a84e-8221c5b7cbf6"
     },
     {
-      "content": "**Pros of Strategy Simulation:**\n\n- **Informed Decision Making:** By simulating different strategies, you can gain insights into potential returns and risks, which aids in making more informed decisions about providing liquidity in Uniswap V3.\n\n- **Optimization of Returns:** Simulations can help identify the optimal price ranges and token pairs for providing liquidity, which can maximize returns.\n\n- **Risk Mitigation:** By understanding potential outcomes and risks associated with different strategies, you can choose strategies that align with your risk tolerance level.\n\n- **Understanding Market Dynamics:** Strategy simulations take into account various market conditions, helping you understand how these conditions can affect your returns.\n",
+      "content": "### Explainer Video\n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VrCJ3jAGEZ8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n</div>\n\n### **Pros of Strategy Simulation:**\n\n- **Informed Decision Making:** By simulating different strategies, you can gain insights into potential returns and risks, which aids in making more informed decisions about providing liquidity in Uniswap V3.\n\n- **Optimization of Returns:** Simulations can help identify the optimal price ranges and token pairs for providing liquidity, which can maximize returns.\n\n- **Risk Mitigation:** By understanding potential outcomes and risks associated with different strategies, you can choose strategies that align with your risk tolerance level.\n\n- **Understanding Market Dynamics:** Strategy simulations take into account various market conditions, helping you understand how these conditions can affect your returns.\n",
       "name": "Benefits",
       "stepItems": [],
       "uuid": "da65d4ca-cc8e-483b-bde7-2a0772b6ba8a"
@@ -136,7 +135,8 @@
           ],
           "content": "What is one major advantage of strategy simulation in Uniswap V3?",
           "type": "SingleChoice",
-          "uuid": "123e4567-e89b-12d3-a456-426614174011"
+          "uuid": "123e4567-e89b-12d3-a456-426614174011",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -162,7 +162,8 @@
           ],
           "content": "How does strategy simulation in Uniswap V3 contribute to risk mitigation?",
           "type": "SingleChoice",
-          "uuid": "123e4567-e89b-12d3-a456-426614174012"
+          "uuid": "123e4567-e89b-12d3-a456-426614174012",
+          "explanation": null
         }
       ],
       "uuid": "3c688b83-5ffb-4dcc-8dfd-cb9f8dbfdfca"
@@ -200,5 +201,6 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/simulate_strategy_tools.png",
-  "uuid": "strategy-simulation-tools-uniswap"
+  "uuid": "strategy-simulation-tools-uniswap",
+  "version": 1
 }

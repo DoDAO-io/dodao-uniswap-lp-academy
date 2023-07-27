@@ -1,13 +1,10 @@
 categories: []
 content: Tools that you can use to simulate your position
-created: '2023-05-31T12:26:00.805Z'
-guideIntegrations:
-  discordRoleIds: []
+created: '2023-07-27T22:27:08.030Z'
 guideType: course
 key: strategy-simulation-tools-uniswap
 name: Strategy Simulation Tools
 publishStatus: Live
-showIncorrectOnCompletion: true
 steps:
   - content: >
       In the context of Uniswap V3, **strategy simulation** refers to the
@@ -74,6 +71,7 @@ steps:
         content: In the context of Uniswap V3, what does strategy simulation refer to?
         type: SingleChoice
         uuid: 123e4567-e89b-12d3-a456-426614174008
+        explanation: null
       - answerKeys:
           - D
         choices:
@@ -90,6 +88,7 @@ steps:
         content: What does strategy simulation in Uniswap V3 typically consider?
         type: SingleChoice
         uuid: 123e4567-e89b-12d3-a456-426614174009
+        explanation: null
       - answerKeys:
           - B
         choices:
@@ -106,9 +105,23 @@ steps:
         content: What can LPs gain by simulating strategies in Uniswap V3?
         type: SingleChoice
         uuid: 123e4567-e89b-12d3-a456-426614174010
+        explanation: null
     uuid: f40b3298-8ae2-4969-a84e-8221c5b7cbf6
   - content: >
-      **Pros of Strategy Simulation:**
+      ### Explainer Video
+
+      <div align="center">
+
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/VrCJ3jAGEZ8" title="YouTube video
+      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+      </div>
+
+
+      ### **Pros of Strategy Simulation:**
 
 
       - **Informed Decision Making:** By simulating different strategies, you
@@ -149,6 +162,7 @@ steps:
         content: What is one major advantage of strategy simulation in Uniswap V3?
         type: SingleChoice
         uuid: 123e4567-e89b-12d3-a456-426614174011
+        explanation: null
       - answerKeys:
           - B
         choices:
@@ -167,6 +181,7 @@ steps:
           mitigation?
         type: SingleChoice
         uuid: 123e4567-e89b-12d3-a456-426614174012
+        explanation: null
     uuid: 3c688b83-5ffb-4dcc-8dfd-cb9f8dbfdfca
   - content: >-
       **Example of Strategy Simulation:**
@@ -286,3 +301,4 @@ steps:
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/simulate_strategy_tools.png
 uuid: strategy-simulation-tools-uniswap
+version: 1
