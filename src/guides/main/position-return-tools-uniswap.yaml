@@ -1,13 +1,10 @@
 categories: []
 content: How to calculate returns on your position and tools that help
-created: '2023-05-31T12:21:26.678Z'
-guideIntegrations:
-  discordRoleIds: []
+created: '2023-07-27T22:29:16.333Z'
 guideType: course
 key: position-return-tools-uniswap
 name: Position Return Tools
 publishStatus: Live
-showIncorrectOnCompletion: true
 steps:
   - content: >-
 
@@ -52,6 +49,20 @@ steps:
       profitability of providing liquidity. Also, other factors such as managing
       liquidity actively or passively, anticipating the market movements, etc.,
       can affect the PnL.
+
+
+      ### Explanation Video
+
+
+      <div align="center">
+
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/A4yZHSUbdz8" title="YouTube video
+      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+      </div>
     name: Introduction
     stepItems: []
     uuid: f8e78b4d-59b4-4f90-8a7c-ea6d0055aced
@@ -74,6 +85,7 @@ steps:
           liquidity provider (LP) in Uniswap v3?
         type: SingleChoice
         uuid: 53291a34-d157-4393-9dc2-2dc6fb4b0264
+        explanation: null
       - answerKeys:
           - A
         choices:
@@ -88,6 +100,7 @@ steps:
         content: What is impermanent loss in the context of Uniswap v3?
         type: SingleChoice
         uuid: 1087b6cc-d5a3-49b4-a1b9-6fccc1609ec8
+        explanation: null
       - answerKeys:
           - C
         choices:
@@ -104,6 +117,7 @@ steps:
           in Uniswap v3?
         type: SingleChoice
         uuid: 1fd74760-4643-4fc3-ba63-8cdd6bb6bf9b
+        explanation: null
     uuid: 07020adb-0cfc-478c-94df-58bc8ad9ebde
   - content: >
       Revert develops analytics and management tools for liquidity providers in
@@ -214,6 +228,7 @@ steps:
           Uniswap V3 position analysis?
         type: SingleChoice
         uuid: e5b31f45-08de-4132-9746-bec7d12ee729
+        explanation: null
       - answerKeys:
           - A
         choices:
@@ -237,6 +252,7 @@ steps:
           Definitions provided by Revert?
         type: SingleChoice
         uuid: 43cbaf18-66f1-4009-bb2a-eb7636e7ac46
+        explanation: null
     uuid: 2b8e84da-c6e4-4309-8e31-66b9d685b6d7
   - content: >
       Similar to the "revert" and other position tracking tools, apy.vision has
@@ -345,3 +361,4 @@ steps:
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_position_return.png
 uuid: position-return-tools-uniswap
+version: 1

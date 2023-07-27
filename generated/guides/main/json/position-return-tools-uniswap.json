@@ -1,18 +1,14 @@
 {
   "categories": [],
   "content": "How to calculate returns on your position and tools that help",
-  "created": "2023-05-31T12:21:26.678Z",
-  "guideIntegrations": {
-    "discordRoleIds": []
-  },
+  "created": "2023-07-27T22:29:16.333Z",
   "guideType": "course",
   "key": "position-return-tools-uniswap",
   "name": "Position Return Tools",
   "publishStatus": "Live",
-  "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "\n\nIn Uniswap v3, the profit and loss (PnL) for a liquidity provider (LP) are primarily determined by two factors: fees earned and changes in asset values due to price movements. These can also be affected by other factors like gas costs for transactions and impermanent loss, among others.\n\n1. **Fees Earned**: As an LP, you earn fees on trades that occur within the price range you've set for your liquidity. In Uniswap v3, the fees are not distributed evenly among all LPs but rather are proportional to the amount of liquidity you provide within the active price range. The more your liquidity is utilized (i.e., the more trades that happen within your set price range), the more fees you earn.\n\n<div align=\"center\">\n<img style=\"max-height:350px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1685535623640_profit_and_loss.png\"/>\n</div>\n\n2. **Changes in Asset Values**: The other component of PnL calculation in Uniswap v3 is the changes in the value of the assets you've provided as liquidity. This is where the concept of impermanent loss comes into play.\n\n    **Impermanent loss** happens when the price of your assets changes compared to when you deposited them. If the relative price of your two assets changes, you could end up with less value than if you had simply held onto the assets. This loss is \"impermanent\" because it could be negated if the prices revert back to their original state.\n\n3. **Gas Costs**: This is especially important in Uniswap v3 because of its capital efficiency feature. Liquidity providers might adjust their positions more frequently, which incurs Ethereum network transaction (gas) fees.\n\nHowever, calculating PnL in Uniswap v3 is complex due to these factors and others, like the specific price range you choose as a liquidity provider. The specific price range and liquidity depth can significantly affect the profitability of providing liquidity. Also, other factors such as managing liquidity actively or passively, anticipating the market movements, etc., can affect the PnL.",
+      "content": "\n\nIn Uniswap v3, the profit and loss (PnL) for a liquidity provider (LP) are primarily determined by two factors: fees earned and changes in asset values due to price movements. These can also be affected by other factors like gas costs for transactions and impermanent loss, among others.\n\n1. **Fees Earned**: As an LP, you earn fees on trades that occur within the price range you've set for your liquidity. In Uniswap v3, the fees are not distributed evenly among all LPs but rather are proportional to the amount of liquidity you provide within the active price range. The more your liquidity is utilized (i.e., the more trades that happen within your set price range), the more fees you earn.\n\n<div align=\"center\">\n<img style=\"max-height:350px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1685535623640_profit_and_loss.png\"/>\n</div>\n\n2. **Changes in Asset Values**: The other component of PnL calculation in Uniswap v3 is the changes in the value of the assets you've provided as liquidity. This is where the concept of impermanent loss comes into play.\n\n    **Impermanent loss** happens when the price of your assets changes compared to when you deposited them. If the relative price of your two assets changes, you could end up with less value than if you had simply held onto the assets. This loss is \"impermanent\" because it could be negated if the prices revert back to their original state.\n\n3. **Gas Costs**: This is especially important in Uniswap v3 because of its capital efficiency feature. Liquidity providers might adjust their positions more frequently, which incurs Ethereum network transaction (gas) fees.\n\nHowever, calculating PnL in Uniswap v3 is complex due to these factors and others, like the specific price range you choose as a liquidity provider. The specific price range and liquidity depth can significantly affect the profitability of providing liquidity. Also, other factors such as managing liquidity actively or passively, anticipating the market movements, etc., can affect the PnL.\n\n### Explanation Video\n\n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/A4yZHSUbdz8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n</div>",
       "name": "Introduction",
       "stepItems": [],
       "uuid": "f8e78b4d-59b4-4f90-8a7c-ea6d0055aced"
@@ -45,7 +41,8 @@
           ],
           "content": "What are the primary determinants of profit and loss (PnL) for a liquidity provider (LP) in Uniswap v3?",
           "type": "SingleChoice",
-          "uuid": "53291a34-d157-4393-9dc2-2dc6fb4b0264"
+          "uuid": "53291a34-d157-4393-9dc2-2dc6fb4b0264",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -71,7 +68,8 @@
           ],
           "content": "What is impermanent loss in the context of Uniswap v3?",
           "type": "SingleChoice",
-          "uuid": "1087b6cc-d5a3-49b4-a1b9-6fccc1609ec8"
+          "uuid": "1087b6cc-d5a3-49b4-a1b9-6fccc1609ec8",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -97,7 +95,8 @@
           ],
           "content": "Why might liquidity providers adjust their positions more frequently in Uniswap v3?",
           "type": "SingleChoice",
-          "uuid": "1fd74760-4643-4fc3-ba63-8cdd6bb6bf9b"
+          "uuid": "1fd74760-4643-4fc3-ba63-8cdd6bb6bf9b",
+          "explanation": null
         }
       ],
       "uuid": "07020adb-0cfc-478c-94df-58bc8ad9ebde"
@@ -136,7 +135,8 @@
           ],
           "content": "Which among the following is NOT a data point provided by Revert for Uniswap V3 position analysis?",
           "type": "SingleChoice",
-          "uuid": "e5b31f45-08de-4132-9746-bec7d12ee729"
+          "uuid": "e5b31f45-08de-4132-9746-bec7d12ee729",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -162,7 +162,8 @@
           ],
           "content": "What is the meaning of \"Price_divergence\" in Uniswap v3 Pool Definitions provided by Revert?",
           "type": "SingleChoice",
-          "uuid": "43cbaf18-66f1-4009-bb2a-eb7636e7ac46"
+          "uuid": "43cbaf18-66f1-4009-bb2a-eb7636e7ac46",
+          "explanation": null
         }
       ],
       "uuid": "2b8e84da-c6e4-4309-8e31-66b9d685b6d7"
@@ -188,5 +189,6 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/uniswap_position_return.png",
-  "uuid": "position-return-tools-uniswap"
+  "uuid": "position-return-tools-uniswap",
+  "version": 1
 }
