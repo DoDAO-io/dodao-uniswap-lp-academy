@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-07-27T21:36:02.661Z'
+created: '2023-07-27T21:36:38.680Z'
 guideType: course
 key: what-is-a-dex-uniswap
 name: What is a DEX?
@@ -177,11 +177,15 @@ steps:
       to facilitate trading.
 
 
+      <div align="center">
+
       <iframe width="560" height="315"
       src="https://www.youtube.com/embed/1PbZMudPP5E" title="YouTube video
       player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
       encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
+
+      </div>
 
 
       ### Price Calculation
