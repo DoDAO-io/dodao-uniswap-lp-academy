@@ -1,15 +1,11 @@
 {
   "categories": [],
   "content": "Tools that you can use to back test your strategies",
-  "created": "2023-05-31T12:15:13.109Z",
-  "guideIntegrations": {
-    "discordRoleIds": []
-  },
+  "created": "2023-07-27T22:24:22.754Z",
   "guideType": "course",
   "key": "strategy-backtesting-tools-uniswap",
   "name": "Strategy Backtesting Tools",
   "publishStatus": "Live",
-  "showIncorrectOnCompletion": true,
   "steps": [
     {
       "content": "\n### Strategy Backtesting\nStrategy backtesting is a simulation technique used in trading and investment. It involves using historical market data to test an investment strategy as if it had been employed during past periods. Backtesting allows investors and traders to evaluate whether their proposed strategies would have been profitable in previous market conditions, offering insights into their potential performance in future scenarios.\n\nTo conduct strategy backtesting, one would start by establishing a hypothetical portfolio at a particular starting point in time. The portfolio is then subjected to the trading rules that define the investment strategy. For instance, an investor might have a rule that states, \"buy when the 50-day moving average crosses above the 200-day moving average.\" As the backtest progresses, the portfolio manager simulates these buy or sell orders according to the rules, tracking the portfolio's performance over time.\n\nBacktesting relies on the assumption that historical performance can provide some insight into how a strategy might perform in the future. However, it's important to remember that past performance is not always indicative of future results, and many other factors could influence the outcomes.\n\n<div align=\"center\">\n<img style=\"max-height:350px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685535205741_strategies.png\"/>\n</div>\n\n### Strategy Backtesting in the Context of Uniswap V3\nWith concentrated liquidity, liquidity providers (LPs) can specify a price range for their capital to be used, which allows them to create a personalized exposure curve and achieve more capital efficiency compared to Uniswap V2.\n\nStrategy backtesting in Uniswap V3 would involve simulating LP strategies using historical on-chain data. For instance, you could backtest a strategy where you adjust your price ranges dynamically based on certain market indicators, or a more passive strategy where you provide liquidity in a fixed price range.\n\nThe backtest would measure metrics such as the return on investment, impermanent loss, and fees collected, which would help the LPs in making informed decisions about whether the strategies would be profitable in future market conditions.",
@@ -45,7 +41,8 @@
           ],
           "content": "What is strategy backtesting in the context of trading and investment?",
           "type": "SingleChoice",
-          "uuid": "123e4567-e89b-12d3-a456-426614174000"
+          "uuid": "123e4567-e89b-12d3-a456-426614174000",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -71,7 +68,8 @@
           ],
           "content": "What would be one of the metrics measured during strategy backtesting in Uniswap V3?",
           "type": "SingleChoice",
-          "uuid": "123e4567-e89b-12d3-a456-426614174001"
+          "uuid": "123e4567-e89b-12d3-a456-426614174001",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -97,13 +95,14 @@
           ],
           "content": "In the context of Uniswap V3, what does concentrated liquidity allow LPs to do?",
           "type": "SingleChoice",
-          "uuid": "123e4567-e89b-12d3-a456-426614174002"
+          "uuid": "123e4567-e89b-12d3-a456-426614174002",
+          "explanation": null
         }
       ],
       "uuid": "7a6eac19-7ed0-4852-8d8b-c0ab7e0f881c"
     },
     {
-      "content": "### Benefits of Backtesting in Uniswap V3\nBacktesting in Uniswap V3 can offer various benefits to LPs:\n* **Risk Management**: By testing strategies in past market conditions, LPs can understand the potential risks associated with their strategies. This could help them devise better risk management practices.\n* **Strategy Optimization**: Backtesting allows LPs to fine-tune their strategies to maximize profits and minimize losses. They can experiment with different price ranges and fee tiers to identify the most optimal approach.\n* **Performance Evaluation**: Backtesting helps LPs measure the performance of their strategies against a benchmark. This can be useful for comparing multiple strategies and choosing the best one.\n* **Capital Efficiency**: With the concentrated liquidity feature in Uniswap V3, LPs can backtest strategies to find the most capital-efficient price ranges for providing liquidity.\n\n### Backtesting Scenarios in Uniswap V3\nLet's consider a few scenarios that could be backtested in Uniswap V3:\n\n* **Narrow vs Wide Price Ranges**: An LP could backtest providing liquidity in narrow vs wide price ranges for a particular pair. This would help them understand which strategy would have resulted in higher returns and fees, considering the trade-off with potential impermanent loss.\n* **Different Fee Tiers**: Uniswap V3 introduced three different fee tiers. LPs could backtest their strategies using different fee tiers to understand which one would have been the most profitable for their specific case.\n* **Passive vs Active Management**: An LP could compare a passive strategy (keeping the same price range over time) with an active one (adjusting the price range based on market indicators). The backtest could reveal whether the potential additional profits from active management justify the effort and costs associated with it.\n* **Event-based Backtesting**: LPs could also backtest their strategies around specific market events, such as the release of significant crypto news or the listing of a new token. This could help them devise better strategies for such events in the future.",
+      "content": "### Explainer Video\n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xNtOLp4Q02E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n</div>\n\n### Benefits of Backtesting in Uniswap V3\nBacktesting in Uniswap V3 can offer various benefits to LPs:\n* **Risk Management**: By testing strategies in past market conditions, LPs can understand the potential risks associated with their strategies. This could help them devise better risk management practices.\n* **Strategy Optimization**: Backtesting allows LPs to fine-tune their strategies to maximize profits and minimize losses. They can experiment with different price ranges and fee tiers to identify the most optimal approach.\n* **Performance Evaluation**: Backtesting helps LPs measure the performance of their strategies against a benchmark. This can be useful for comparing multiple strategies and choosing the best one.\n* **Capital Efficiency**: With the concentrated liquidity feature in Uniswap V3, LPs can backtest strategies to find the most capital-efficient price ranges for providing liquidity.\n\n### Backtesting Scenarios in Uniswap V3\nLet's consider a few scenarios that could be backtested in Uniswap V3:\n\n* **Narrow vs Wide Price Ranges**: An LP could backtest providing liquidity in narrow vs wide price ranges for a particular pair. This would help them understand which strategy would have resulted in higher returns and fees, considering the trade-off with potential impermanent loss.\n* **Different Fee Tiers**: Uniswap V3 introduced three different fee tiers. LPs could backtest their strategies using different fee tiers to understand which one would have been the most profitable for their specific case.\n* **Passive vs Active Management**: An LP could compare a passive strategy (keeping the same price range over time) with an active one (adjusting the price range based on market indicators). The backtest could reveal whether the potential additional profits from active management justify the effort and costs associated with it.\n* **Event-based Backtesting**: LPs could also backtest their strategies around specific market events, such as the release of significant crypto news or the listing of a new token. This could help them devise better strategies for such events in the future.",
       "name": "Benefits and Scenarios",
       "stepItems": [],
       "uuid": "7d6a8568-3374-4fca-b7a2-9b6cbd5fb72c"
@@ -139,7 +138,8 @@
           ],
           "content": "What are some benefits of backtesting in Uniswap V3 for Liquidity Providers (LPs)?",
           "type": "MultipleChoice",
-          "uuid": "123e4567-e89b-12d3-a456-426614174005"
+          "uuid": "123e4567-e89b-12d3-a456-426614174005",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -165,7 +165,8 @@
           ],
           "content": "What could an LP compare using backtesting in Uniswap V3?",
           "type": "SingleChoice",
-          "uuid": "123e4567-e89b-12d3-a456-426614174006"
+          "uuid": "123e4567-e89b-12d3-a456-426614174006",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -194,7 +195,8 @@
           ],
           "content": "Which scenarios could be backtested in Uniswap V3?",
           "type": "MultipleChoice",
-          "uuid": "123e4567-e89b-12d3-a456-426614174007"
+          "uuid": "123e4567-e89b-12d3-a456-426614174007",
+          "explanation": null
         }
       ],
       "uuid": "3aa16264-8c62-451d-943f-5b7cffc3a51a"
@@ -213,5 +215,6 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/back_testing_tools.png",
-  "uuid": "strategy-backtesting-tools-uniswap"
+  "uuid": "strategy-backtesting-tools-uniswap",
+  "version": 1
 }
