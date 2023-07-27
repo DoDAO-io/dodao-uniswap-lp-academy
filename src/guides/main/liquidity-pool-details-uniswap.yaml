@@ -1,6 +1,6 @@
 categories: []
 content: What are Ticks and Ranges in Uniswap V3
-created: '2023-07-06T14:04:07.870Z'
+created: '2023-07-27T22:14:28.508Z'
 guideType: course
 key: liquidity-pool-details-uniswap
 name: Liquidity Pool Details
@@ -27,6 +27,19 @@ steps:
       <img
       src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/liquidity-pool-details-uniswap/1681912476448_07_v2_liquidity_chart.png"
       />
+
+      </div>
+
+
+      ### Explainer Video
+
+      <div align="center">
+
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/rWPVTz4cao8" title="YouTube video
+      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
 
       </div>
 
@@ -61,7 +74,6 @@ steps:
       price range, while in Uniswap v3, liquidity providers can concentrate
       their liquidity within custom price ranges, which can lead to more
       efficient capital usage and potentially higher returns.
-
 
 
 
