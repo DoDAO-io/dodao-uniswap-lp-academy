@@ -1,6 +1,6 @@
 categories: []
 content: What is AMM, Liquidity Pools and How DEX works
-created: '2023-07-27T21:36:38.680Z'
+created: '2023-07-27T21:39:56.461Z'
 guideType: course
 key: what-is-a-dex-uniswap
 name: What is a DEX?
@@ -328,6 +328,17 @@ steps:
       fees in proportion to the amount of liquidity they provide. Liquidity
       pools enable decentralized trading by providing a source of liquidity, and
       are a critical component of AMMs.
+
+
+      <div align="center">
+
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/dVJzcFDo498" title="YouTube video
+      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+      </div>
 
 
       ### User Position - Liquidity Pool Tokens
