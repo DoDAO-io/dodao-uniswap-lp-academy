@@ -1,6 +1,6 @@
 categories: []
 content: Different strategies that LPs can use to deploy funds
-created: '2023-08-08T12:47:35.348Z'
+created: '2023-08-08T12:49:44.836Z'
 guideType: course
 key: strategies-for-lps-uniswap
 name: Strategies for LPs
@@ -113,7 +113,7 @@ steps:
           deposit their assets in Uniswap V3.
     uuid: 855b6e3e-4b0e-422c-815f-c53210edfd3c
   - content: >-
-      <div id="player"  class="play-js-player py-6" data-plyr-provider="youtube"
+      <div class="play-js-player py-6" data-plyr-provider="youtube"
       data-plyr-embed-id="Sb7X5clF4hY"></div>
 
 
