@@ -1,6 +1,6 @@
 categories: []
 content: How to provide liquidity and create a new position
-created: '2023-07-27T22:01:17.753Z'
+created: '2023-08-10T12:11:08.287Z'
 guideType: course
 key: create-a-new-position-uniswap
 name: Create a New Position
@@ -21,15 +21,8 @@ steps:
 
       ## Explainer Video
 
-      <div align="center">
-
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/ZIjVzTRk_z0" title="YouTube video
-      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-      encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
-
-      </div>
+      <div class="play-js-player py-6" data-plyr-provider="youtube"
+      data-plyr-embed-id="ZIjVzTRk_z0"></div>
 
 
       ## Select Pair
