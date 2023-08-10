@@ -1,6 +1,6 @@
 categories: []
 content: What is Concentrated Liquidity and its Benefits
-created: '2023-07-27T21:41:55.877Z'
+created: '2023-08-10T12:08:58.278Z'
 guideType: course
 key: concentrated-liquidity-uniswap
 name: Concentrated Liquidity
@@ -202,15 +202,8 @@ steps:
       most, reducing risks and providing better trading experiences for users.
 
 
-      <div align="center">
-
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/ClWR1570UQw" title="YouTube video
-      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-      encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
-
-      </div>
+      <div class="play-js-player py-6" data-plyr-provider="youtube"
+      data-plyr-embed-id="ClWR1570UQw"></div>
 
 
       ### Concentrated Liquidity Example
@@ -218,6 +211,7 @@ steps:
       Let's say Alice, Bob, and Carol want to provide liquidity to an ETH-USDC
       pool using a concentrated liquidity AMM. They each have an equal amount of
       ETH and USDC but want to deposit their funds over different price ranges.
+
 
 
       <div align="center">
