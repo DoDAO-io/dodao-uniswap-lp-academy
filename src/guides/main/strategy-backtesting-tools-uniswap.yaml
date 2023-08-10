@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to back test your strategies
-created: '2023-07-27T22:24:22.754Z'
+created: '2023-08-10T12:12:15.431Z'
 guideType: course
 key: strategy-backtesting-tools-uniswap
 name: Strategy Backtesting Tools
@@ -125,15 +125,8 @@ steps:
   - content: >-
       ### Explainer Video
 
-      <div align="center">
-
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/xNtOLp4Q02E" title="YouTube video
-      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-      encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
-
-      </div>
+      <div class="play-js-player py-6" data-plyr-provider="youtube"
+      data-plyr-embed-id="xNtOLp4Q02E"></div>
 
 
       ### Benefits of Backtesting in Uniswap V3
