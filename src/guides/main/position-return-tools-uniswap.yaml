@@ -1,6 +1,6 @@
 categories: []
 content: How to calculate returns on your position and tools that help
-created: '2023-07-27T22:29:16.333Z'
+created: '2023-08-10T12:11:43.237Z'
 guideType: course
 key: position-return-tools-uniswap
 name: Position Return Tools
@@ -53,16 +53,8 @@ steps:
 
       ### Explanation Video
 
-
-      <div align="center">
-
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/A4yZHSUbdz8" title="YouTube video
-      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-      encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
-
-      </div>
+      <div class="play-js-player py-6" data-plyr-provider="youtube"
+      data-plyr-embed-id="A4yZHSUbdz8"></div>
     name: Introduction
     stepItems: []
     uuid: f8e78b4d-59b4-4f90-8a7c-ea6d0055aced
