@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Tools that you can use to simulate your position",
-  "created": "2023-07-27T22:27:08.030Z",
+  "created": "2023-08-10T12:13:02.619Z",
   "guideType": "course",
   "key": "strategy-simulation-tools-uniswap",
   "name": "Strategy Simulation Tools",
@@ -102,7 +102,7 @@
       "uuid": "f40b3298-8ae2-4969-a84e-8221c5b7cbf6"
     },
     {
-      "content": "### Explainer Video\n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VrCJ3jAGEZ8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n</div>\n\n### **Pros of Strategy Simulation:**\n\n- **Informed Decision Making:** By simulating different strategies, you can gain insights into potential returns and risks, which aids in making more informed decisions about providing liquidity in Uniswap V3.\n\n- **Optimization of Returns:** Simulations can help identify the optimal price ranges and token pairs for providing liquidity, which can maximize returns.\n\n- **Risk Mitigation:** By understanding potential outcomes and risks associated with different strategies, you can choose strategies that align with your risk tolerance level.\n\n- **Understanding Market Dynamics:** Strategy simulations take into account various market conditions, helping you understand how these conditions can affect your returns.\n",
+      "content": "### Explainer Video\n<div class=\"play-js-player py-6\" data-plyr-provider=\"youtube\" data-plyr-embed-id=\"VrCJ3jAGEZ8\"></div>\n\n### **Pros of Strategy Simulation:**\n\n- **Informed Decision Making:** By simulating different strategies, you can gain insights into potential returns and risks, which aids in making more informed decisions about providing liquidity in Uniswap V3.\n\n- **Optimization of Returns:** Simulations can help identify the optimal price ranges and token pairs for providing liquidity, which can maximize returns.\n\n- **Risk Mitigation:** By understanding potential outcomes and risks associated with different strategies, you can choose strategies that align with your risk tolerance level.\n\n- **Understanding Market Dynamics:** Strategy simulations take into account various market conditions, helping you understand how these conditions can affect your returns.\n",
       "name": "Benefits",
       "stepItems": [],
       "uuid": "da65d4ca-cc8e-483b-bde7-2a0772b6ba8a"
