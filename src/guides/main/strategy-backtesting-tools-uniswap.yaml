@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to back test your strategies
-created: '2023-08-10T12:12:15.431Z'
+created: '2023-08-18T17:50:33.410Z'
 guideType: course
 key: strategy-backtesting-tools-uniswap
 name: Strategy Backtesting Tools
@@ -245,6 +245,14 @@ steps:
         explanation: null
     uuid: 3aa16264-8c62-451d-943f-5b7cffc3a51a
   - content: >+
+      ## Simulation
+
+      See this simulation: [Backtesting using
+      defi-lab.xyz](https://uniswap.university/simulations/view/backtesting-in-defi-labs-uniswap/0)
+
+
+      ## Details
+
       https://defi-lab.xyz/uniswapv3simulator is an excellent tool for
       backtesting
 
@@ -314,6 +322,14 @@ steps:
     stepItems: []
     uuid: b9974294-bc09-47fe-b554-0b4030a9fe17
   - content: >
+      ## Simulation
+
+      See this simulation: [Backtesting using
+      Revert](https://uniswap.university/simulations/view/revert-backtest-uniswap/0)
+
+
+      ## Details
+
       Revert Finance, available at https://revert.finance/#/initiator, is an
       excellent resource for conducting backtests on different strategies.
 
