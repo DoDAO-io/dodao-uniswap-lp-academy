@@ -1,20 +1,12 @@
 categories: []
 content: How to calculate returns on your position and tools that help
-created: '2023-08-18T17:59:17.238Z'
+created: '2023-08-18T17:59:49.126Z'
 guideType: course
 key: position-return-tools-uniswap
 name: Position Return Tools
 publishStatus: Live
 steps:
   - content: >-
-      ## Simulation
-
-      See this simulation: [Check position using
-      revert.finance]https://uniswap.university/simulations/view/revert-position-details-uniswap/0)
-
-
-      ## Details
-
       In Uniswap v3, the profit and loss (PnL) for a liquidity provider (LP) are
       primarily determined by two factors: fees earned and changes in asset
       values due to price movements. These can also be affected by other factors
@@ -118,6 +110,14 @@ steps:
         explanation: null
     uuid: 07020adb-0cfc-478c-94df-58bc8ad9ebde
   - content: >
+      ## Simulation
+
+      See this simulation: [Check position using
+      revert.finance](https://uniswap.university/simulations/view/revert-position-details-uniswap/0)
+
+
+      ## Details
+
       Revert develops analytics and management tools for liquidity providers in
       AMM protocols and has a great support for Uniswap V3.
 
