@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to simulate your position
-created: '2023-08-10T12:13:02.619Z'
+created: '2023-08-18T17:54:21.244Z'
 guideType: course
 key: strategy-simulation-tools-uniswap
 name: Strategy Simulation Tools
@@ -219,6 +219,14 @@ steps:
     stepItems: []
     uuid: da56c068-1378-43ac-9bb4-ff5ac5a31643
   - content: >+
+      ## Simulation
+
+      See this simulation: [Strategy Simulation using
+      defi-lab.xyz](https://uniswap.university/simulations/view/defi-labs-simulation-uniswap/0)
+
+
+      ## Details
+
       You can visit the website defi-lab.xyz/uniswapv3simulator to access
       valuable insights on simulating various strategies. By selecting specific
       tokens, the simulator demonstrates both narrow and wide range strategies. 
@@ -257,6 +265,14 @@ steps:
     stepItems: []
     uuid: a1c98069-6736-475e-8bfa-b5d077d4c72e
   - content: >+
+      ## Simulation
+
+      See this simulation: [Strategy Simulation using
+      uniswap.fish](https://uniswap.university/simulations/view/uniswap-fish-simulation-uniswap/0)
+
+
+      ## Details
+
       Another excellent tool for simulating your position is available at
       uniswap.fish. Similar to other tools, it enables you to choose the chain
       and token pair for liquidity provision.
