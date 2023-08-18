@@ -1,13 +1,10 @@
 categories: []
 content: Tools that you can use to manage and update your position
-created: '2023-05-31T13:35:39.923Z'
-guideIntegrations:
-  discordRoleIds: []
+created: '2023-08-18T17:57:59.356Z'
 guideType: course
 key: position-management-tools-uniswap
 name: Position Management Tools
 publishStatus: Live
-showIncorrectOnCompletion: true
 steps:
   - content: >
       Position management tools are critical components in the realm of digital
@@ -70,6 +67,7 @@ steps:
         content: Why are position management tools pivotal in the case of Uniswap V3?
         type: SingleChoice
         uuid: 123e4567-e89b-12d3-a456-426614174013
+        explanation: null
       - answerKeys:
           - A
         choices:
@@ -88,6 +86,7 @@ steps:
         content: How do position management tools contribute to profit optimization?
         type: SingleChoice
         uuid: 123e4567-e89b-12d3-a456-426614174014
+        explanation: null
     uuid: 96de0c4a-1442-4558-9e99-b45ec4622b92
   - content: >-
       In Uniswap V3, position management tools can offer a range of
@@ -144,6 +143,7 @@ steps:
           V3?
         type: MultipleChoice
         uuid: 123e4567-e89b-12d3-a456-426614174003
+        explanation: null
       - answerKeys:
           - D
         choices:
@@ -162,8 +162,17 @@ steps:
           tools in Uniswap V3?
         type: SingleChoice
         uuid: 123e4567-e89b-12d3-a456-426614174004
+        explanation: null
     uuid: 9ff7f8bd-d5c7-43f0-90f1-0e3df2537802
   - content: >
+      ## Simulation
+
+      See this simulation: [Position Management using
+      revert.finance](https://uniswap.university/simulations/view/revert-position-management-uniswap/0)
+
+
+      ## Details
+
       Revert enables liquidity providers (LPs) to not only initiate but also
       manage their positions. Available through the account and position pages,
       the position management interface allows LPs to Add or Withdraw Liquidity
@@ -309,3 +318,4 @@ steps:
     uuid: 57479135-45b9-4657-9a03-d53b2b56ddd7
 thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap/position_management.png
 uuid: position-management-tools-uniswap
+version: 1
