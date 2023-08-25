@@ -1,6 +1,6 @@
 categories: []
 content: Different strategies that LPs can use to deploy funds
-created: '2023-08-08T12:49:44.836Z'
+created: '2023-08-25T13:39:22.183Z'
 guideType: course
 key: strategies-for-lps-uniswap
 name: Strategies for LPs
@@ -492,23 +492,42 @@ steps:
       goals, risk tolerance, and liquidity needs:
 
 
-      1) **Low Risk and Low Gains:**
 
-         - **HODL Stable Coins:** This strategy is considered low risk because stable coins are designed to minimize volatility as they are pegged to stable assets. However, the potential for high returns is limited compared to other strategies that involve investment or providing liquidity in pools.
+      <table>
+          <tr>
+              <th>Risk Category</th>
+              <th>Strategy</th>
+              <th>Description</th>
+          </tr>
+          <tr>
+              <td rowspan="2">Low Risk and Low Gains</td>
+              <td>HODL Stable Coins</td>
+              <td>Stable coins are pegged to stable assets, minimizing volatility. High return potential is limited compared to other investment strategies.</td>
+          </tr>
+          <tr>
+              <td>Provide Wide Range Liquidity</td>
+              <td>Set a wide price range for liquidity, meaning lower risk of prices moving out of the specified range and ensuring consistent fee earnings. Lower capital efficiency is a downside.</td>
+          </tr>
+          <tr>
+              <td rowspan="2">Moderate Risk and Moderate Gains</td>
+              <td>HODL 50% of Both Tokens</td>
+              <td>Diversifies risk between two tokens. If one token's value drops, the other might offset it. However, if both decrease in value, losses can be significant.</td>
+          </tr>
+          <tr>
+              <td>HODL 100% of One Token</td>
+              <td>Risk and gain depend on the stability of the chosen token. High return potential if the token appreciates, but risk is there if the token's value decreases.</td>
+          </tr>
+          <tr>
+              <td rowspan="2">More Risk and More Gains</td>
+              <td>Provide Narrow Range Liquidity</td>
+              <td>Increased risk as token pair price can easily move out of the specified range, stopping fee earnings. High return potential due to better capital efficiency.</td>
+          </tr>
+          <tr>
+              <td>Provide Liquidity in Volatile Token Pools</td>
+              <td>High risk due to significant price fluctuations of volatile tokens. But, higher potential returns because of increased trading volumes leading to more fee earnings.</td>
+          </tr>
+      </table>
 
-         - **Provide Wide Range Liquidity:** Providing wide range liquidity involves setting a wide price range for liquidity, which means lower risk of prices moving outside the specified range and consistent fee earnings. However, the downside is lower capital efficiency, which means lower potential gains compared to narrower range liquidity.
-
-      2) **Moderate Risk and Moderate Gains:**
-
-         - **HODL 50% of Both Tokens:** Holding 50% of two different tokens diversifies risk between the two. If one token's value declines, it could be offset by the other token's increase in value. However, if both tokens depreciate, losses can be significant.
-
-         - **HODL 100% of One Token:** Holding 100% of a single token can have moderate risk and gain depending on the stability of the chosen token. There's potential for high returns if the token appreciates, but there's also risk if the token's value decreases.
-
-      3) **More Risk and More Gains:**
-
-         - **Provide Narrow Range Liquidity:** Providing narrow range liquidity has increased risk because the price of the token pair is more likely to move outside the specified range, stopping the liquidity provider from earning fees. However, the potential returns can be higher due to increased capital efficiency.
-
-         - **Provide Liquidity in Volatile Token Pools:** Providing liquidity in volatile token pools is high risk due to significant price fluctuations. However, the potential returns can be higher due to the increased trading volumes and thus higher fee earnings.
 
 
       Remember, individual circumstances can change over time, and the chosen
