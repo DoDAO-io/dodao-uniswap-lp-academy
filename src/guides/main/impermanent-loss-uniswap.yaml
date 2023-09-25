@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-09-25T21:59:58.994Z'
+created: '2023-09-25T22:01:51.788Z'
 guideType: course
 key: impermanent-loss-uniswap
 name: Impermanent Loss
@@ -121,19 +121,19 @@ steps:
     uuid: 0475c80a-0e63-4990-b17c-d0cd6c0afbb6
   - content: >+
       Let's consider an example of two friends, Alice and Bob, who each have
-      $10,000 worth of assets. Alice decides to provide liquidity to a USDC-ETH
+      $10,000 worth of assets. Alice decides to provide liquidity to a ETH-USDC
       pool, while Bob decides to hold on to his ETH. Let's assume that at the
       time of deposit, 1 ETH is worth $2,000, and Alice has 2.5 ETH and $5,000
       in USDC.
 
 
-      Alice adds her assets to the USDC-ETH liquidity pool, depositing 2.5 ETH
+      Alice adds her assets to the ETH-USDC liquidity pool, depositing 2.5 ETH
       and $5,000 USDC. 
 
 
-      Assume the pool had a 50:50 ratio of USDC to ETH and the asstes before
-      Alice's deposit was 2.5 ETH and $5,000 USDC). After Alice's added her
-      assets, the pool's assets are 5 ETH and $10,000 USDC.  
+      Assume the pool had a 50:50 ratio of ETH to USDC and the asstes before
+      Alice's deposit were 2.5 ETH and $5,000 USDC. After Alice's added her
+      assets, the pool's assets are now 5 ETH and $10,000 USDC.  
 
 
       Bob, on the other hand, keeps his 5 ETH and doesn't participate in the
