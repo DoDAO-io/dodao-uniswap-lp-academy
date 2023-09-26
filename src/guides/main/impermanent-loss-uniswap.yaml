@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-09-25T22:01:51.788Z'
+created: '2023-09-26T00:13:42.334Z'
 guideType: course
 key: impermanent-loss-uniswap
 name: Impermanent Loss
@@ -157,12 +157,9 @@ steps:
 
 
       <div align="center">
-
-      <img
-      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent-loss-uniswap/1681630519103_alice_impermanent_loss.svg"
-      />
-
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent_loss_uniswap/1695687177547_impermanent_loss%20example.png"/>
       </div>
+
 
 
       In this example, Alice experiences impermanent loss due to the change in
@@ -175,6 +172,9 @@ steps:
       pool. In this case, Alice's impermanent loss is $20,000 (the value if she
       had held her assets) - $13,500 (the value of her share in the liquidity
       pool) = $6,500.
+
+
+
 
     name: Example
     stepItems: []
