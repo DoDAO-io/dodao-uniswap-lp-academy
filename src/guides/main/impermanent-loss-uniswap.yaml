@@ -1,6 +1,6 @@
 categories: []
 content: What is Impermanent loss and how to minimize it
-created: '2023-09-26T00:13:42.334Z'
+created: '2023-09-26T00:14:20.994Z'
 guideType: course
 key: impermanent-loss-uniswap
 name: Impermanent Loss
@@ -157,7 +157,7 @@ steps:
 
 
       <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent_loss_uniswap/1695687177547_impermanent_loss%20example.png"/>
+        <img style="max-height:800px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/impermanent_loss_uniswap/1695687177547_impermanent_loss%20example.png"/>
       </div>
 
 
