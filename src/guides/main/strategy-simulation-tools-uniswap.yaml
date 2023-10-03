@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to simulate your position
-created: '2023-08-18T17:54:21.244Z'
+created: '2023-10-03T12:29:42.450Z'
 guideType: course
 key: strategy-simulation-tools-uniswap
 name: Strategy Simulation Tools
@@ -274,8 +274,8 @@ steps:
       ## Details
 
       Another excellent tool for simulating your position is available at
-      uniswap.fish. Similar to other tools, it enables you to choose the chain
-      and token pair for liquidity provision.
+      poolfish. Similar to other tools, it enables you to choose the chain and
+      token pair for liquidity provision.
 
 
       ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685414100490_screenshot_2023-05-29%20at%2022.32.23.png)
@@ -289,14 +289,10 @@ steps:
 
 
       <div align="center">
-
-      <img style="max-height:600px;margin-bottom:30px"
-      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685414108720_screenshot_2023-05-29%20at%2022.33.22.png"/>
-
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy_simulation_tools_uniswap/1696336163435_capture.png"/>
       </div>
 
-
-    name: Uniswap Fish
+    name: Poolfish
     stepItems: []
     uuid: beb48592-160a-4b18-b52e-557c03a422a3
   - content: ''
