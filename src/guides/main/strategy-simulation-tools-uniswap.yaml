@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to simulate your position
-created: '2023-10-03T12:29:42.450Z'
+created: '2023-10-03T12:32:51.668Z'
 guideType: course
 key: strategy-simulation-tools-uniswap
 name: Strategy Simulation Tools
@@ -278,7 +278,9 @@ steps:
       token pair for liquidity provision.
 
 
-      ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685414100490_screenshot_2023-05-29%20at%2022.32.23.png)
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy_simulation_tools_uniswap/1696336358528_capture.png"/>
+      </div>
 
 
       Its impermanent loss calculator is particularly user-friendly, allowing
@@ -289,8 +291,15 @@ steps:
 
 
       <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy_simulation_tools_uniswap/1696336163435_capture.png"/>
+
+      <img style="max-height:600px;margin-bottom:30px"
+      src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685414108720_screenshot_2023-05-29%20at%2022.33.22.png"/>
+
       </div>
+
+
+
+
 
     name: Poolfish
     stepItems: []
