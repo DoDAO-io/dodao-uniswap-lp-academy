@@ -1,6 +1,6 @@
 categories: []
 content: Tools that you can use to simulate your position
-created: '2023-10-03T12:32:51.668Z'
+created: '2023-10-03T12:34:31.960Z'
 guideType: course
 key: strategy-simulation-tools-uniswap
 name: Strategy Simulation Tools
@@ -268,7 +268,7 @@ steps:
       ## Simulation
 
       See this simulation: [Strategy Simulation using
-      uniswap.fish](https://uniswap.university/simulations/view/uniswap-fish-simulation-uniswap/0)
+      poolfish](https://uniswap.university/simulations/view/uniswap-fish-simulation-uniswap/0)
 
 
       ## Details

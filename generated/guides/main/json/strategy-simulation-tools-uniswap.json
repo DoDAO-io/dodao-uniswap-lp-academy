@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Tools that you can use to simulate your position",
-  "created": "2023-10-03T12:32:51.668Z",
+  "created": "2023-10-03T12:34:31.960Z",
   "guideType": "course",
   "key": "strategy-simulation-tools-uniswap",
   "name": "Strategy Simulation Tools",
@@ -181,7 +181,7 @@
       "uuid": "a1c98069-6736-475e-8bfa-b5d077d4c72e"
     },
     {
-      "content": "## Simulation\nSee this simulation: [Strategy Simulation using uniswap.fish](https://uniswap.university/simulations/view/uniswap-fish-simulation-uniswap/0)\n\n## Details\nAnother excellent tool for simulating your position is available at poolfish. Similar to other tools, it enables you to choose the chain and token pair for liquidity provision.\n\n<div align=\"center\">\n  <img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy_simulation_tools_uniswap/1696336358528_capture.png\"/>\n</div>\n\nIts impermanent loss calculator is particularly user-friendly, allowing you to easily select a duration for your position and comprehend the expected gains or impermanent losses within a given range. Additionally, you have the option to modify the asset prices, and the tool will display the impermanent loss compared to a HODL (Hold) strategy.\n\n<div align=\"center\">\n<img style=\"max-height:600px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685414108720_screenshot_2023-05-29%20at%2022.33.22.png\"/>\n</div>\n\n\n\n\n\n",
+      "content": "## Simulation\nSee this simulation: [Strategy Simulation using poolfish](https://uniswap.university/simulations/view/uniswap-fish-simulation-uniswap/0)\n\n## Details\nAnother excellent tool for simulating your position is available at poolfish. Similar to other tools, it enables you to choose the chain and token pair for liquidity provision.\n\n<div align=\"center\">\n  <img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy_simulation_tools_uniswap/1696336358528_capture.png\"/>\n</div>\n\nIts impermanent loss calculator is particularly user-friendly, allowing you to easily select a duration for your position and comprehend the expected gains or impermanent losses within a given range. Additionally, you have the option to modify the asset prices, and the tool will display the impermanent loss compared to a HODL (Hold) strategy.\n\n<div align=\"center\">\n<img style=\"max-height:600px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-simulation-tools-uniswap/1685414108720_screenshot_2023-05-29%20at%2022.33.22.png\"/>\n</div>\n\n\n\n\n\n",
       "name": "Poolfish",
       "stepItems": [],
       "uuid": "beb48592-160a-4b18-b52e-557c03a422a3"
