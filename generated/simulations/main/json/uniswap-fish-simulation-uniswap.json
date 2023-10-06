@@ -4,7 +4,7 @@
   "name": "Pool Fish - Simulation",
   "steps": [
     {
-      "content": "\n## ✅ Choosing different strategies as LP \n## ✅ Simulating these strategies in https://poolfish.xyz/",
+      "content": "\n## ✅ Choosing different strategies as LP \n## ✅ Simulating these strategies in <a href=\"https://poolfish.xyz/calculators/uniswap\" target=\"_blank\">https://poolfish.xyz/ </a>",
       "name": "Introduction",
       "uuid": "268127f6-6614-484f-a5e3-fecee4b803f7"
     },

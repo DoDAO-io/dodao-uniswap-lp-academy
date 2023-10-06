@@ -2,10 +2,13 @@ content: How to use uniswap.fish to simulate your strategies
 id: uniswap-fish-simulation-uniswap
 name: Pool Fish - Simulation
 steps:
-  - content: |-
+  - content: >-
 
       ## ✅ Choosing different strategies as LP 
-      ## ✅ Simulating these strategies in https://poolfish.xyz/
+
+      ## ✅ Simulating these strategies in <a
+      href="https://poolfish.xyz/calculators/uniswap"
+      target="_blank">https://poolfish.xyz/ </a>
     name: Introduction
     uuid: 268127f6-6614-484f-a5e3-fecee4b803f7
   - content: ''
